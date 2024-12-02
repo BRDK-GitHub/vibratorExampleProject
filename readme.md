@@ -15,18 +15,23 @@ The project consists of one task where you can adjust the amplitude and frequenc
 In the parameter table `cfCurCtr`, several ParIDs are set. Below are the most important ones:
 
 - **Interpolation of PLC SetPoint**: To improve the resolution of the sine wave, an internal SPT function block will interpolate the calculation from the PLC. The output of the interpolation will be at ParID 8752.
+  
   ![image](https://github.com/user-attachments/assets/b5b85718-3427-4947-8e4c-b4f5be4fd35e)
 
 - **Switch Frequency**: Set to 10kHz. The default is 5kHz, which can also work, but 10kHz will improve performance as the microcontroller has more cycles to adjust the voltage.
+  
   ![image](https://github.com/user-attachments/assets/42f6a77e-34db-492f-88a6-8dfd4db33d0c)
 
 - **SetPoint for the ACP10 Current Controller**
+  
   ![image](https://github.com/user-attachments/assets/40f9894d-e190-4ec0-b4a5-2302fc36ecfc)
 
 - **Controller Mode**: Set to 5 (Current Controller).
+  
   ![image](https://github.com/user-attachments/assets/f1b5efc7-1351-4044-a2d0-0fc09891b821)
 
 - **Tuning of Proportional/Integral Gain for Current Controller**: Auto-tuning is disabled (ICTRL_AUTO_CONFIG=0) and tuning is done manually. For first-time use, set ICTRL_AUTO_CONFIG=5, but note that this tuning exclusively uses the resistance/inductance set in the parameter table (measure these with an LCR meter or find them in the datasheet). Fine-tuning can be done manually if auto-tuning doesn’t work.
+  
 ![image](https://github.com/user-attachments/assets/bec41068-c884-4042-846e-874aa87973c2)
 
 ## Debugging
