@@ -1,3 +1,0 @@
-VAR CONSTANT
-	EASYUA_EXECUTE_TIMEOUT : TIME := T#5S; (*FUBs execution timeout*)
-END_VAR
