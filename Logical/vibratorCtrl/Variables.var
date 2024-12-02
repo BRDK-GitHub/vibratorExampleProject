@@ -1,6 +1,8 @@
 VAR CONSTANT
 	PI : REAL := 3.14159265359;
 	CYCLE_TIME_s : REAL := 0.0008;
+	PARID_IPL1_OUT : UINT := 8752;
+	CONTROLLER_MODE_CURR_CTRL : UINT := 5;
 END_VAR
 VAR
 	MC_Power_0 : MC_Power;
@@ -11,4 +13,7 @@ VAR
 	phi : REAL;
 	frequency : REAL;
 	MC_BR_CyclicWrite_0 : MC_BR_CyclicWrite;
+	MC_BR_WriteParID_0 : MC_BR_WriteParID;
+	initParIDs : BOOL;
+	MC_BR_WriteParID_1 : MC_BR_WriteParID;
 END_VAR

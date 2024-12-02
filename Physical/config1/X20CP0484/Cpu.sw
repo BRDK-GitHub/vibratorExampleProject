@@ -15,11 +15,6 @@
     <NcDataObject Name="acp10etxen" Source="acp10etxen.dob" Memory="UserROM" Language="Ett" />
     <NcDataObject Name="gAxisVibCi" Source="gAxisVibCobj.gAxisVibCi.dob" Memory="UserROM" Language="Ax" />
     <NcDataObject Name="cfCurCtr" Source="gAxisVibCobj.cfCurCtr.dob" Memory="UserROM" Language="Apt" />
-    <NcDataObject Name="gAxisVibLi" Source="gAxisVibLobj.gAxisVibLi.dob" Memory="UserROM" Language="Ax" />
-    <NcDataObject Name="lfCurCtr" Source="gAxisVibLobj.lfCurCtr.dob" Memory="UserROM" Language="Apt" />
-    <NcDataObject Name="gAxisBelta" Source="gAxisBeltobj.gAxisBelta.dob" Memory="UserROM" Language="Apt" />
-    <NcDataObject Name="gAxisBelti" Source="gAxisBeltobj.gAxisBelti.dob" Memory="UserROM" Language="Ax" />
-    <NcDataObject Name="lfNew" Source="gAxisVibLobj.lfNew.dob" Memory="UserROM" Language="Apt" />
   </NcDataObjects>
   <Binaries>
     <BinaryObject Name="mvLoader" Source="" Memory="UserROM" Language="Binary" />
