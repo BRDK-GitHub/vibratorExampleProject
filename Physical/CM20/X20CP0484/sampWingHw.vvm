@@ -1,6 +1,0 @@
-VAR_CONFIG
-	Cyclic#2.::sampling:this.WingHwTOFs[3].OUT AT %Q.Cyclic#3.::bottomFlap:this.hw.di_neighbourChangeover; (*Insert your comment here...*)
-	Cyclic#2.::sampling:this.WingHwTOFs[1].OUT AT %Q.Cyclic#3.::middleFlap:this.hw.di_changeover; (*Insert your comment here...*)
-	Cyclic#2.::sampling:this.WingHwTOFs[2].OUT AT %Q.Cyclic#3.::bottomFlap:this.hw.di_changeover; (*Insert your comment here...*)
-	Cyclic#2.::sampling:this.WingHwTOFs[0].OUT AT %Q.Cyclic#3.::upperFlap:this.hw.di_changeover; (*Insert your comment here...*)
-END_VAR

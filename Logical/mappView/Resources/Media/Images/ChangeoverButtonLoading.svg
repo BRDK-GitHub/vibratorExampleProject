@@ -1,7 +1,0 @@
-<svg width="82" height="56" viewBox="0 0 82 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.257172" y="0.0952148" width="81.6313" height="55.0293" rx="14" fill="#0EA5E9"/>
-    <style>.spinner_S1WN{animation:spinner_MGfb .8s linear infinite;animation-delay:-.8s}.spinner_Km9P{animation-delay:-.65s}.spinner_JApP{animation-delay:-.5s}@keyframes spinner_MGfb{93.75%,100%{opacity:.2}}</style>
-    <circle class="spinner_S1WN" cx="30" cy="28" r="4" style="fill: white"/>
-    <circle class="spinner_S1WN spinner_Km9P" cx="40" style="fill: white" cy="28" r="4"/>
-    <circle class="spinner_S1WN spinner_JApP" cx="50" style="fill: white" cy="28" r="4"/>
-</svg>

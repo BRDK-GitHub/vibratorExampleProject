@@ -1,9 +1,0 @@
-VAR_CONFIG
-	Cyclic#3.gWingInterface.status.request AT %Q.Cyclic#3.gCapconInterface.cmd.wingRequest; (*Insert your comment here...*)
-	Cyclic#3.gWingInterface.status.ready AT %Q.Cyclic#3.gCapconInterface.cmd.wingReady; (*Insert your comment here...*)
-	Cyclic#3.::gCapconInterface.status.wingStartBrickNOK AT %Q.Cyclic#3.::gWingInterface.cmd.startBrickNOK; (*Start wing with brick NOK.*)
-	Cyclic#3.::gCapconInterface.status.wingStartBrickOK AT %Q.Cyclic#3.::gWingInterface.cmd.startBrickOK; (*Start wing with brick OK.*)
-	Cyclic#3.::gCapconInterface.status.wingStart AT %Q.Cyclic#3.::gWingInterface.cmd.startBrick; (*Start wing without status yet*)
-	Cyclic#3.::gWingInterface.status.commandAck AT %Q.Cyclic#3.gCapconInterface.cmd.wingCmdAck; (*Insert your comment here...*)
-	Cyclic#3.::gCapconInterface.status.wingDosing AT %Q.Cyclic#3.::gCassetteInterface.cmd.dosing; (*Insert your comment here...*)
-END_VAR

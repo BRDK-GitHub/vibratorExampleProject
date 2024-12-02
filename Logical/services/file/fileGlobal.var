@@ -1,3 +1,0 @@
-VAR
-	gFile : gFile_typ; (*Global file interface.*)
-END_VAR

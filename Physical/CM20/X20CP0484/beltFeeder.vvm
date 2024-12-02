@@ -1,4 +1,0 @@
-(*Belt --> Feeder*)
-VAR_CONFIG
-	Cyclic#2.::gBeltInterface.status.speed AT %Q.Cyclic#3.::gFeederInterface.cmd.speed; (*Insert your comment here...*)
-END_VAR

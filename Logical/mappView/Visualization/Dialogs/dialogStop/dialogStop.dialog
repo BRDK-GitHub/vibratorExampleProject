@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ddef:Dialog xmlns:ddef="http://www.br-automation.com/iat2015/dialogDefinition/v2" id="dialogStop" layoutRefId="dialogLarge" backColor="rgba(255, 255, 255, 1)" cornerRadius="20px" borderColor="rgba(85, 85, 85, 1)" borderStyle="none" headerBackColor="rgba(255, 255, 255, 1)" headerBorderStyle="none">
-  <Assignments>
-    <Assignment type="Content" baseContentRefId="dialogStop" areaRefId="main" />
-  </Assignments>
-</ddef:Dialog>

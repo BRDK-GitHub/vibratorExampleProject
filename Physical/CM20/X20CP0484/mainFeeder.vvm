@@ -1,5 +1,0 @@
-(*Main --> Feeder*)
-VAR_CONFIG
-	Cyclic#3.::gMainInterface.status.feederStart AT %Q.Cyclic#3.::gFeederInterface.cmd.start; (*Insert your comment here...*)
-	Cyclic#3.::gMainInterface.status.feederStop AT %Q.Cyclic#3.::gFeederInterface.cmd.stop; (*Insert your comment here...*)
-END_VAR

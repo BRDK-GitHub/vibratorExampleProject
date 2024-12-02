@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<VariablesSet id="GlobalVariables" xmlns="http://www.br-automation.com/iat2015/session/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Variables>
-		<Variable name="State" xsi:type="ANY_INT" value="0" />
-		<Variable name="enableTimer" xsi:type="BOOL" value="true" />
-		
-		<Variable name="progressDialogIdx" xsi:type="ANY_INT" value="0" />
-	</Variables>
-</VariablesSet>

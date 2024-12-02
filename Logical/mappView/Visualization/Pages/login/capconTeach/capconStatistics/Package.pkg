@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio FileVersion="4.9"?>
-<Package SubType="PagePackage" PackageType="PagePackage" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects>
-    <Object Type="File">capconStatistics.page</Object>
-    <Object Type="File">capconStatistics.content</Object>
-    <Object Type="File">capconStatisticsTexts.tmx</Object>
-  </Objects>
-</Package>

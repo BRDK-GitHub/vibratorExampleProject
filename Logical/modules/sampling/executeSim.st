@@ -1,7 +1,0 @@
-
-ACTION executeSim:
-	
-	this.hw.ai_signal[1] := gSimCapcon.status.simSignal;
-
-END_ACTION
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

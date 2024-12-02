@@ -1,4 +1,0 @@
-VAR
-	cm : brdkCM; (*Control module.*)
-	brdkFileDeviceHandler_0 : brdkFileDeviceHandler; (*brdkFileDeviceHandler function block.*)
-END_VAR

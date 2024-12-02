@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<VariablesSet id="ElementDataVariables" xmlns="http://www.br-automation.com/iat2015/session/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Variables>
-    <Variable name="selectedElementName" xsi:type="ANY_STRING" value="n/a" />
-	<Variable name="selectedElementID" xsi:type="ANY_STRING" value="n/a" />
-  </Variables>
-</VariablesSet>

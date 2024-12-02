@@ -1,5 +1,0 @@
-(*Main --> Wing*)
-VAR_CONFIG
-	Cyclic#3.::gMainInterface.line.emptyMode AT %Q.Cyclic#3.::gWingInterface.cmd.shaftModeEmpty; (*Insert your comment here...*)
-	Cyclic#3.::gBottomFlapInterface.status.ready1 AT %Q.Cyclic#3.::gMainInterface.cmd.wingReadyToEmpty; (*Insert your comment here...*)
-END_VAR

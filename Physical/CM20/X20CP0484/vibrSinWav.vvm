@@ -1,3 +1,0 @@
-VAR_CONFIG
-	Cyclic#2.::sineWaveGe:acc.actVib AT %Q.Cyclic#3.::vibrator:localVariables[0].hw.actVib; (*Insert your comment here...*)
-END_VAR

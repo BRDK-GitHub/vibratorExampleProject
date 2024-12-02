@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.12.5.95 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="ServoDrive" Type="8EI8X8MWT10.xxxx-1" Version="2.3.2.0">
+    <Connection Connector="PLK1" TargetModule="X20CP0484" TargetConnector="IF3" NodeNumber="1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="MotionTP" Value="Acp10Arnc0" />
+    <Parameter ID="Ax1Interface" Value="Ax1EnDat" />
+  </Module>
+  <Module Name="X20BB62" Type="X20BB62" Version="1.3.0.0">
+    <Connector Name="IF6">
+      <Parameter ID="CycleTime" Value="1600" />
+      <Parameter ID="AsyncPayload" Value="120" />
+      <Parameter ID="OutputJustInTime" Value="off" />
+    </Connector>
+  </Module>
+  <Module Name="X20CP0484" Type="X20CP0484" Version="1.7.0.0">
+    <Connection Connector="SL" TargetModule="X20BB62" TargetConnector="SL1" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="HostName" Value="countingmachine" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.2.11" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="InaNodeNumber" Value="0" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="MtuSize" Value="1500" />
+      <Parameter ID="CycleTime" Value="800" />
+      <Parameter ID="InternetAddress" Value="192.168.200.240" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="ActivateANSL" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="vibratorControlWithCurrentController" />
+    <Parameter ID="UserPartitionSize" Value="100" />
+    <Parameter ID="RemanentGlobalPvSize" Value="500" />
+    <Parameter ID="VolatileGlobalPvSize" Value="455350" />
+    <Parameter ID="EnableUsbRemoteInstall" Value="1" />
+    <Parameter ID="EnableCfRemoteInstall" Value="1" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="X20CP0484.IF3" />
+    <Parameter ID="IdleTaskClass" Value="4" />
+    <Parameter ID="TaskClassIdleTime" Value="1600" />
+    <Parameter ID="CyclicTaskClassCount" Value="5" />
+    <Parameter ID="Cyclic1Duration" Value="800" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="Cyclic2Duration" Value="1600" />
+    <Parameter ID="Cyclic2Tolerance" Value="0" />
+    <Parameter ID="Cyclic3Duration" Value="4800" />
+    <Parameter ID="Cyclic3Tolerance" Value="0" />
+    <Parameter ID="Cyclic4Duration" Value="20000" />
+    <Parameter ID="Cyclic4Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic5Duration" Value="40000" />
+    <Parameter ID="Cyclic5Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="9600" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USER" />
+    <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+    <Parameter ID="TimeZone" Value="140" />
+    <Parameter ID="ActivateSntp" Value="1" />
+    <Parameter ID="SntpcServAddr1" Value="192.168.1.199" />
+    <Parameter ID="EthernetHostName" Value="cm20" />
+    <Parameter ID="EthernetDefaultGateway" Value="192.168.1.254" />
+    <Parameter ID="ActivateDns" Value="1" />
+    <Parameter ID="DnsServer1" Value="192.168.1.1" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="admin" />
+    <Parameter ID="FtpUserPassword1" Value="/xeWp7dP4cZARaoRUYb4lC4ZD6ydIPKFJHxZK63t4D4=" />
+    <Parameter ID="FtpUserSalt1" Value="z+XtgaLv" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+    <Group ID="FtpUser2" />
+    <Parameter ID="FtpUsername2" Value="superuser" />
+    <Parameter ID="FtpUserPassword2" Value="hun78AKmVJbSvtD9VGxdA3Iq+bPiFMAeRRsTULM9hlc=" />
+    <Parameter ID="FtpUserSalt2" Value="IDYkuK0C" />
+    <Parameter ID="FTPAccessRight2" Value="0" />
+    <Parameter ID="FTPdevice2" Value="ALL" />
+    <Group ID="FtpUser3" />
+    <Parameter ID="FtpUsername3" Value="update" />
+    <Parameter ID="FtpUserPassword3" Value="+43P0CP5LPvLZS5Hk18lIwvQq9JpaLJM6nsEQnrbHXY=" />
+    <Parameter ID="FtpUserSalt3" Value="TaVVG8PK" />
+    <Parameter ID="FTPAccessRight3" Value="0" />
+    <Parameter ID="FTPMSpath3" Value="update" />
+    <Group ID="FtpUser4" />
+    <Parameter ID="FtpUsername4" Value="updateewu" />
+    <Parameter ID="FtpUserPassword4" Value="epKGN9X0JvLfxgCXyMdS0yy+jyVnLXtvgYSXuK2LydA=" Description="updateewu" />
+    <Parameter ID="FtpUserSalt4" Value="ShQX0Ew+" />
+    <Parameter ID="FTPAccessRight4" Value="0" />
+    <Parameter ID="FTPMSpath4" Value="updateewu" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="2" />
+    <Parameter ID="OpcUaInformationModel_Facet" Value="0" />
+    <Parameter ID="OpcUaInformationModel_TypeInformation" Value="0" />
+    <Parameter ID="OpcUaInformationModel_BaseObjectTypeForStructures" Value="0" />
+  </Module>
+  <Module Name="X20IF1082-2" Type="X20IF1082-2" Version="1.15.0.0">
+    <Connection Connector="SS" TargetModule="X20BB62" TargetConnector="SS1" />
+    <Connector Name="IF1">
+      <Parameter ID="Operation" Value="EthOnly" />
+      <Parameter ID="HostName" Value="cm20" />
+      <Parameter ID="ActivateANSL" Value="1" />
+      <Parameter ID="ActivateSnmp" Value="2" />
+    </Connector>
+  </Module>
+  <Module Name="X20PS9600" Type="X20PS9600" Version="1.6.1.0">
+    <Connection Connector="PS" TargetModule="X20BB62" TargetConnector="PS1" />
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+</Hardware>

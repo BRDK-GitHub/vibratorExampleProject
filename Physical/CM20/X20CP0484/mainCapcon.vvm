@@ -1,9 +1,0 @@
-(*Main --> Capcon*)
-VAR_CONFIG
-	Cyclic#3.::gMainInterface.status.doCalibrate AT %Q.Cyclic#3.::gCapconInterface.cmd.emptyStop; (*Insert your comment here...*)
-	Cyclic#3.::gMainInterface.status.emptying AT %Q.Cyclic#3.::gCapconInterface.cmd.skipTeach; (*Insert your comment here...*)
-END_VAR
-(*Capon --> Main*)
-VAR_CONFIG
-	Cyclic#3.gCapconInterface.status.waiting AT %Q.Cyclic#3.::gMainInterface.cmd.capconWaiting; (*Command to belt that the capcon is ready for a brick*)
-END_VAR

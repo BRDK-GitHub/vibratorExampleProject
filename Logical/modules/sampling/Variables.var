@@ -1,7 +1,0 @@
-VAR
-	cm : brdkCM;
-	i : USINT;
-	interface : REFERENCE TO gCapconInterface_typ;
-	this : local_typ;
-	k : USINT;
-END_VAR

@@ -1,4 +1,0 @@
-VAR
-	method : method_typ;
-	brdkOPCUAMethodOperate_CpyRecipe : brdkOPCUAMethodOperate;
-END_VAR

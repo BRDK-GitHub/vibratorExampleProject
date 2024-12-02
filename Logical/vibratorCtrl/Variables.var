@@ -1,0 +1,14 @@
+VAR CONSTANT
+	PI : REAL := 3.14159265359;
+	CYCLE_TIME_s : REAL := 0.0008;
+END_VAR
+VAR
+	MC_Power_0 : MC_Power;
+	Run : BOOL;
+	amplitude_out : REAL;
+	MaxCurr : REAL;
+	sin_out : REAL;
+	phi : REAL;
+	frequency : REAL;
+	MC_BR_CyclicWrite_0 : MC_BR_CyclicWrite;
+END_VAR

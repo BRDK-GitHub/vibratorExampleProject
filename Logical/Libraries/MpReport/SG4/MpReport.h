@@ -1,6 +1,6 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
-/* MpReport 5.23.1 */
+/* MpReport 5.24.2 */
 
 #ifndef _MPREPORT_
 #define _MPREPORT_
@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 #ifndef _MpReport_VERSION
-#define _MpReport_VERSION 5.23.1
+#define _MpReport_VERSION 5.24.2
 #endif
 
 #include <bur/plctypes.h>

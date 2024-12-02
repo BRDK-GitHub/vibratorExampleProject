@@ -1,6 +1,0 @@
-VAR
-	ton_chekForChanges : TON;
-	cm : brdkCM;
-	MpRecipeXml_0 : MpRecipeXml;
-	this : local_typ;
-END_VAR

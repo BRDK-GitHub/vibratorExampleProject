@@ -1,6 +1,0 @@
-VAR
-	this : {REDUND_UNREPLICABLE} local_typ;
-	em : {REDUND_UNREPLICABLE} brdkEM;
-	interface : REFERENCE TO gCassetteInterface_typ;
-	testStateFAT : USINT;
-END_VAR

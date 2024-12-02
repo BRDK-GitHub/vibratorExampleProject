@@ -1,7 +1,0 @@
-VAR
-	gSimCapcon : gSimCapcon_typ; (*Global recipe interface.*)
-END_VAR
-VAR CONSTANT
-	CAPCON_LOG_RECORD_SIZE : DINT := 99; (*99 means 100*)
-	CAPCON_LOG_SAMPLE_SIZE : DINT := 499; (*499 means 500*)
-END_VAR

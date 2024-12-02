@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio FileVersion="4.9"?>
-<Package SubType="PagePackage" PackageType="PagePackage" xmlns="http://br-automation.co.at/AS/Package">
-  <Objects>
-    <Object Type="File">linearizationProcess.page</Object>
-    <Object Type="File">linearizationProcess.content</Object>
-    <Object Type="File">linearizationProcessButtonLeft.content</Object>
-  </Objects>
-</Package>
