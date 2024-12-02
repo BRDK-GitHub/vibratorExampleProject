@@ -1,0 +1,28 @@
+VAR
+	i : USINT;
+	feeder : local_feeder_typ;
+	belt : local_belt_typ;
+	capcon : local_capcon_typ;
+	wing : local_wing_typ;
+	vision : local_vision_typ; (*external : local_external_typ;*)
+	cassette : local_cassette_typ; (*external : local_external_typ;*)
+END_VAR
+VAR CONSTANT
+	MAX_INPUT_FEEDER : USINT := 4;
+	MAX_INPUT_VIBRATOR : USINT := 0;
+	MAX_INPUT_VISION : USINT := 0;
+	MAX_INPUT_BELT : USINT := 0;
+	MAX_INPUT_CAPCON : USINT := 0;
+	MAX_WINGS : USINT := 3;
+	MAX_INPUT_WING : USINT := 5;
+	MAX_INPUT_CASSETTE : USINT := 2;
+	MAX_INPUT_EXTERNAL : USINT := 0;
+	MAX_OUTPUT_FEEDER : USINT := 2;
+	MAX_OUTPUT_VIBRATOR : USINT := 0;
+	MAX_OUTPUT_VISION : USINT := 0;
+	MAX_OUTPUT_BELT : USINT := 0;
+	MAX_OUTPUT_CAPCON : USINT := 0;
+	MAX_OUTPUT_WING : USINT := 5;
+	MAX_OUTPUT_CASSETTE : USINT := 1;
+	MAX_OUTPUT_EXTERNAL : USINT := 0;
+END_VAR

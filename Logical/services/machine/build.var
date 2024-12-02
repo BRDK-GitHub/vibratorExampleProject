@@ -1,0 +1,3 @@
+VAR
+	hgInfo : hg_tortoise_typ;
+END_VAR

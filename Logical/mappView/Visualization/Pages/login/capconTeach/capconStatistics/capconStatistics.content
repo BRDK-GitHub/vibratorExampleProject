@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="capconStatistics" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="LabelMaxPeak" top="310" left="5" width="195" height="60" zIndex="4" text="$IAT/settings/capconStatistics/PeakMax" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelMinPeak" top="390" left="5" width="195" height="60" zIndex="5" text="$IAT/settings/capconStatistics/PeakMin" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputMaxPeak" top="310" left="200" width="200" height="60" zIndex="6" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputMinPeak" top="390" left="200" width="200" height="60" zIndex="7" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelPeakAvg" top="310" left="400" width="195" height="60" zIndex="8" text="$IAT/settings/capconStatistics/PeakAverage" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelPeakStdev" top="390" left="400" width="195" height="60" zIndex="9" text="$IAT/settings/capconStatistics/PeakSTDEV" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputPeakAvg" top="310" left="595" width="200" height="60" zIndex="10" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputPeakStdev" top="390" left="595" width="200" height="60" zIndex="11" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelIntegralMax" top="470" left="5" width="195" height="60" zIndex="12" text="$IAT/settings/capconStatistics/IntegralMax" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelIntegralMin" top="550" left="5" width="195" height="60" zIndex="13" text="$IAT/settings/capconStatistics/IntegralMin" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputIntMax" top="470" left="200" width="200" height="60" zIndex="14" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputIntMin" top="550" left="200" width="200" height="60" zIndex="15" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelIntAverage" top="470" left="400" width="195" height="60" zIndex="16" text="$IAT/settings/capconStatistics/IntegralAverage" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelIntStdev" top="550" left="400" width="195" height="60" zIndex="17" text="$IAT/settings/capconStatistics/IntegralSTDEV" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputIntAvg" top="470" left="595" width="200" height="60" zIndex="18" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputIntStdev" top="550" left="595" width="200" height="60" zIndex="19" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelMaxSamples" top="630" left="5" width="195" height="60" zIndex="20" text="$IAT/settings/capconStatistics/SamplesMax" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelMinSamples" top="710" left="5" width="195" height="60" zIndex="21" text="$IAT/settings/capconStatistics/SamplesMin" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputMaxSamples" top="630" left="200" width="200" height="60" zIndex="22" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputMinSamples" top="710" left="200" width="200" height="60" zIndex="23" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSamplesAvg" top="630" left="400" width="195" height="60" zIndex="24" text="$IAT/settings/capconStatistics/SamplesAverage" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSampleStdev" top="710" left="400" width="195" height="60" zIndex="25" text="$IAT/settings/capconStatistics/SamplesSTDEV" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputSamplesAvg" top="630" left="595" width="200" height="60" zIndex="26" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputSamplesStdev" top="710" left="595" width="200" height="60" zIndex="27" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelGoodCount" top="150" left="33" width="160" height="60" zIndex="28" text="$IAT/settings/capconStatistics/GoodCount" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputGoodCount" top="150" left="200" width="200" height="60" zIndex="29" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelBadCount" top="150" left="408" width="160" height="60" zIndex="30" text="$IAT/settings/capconStatistics/BadCount" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputBadCount" top="150" left="595" width="200" height="60" zIndex="31" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="230" left="5" width="195" height="60" zIndex="32" text="$IAT/settings/capconStatistics/GoodStatistics" />
+  </Widgets>
+</Content>

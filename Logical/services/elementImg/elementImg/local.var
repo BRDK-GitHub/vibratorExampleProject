@@ -1,0 +1,23 @@
+VAR
+	brdkRESTClient_0 : brdkRESTClient;
+	brdkRESTServer_0 : brdkRESTServer;
+	requestBody : STRING[99];
+	responseBody : STRING[99999];
+	this : local_typ;
+	state : USINT;
+	serverState : USINT;
+	message1 : DINT;
+	message2 : DINT;
+	pictureReady : BOOL;
+	serverStatusError : UINT;
+	strURL1 : STRING[80] := 'https://ip.uat.cz.pac.corp.lego.com/';
+	strURL2 : STRING[80] := 'image-service/api/itemimage/getitemimagedata/';
+	image : STRING[99999];
+	testImg : USINT;
+	oldTestImg : USINT;
+	oldNumBricksInPortion : UDINT;
+	item : STRING[80];
+	quantity : STRING[99];
+	serverMini : USINT;
+	brdkRESTServer_1 : brdkRESTServer;
+END_VAR

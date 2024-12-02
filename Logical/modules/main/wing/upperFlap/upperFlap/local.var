@@ -1,0 +1,12 @@
+VAR
+	interface : REFERENCE TO gUpperFlapInterface_typ;
+	this : {REDUND_UNREPLICABLE} local_typ;
+	em : {REDUND_UNREPLICABLE} brdkEM;
+END_VAR
+VAR CONSTANT
+	ERR_BUFFER_SIZE : UINT := 99;
+END_VAR
+VAR
+	testAfterCount : BOOL;
+	testStateFAT : USINT;
+END_VAR

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/main/capcon/mode</prop>
+  </header>
+  <body>
+    <tu tuid="State.0">
+      <tuv xml:lang="da">
+        <seg>Stoppet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stopped</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zastaveno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已停止</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállítva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.1">
+      <tuv xml:lang="da">
+        <seg>Stoppet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Count speed</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pocit. rychlost</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>点数速度</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>veloc. conteo</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Számlálási sebesség</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đếm tốc độ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.2">
+      <tuv xml:lang="da">
+        <seg>Stoppet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wait speed</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Cekaci rychlost</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>等待速度</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>t. espera</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Várakozási sebesség</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tốc độ chờ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.3">
+      <tuv xml:lang="da">
+        <seg>Lærer</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Teaching</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nacteni</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>示教中</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Ensenando</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Betanítás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hướng dẫn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.6">
+      <tuv xml:lang="da">
+        <seg>Tæller</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Counting</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pocitani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>点数中</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Contando</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Számlálás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đếm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.16">
+      <tuv xml:lang="da">
+        <seg>Tømmer</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Emptying</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyprazdovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>清空中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kiürítés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Làm trống</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.5">
+      <tuv xml:lang="da">
+        <seg>Stoppet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stopped</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zastaveno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已停止</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállítva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.9">
+      <tuv xml:lang="da">
+        <seg>Stoppet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stopped</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zastaveno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已停止</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállítva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.4">
+      <tuv xml:lang="da">
+        <seg>Stoppet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stopped</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zastaveno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已停止</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállítva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã dừng</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

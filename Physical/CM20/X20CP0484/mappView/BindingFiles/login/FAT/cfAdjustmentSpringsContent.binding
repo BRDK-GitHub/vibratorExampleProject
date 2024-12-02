@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="cfAdjustmentSpringsContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.plate25mm" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="TableItem5" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.plate20mm" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="TableItem4" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.plate15mm" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="TableItem3" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.plate09mm" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="TableItem2" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.plate08mm" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="TableItem1" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gVibratorInterface[0].status.calibratingMode" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="StopButtonLinearization" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="StopButtonLinearization" attribute="visible" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputCirPointTwoX1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="StopButtonLinearization" attribute="visible" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputFrequency" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="StopButtonLinearization" attribute="visible" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputActSetPoint1" attribute="visible" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="StopButtonLinearization" attribute="visible" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="Label7" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="StopButtonLinearization" attribute="visible" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="Image1" attribute="visible" />
+</Binding>
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localVariables[0].Accelerometer_0.Percent" attribute="value" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputCirPointTwoX1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localVariables[0].VibControl_0.amplitude_out" attribute="value" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputActSetPoint1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localVariables[0].VibControl_0.frequency_out" attribute="value" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputFrequency" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localVariables[0].config.LUTsDescending" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="Label1" attribute="visible" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localHmi[0].minResonanceFrequency" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal8" attribute="value" />
+</Binding>
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localHmi[0].maxResonanceFrequency" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal9" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localHmi[0].minCurrent" attribute="value" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal10" attribute="value" />
+</Binding>
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localHmi[0].maxCurrent" attribute="value" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal11" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.ressFrequency" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal30" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.maxCurrent" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal31" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="Image3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.frequencyOK" attribute="value" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal30" attribute="style" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.currentOK" attribute="value" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="NumericOutputSignal31" attribute="style" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localHmi[0].calibrationNotActive" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentSpringsContent" widgetRefId="start" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>

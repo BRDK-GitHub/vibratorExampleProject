@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="linearFeederIO" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="configuration" top="5" left="5" width="263" height="60" zIndex="0" text="$IAT/Common/Configuration" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Button" id="linearization" top="5" left="268" width="264" height="60" zIndex="1" text="$IAT/Common/Linearization" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Label" id="io" top="5" left="532" width="263" height="60" zIndex="2" text="$IAT/Common/IO" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelCFInputs" top="85" left="5" width="195" height="60" zIndex="3" text="$IAT/Common/Inputs" textAlign="left" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelCFActVib" top="80" left="380" width="195" height="60" zIndex="4" text="$IAT/Common/ActualVibration" textAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputActVibration" top="85" left="595" width="200" height="60" zIndex="5" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" textAlign="right" unitFontSize="14px" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelCFForceValue" top="400" left="595" width="200" height="60" zIndex="6" text="$IAT/Common/ForceValue" style="LabelCenter" />
+    <Widget xsi:type="widgets.brease.Label" id="Labelutputs" top="400" left="5" width="195" height="60" zIndex="7" text="$IAT/Common/Outputs" style="LabelLeft" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelProcessVar" top="400" left="200" width="200" height="60" zIndex="8" text="$IAT/Common/ProcessVariable" style="LabelCenter" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelForceEnable" top="400" left="400" width="195" height="60" zIndex="9" text="$IAT/Common/ForceEnable" style="LabelCenter" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelVibAmp" top="480" left="5" width="195" height="60" zIndex="10" text="$IAT/Common/Amplitude" textAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputForceValVibAmp" top="480" left="595" width="200" height="60" zIndex="11" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':3,'minimumIntegerDigits':1}}" unit="{'metric':'P1','imperial':'P1','imperial-us':'P1'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputVibAmplitudeProcess" top="480" left="200" width="200" height="60" zIndex="12" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'AMP','imperial':'AMP','imperial-us':'AMP'}" unitAlign="right" textAlign="right" unitFontSize="14px" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButtonForceVibAmp" top="480" left="448" height="60" zIndex="13" mouseDownText="✓" style="Page" />
+  </Widgets>
+</Content>

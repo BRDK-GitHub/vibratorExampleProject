@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="capconRecipe" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="configuration" top="5" left="5" width="263" height="60" zIndex="0" text="$IAT/Common/Configuration" margin="0px 0px" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Label" id="recipe" top="5" left="268" width="264" height="60" zIndex="1" text="$IAT/Common/Recipe" margin="0px 0px" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Button" id="io" top="5" left="532" width="263" height="60" zIndex="2" text="$IAT/Common/IO" style="TabButton" />
+  </Widgets>
+</Content>

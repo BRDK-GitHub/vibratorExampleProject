@@ -1,0 +1,19 @@
+VAR
+	setMode : set_mode_typ;
+	lampFlash : lamp_flash_typ := FLASH_PERMANENT;
+	lampColor : lamp_color_typ := COLOR_OFF;
+	brdkOPCUAMethodOperate_SetMode : brdkOPCUAMethodOperate;
+	brdkOPCUAMethodOperate_LampMode : brdkOPCUAMethodOperate;
+	CM_BOOL_STATUS : DINT;
+	i : USINT;
+	interface : REFERENCE TO gMainInterface_typ;
+	em : brdkEM;
+	this : local_typ;
+	config : REFERENCE TO config_main_typ;
+	recipe : REFERENCE TO recipe_main_typ;
+	hmiEmptyMode : BOOL;
+	lampTimeout : UDINT := 30000; (*[ms] Time in ms*)
+	lampRepeat : UDINT := 15; (*Amount of times that lamp blinks in "Blink method"*)
+	lampDuration : TIME := T#1s; (*Time between flash*)
+	TON_lamp : TON;
+END_VAR

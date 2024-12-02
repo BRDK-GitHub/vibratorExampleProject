@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="commonMain_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="eventbinding_0">
+      <Source xsi:type="clientSystem.Event" event="ContentLoaded" />
+      <Operand datatype="ANY_STRING" name="lang">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::machine:this.hmi.config.selectedLanguage">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="contentId=&quot;commonMain&quot;">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.SetLanguage" value="=lang" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="common.language">
+                <Method xsi:type="session.VariableAction.SetValueString" value="=lang" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_1">
+      <Source xsi:type="session.Event" refId="common.machineState" event="ValueChanged" />
+      <EventHandler condition="newValue = 3 OR newValue = 4 OR newValue = 6 OR newValue = 15 OR newValue = 16 OR newValue = 17">
+        <Action>
+          <Target xsi:type="widgets.brease.TextOutput.Action" contentRefId="commonMain" widgetRefId="statusImage">
+            <Method xsi:type="widgets.brease.TextOutput.Action.SetStyle" value="statusGreen" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 10 OR newValue = 11 OR newValue = 12 OR newValue = 5 OR newValue = 13 OR newValue = 14">
+        <Action>
+          <Target xsi:type="widgets.brease.TextOutput.Action" contentRefId="commonMain" widgetRefId="statusImage">
+            <Method xsi:type="widgets.brease.TextOutput.Action.SetStyle" value="statusBlue" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 0 OR newValue = 1 OR newValue = 2 OR newValue = 7 OR newValue = 8 OR newValue = 9 OR newValue = 18 OR newValue = 19">
+        <Action>
+          <Target xsi:type="widgets.brease.TextOutput.Action" contentRefId="commonMain" widgetRefId="statusImage">
+            <Method xsi:type="widgets.brease.TextOutput.Action.SetStyle" value="statusRed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="oldValue &lt;&gt; 9 AND newValue = 9">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.Navigate" pageId="alarm" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="eventbinding_2">
+      <Source xsi:type="session.Event" refId="commonMain.pageName" event="ValueChanged" />
+      <EventHandler condition="newValue = 0">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.mainStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerRedPressed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="oldValue = 0">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.mainStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerRed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 10">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerBluePressed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="oldValue = 10">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerBlue" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 20">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.settingsStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerGreenPressed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="oldValue = 20">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.settingsStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerGreen" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 30">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.languageStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerYellowPressed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="oldValue = 30">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.languageStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerYellow" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="commonMain.main.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="commonMain" widgetRefId="main" event="MouseDown" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.Navigate" pageId="vibrator" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+              <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="commonMain.info.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="commonMain" widgetRefId="info" event="MouseDown" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.Navigate" pageId="alarm" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+              <Method xsi:type="session.VariableAction.SetValueNumber" value="10" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="commonMain.settings.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="commonMain" widgetRefId="settings" event="MouseDown" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.Navigate" pageId="templateData" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+              <Method xsi:type="session.VariableAction.SetValueNumber" value="20" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="commonMain.language.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="commonMain" widgetRefId="language" event="MouseDown" />
+      <EventHandler>
+        <Parallel>
+          <Action>
+            <Target xsi:type="clientSystem.Action">
+              <Method xsi:type="clientSystem.Action.Navigate" pageId="language" />
+            </Target>
+          </Action>
+          <Action>
+            <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+              <Method xsi:type="session.VariableAction.SetValueNumber" value="30" />
+            </Target>
+          </Action>
+        </Parallel>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="commonMain.alarm">
+      <Source xsi:type="opcUa.Event" refId="::alarm:MpAlarmXCore_0.PendingAlarms" event="ValueChanged" />
+      <Operand datatype="ANY_INT" name="page">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="commonMain.pageName">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="newValue &lt;&gt; 0">
+        <Action>
+          <Target xsi:type="session.TimerAction" refId="alarmTimer">
+            <Method xsi:type="session.TimerAction.Start" interval="1000" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = 0 AND page &lt;&gt; 10">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="footerBlue" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.TimerAction" refId="alarmTimer">
+                <Method xsi:type="session.TimerAction.Stop" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="newValue = 0 AND page = 10">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="footerBluePressed" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.TimerAction" refId="alarmTimer">
+                <Method xsi:type="session.TimerAction.Stop" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="commonMain.alarmTimer.elapsed">
+      <Source xsi:type="session.Timer.Event" refId="alarmTimer" event="Elapsed" />
+      <Operand datatype="ANY_STRING" name="style">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="commonMain.informationStyle">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <Operand datatype="ANY_INT" name="page">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="commonMain.pageName">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="page = 10 AND style = &quot;footerBluePressed&quot;">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerYellowPressed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="page = 10 AND style = &quot;footerYellowPressed&quot;">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerBluePressed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="page &lt;&gt; 10 AND style = &quot;footerBlue&quot;">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerYellow" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="page &lt;&gt; 10 AND style = &quot;footerYellow&quot;">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="commonMain.informationStyle">
+            <Method xsi:type="session.VariableAction.SetValueString" value="footerBlue" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

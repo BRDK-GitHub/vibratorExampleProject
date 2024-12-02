@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="visualInspection2Content_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[1]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="PE2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[2]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="PE3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[3]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="PE4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[4]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="NoStep" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[5]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="NoStep1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[6]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="NoStep2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[11]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="NoStep3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[12]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="NoStep4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[0]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="NoSapLabel" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[7]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="groundLF" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[8]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="groundTopPlate" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[9]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="groundBottomPlateInside" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.markingArr[10]" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="visualInspection2Content" widgetRefId="groundBottomPlateOutside" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

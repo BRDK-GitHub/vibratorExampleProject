@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="LegoLightOutput" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- NUMERIC OUTPUTS -->
+	<Style xsi:type="widgets.brease.NumericOutput" id="default" 
+		fontSize="25px"
+		cornerRadius="10px"
+		backColor ="#dcdcdc"
+		borderColor="#555555"
+	/>	
+	<!-- TEXT OUTPUTS -->
+	<Style xsi:type="widgets.brease.TextOutput" id="default" 
+		fontSize="25px"
+		cornerRadius="10px"
+		borderStyle="solid"
+		borderColor="#555555"
+		borderWidth="2px"
+		backColor ="#dcdcdc"
+	/>
+	<Style xsi:type="widgets.brease.NumericOutput" id="false" 
+		fontSize="25px"
+		cornerRadius="10px"
+		backColor ="#dcdcdc"
+		borderColor="#555555"
+		textColor="#dc2626"
+	/>	
+	<Style xsi:type="widgets.brease.NumericOutput" id="true" 
+		fontSize="25px"
+		cornerRadius="10px"
+		backColor ="#dcdcdc"
+		borderColor="#555555"
+		textColor="#16a34a"
+	/>
+	<Style xsi:type="widgets.brease.TextOutput" id="TextOutputLabel" 
+		fontSize="25px"
+		backColor="#ffffff"
+	/>
+	<Style xsi:type="widgets.brease.TextOutput" id="TextOutputLabelGrey" 
+		fontSize="25px"
+		backColor="#e0e0e0"
+	/>
+	<Style xsi:type="widgets.brease.TextOutput" id="TextOutputPageName" 
+		fontSize="25px"
+		backColor="#ffffff"
+		textAlign="center" 
+		bold="true" 
+		underline="true"
+	/>
+	<Style xsi:type="widgets.brease.TextOutput" id="TextOutputDialogHeader" 
+		fontSize="32px"
+		backColor="#ffffff"
+		bold="true"
+		textAlign="center top"
+	/>
+</Styles>

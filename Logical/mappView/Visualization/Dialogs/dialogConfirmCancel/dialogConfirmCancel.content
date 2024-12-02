@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="dialogConfirmCancel" height="400" width="600" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.TextOutput" id="dialogHeader" top="20" left="0" width="600" height="180" zIndex="0" multiLine="true" value="headerText" wordWrap="true" style="TextOutputDialogHeader" />
+    <Widget xsi:type="widgets.brease.Button" id="confirmButton" top="230" left="380" width="140" height="130" zIndex="1" text="" style="imageGreen" />
+    <Widget xsi:type="widgets.brease.Button" id="cancelButton" top="230" left="80" width="140" height="130" zIndex="2" text="" style="imageRed" />
+  </Widgets>
+</Content>

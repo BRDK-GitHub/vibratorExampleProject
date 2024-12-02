@@ -1,0 +1,3 @@
+VAR
+	gConfig : gConfig_typ; (*Global config interface.*)
+END_VAR

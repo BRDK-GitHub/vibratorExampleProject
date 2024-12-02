@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/info/information/belt/status</prop>
+  </header>
+  <body>
+    <tu tuid="State.0">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.1">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.2">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.3">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.4">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

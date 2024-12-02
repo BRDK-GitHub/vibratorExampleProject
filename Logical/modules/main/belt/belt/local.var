@@ -1,0 +1,20 @@
+VAR CONSTANT
+	MAX_LINEARIZATION_VALUES : USINT := 3;
+	INVERSE_COUNT_DIR : USINT := 255;
+END_VAR
+VAR
+	interface : REFERENCE TO gBeltInterface_typ;
+	this : {REDUND_UNREPLICABLE} local_typ;
+	em : {REDUND_UNREPLICABLE} brdkEM;
+	recipe : REFERENCE TO recipe_belt_typ;
+	config : REFERENCE TO config_belt_typ;
+	axis : {REDUND_UNREPLICABLE} brdkMcBasic;
+	j : UINT;
+END_VAR
+VAR CONSTANT
+	MIN_POS_MOVE_AFTER_LAST_BRICK : REAL := 9; (*9mm. (used to avoid that belt stop brick at the end of belt after photosensor)*)
+END_VAR
+VAR RETAIN
+	CFCountSpeed : REAL := 20;
+	LFCountSpeed : REAL := 40;
+END_VAR

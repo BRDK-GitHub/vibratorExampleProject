@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="feeder_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<!-- MAIN COMMON -->
+		<!-- ITEM QUANTITY -->
+		<Binding mode="twoWay">
+			<Source xsi:type="session" refId="main.itemQuantity" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="itemQuantityNumericInput" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonItemQuantityVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="itemQuantityButton" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputItemQuantityStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="itemQuantityNumericInput" attribute="style" />
+		</Binding>
+		<!-- ITEM NUMBER -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.itemNumber" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="itemNumberTextOutput" attribute="value" />
+		</Binding>
+		<!-- ITEM NAME -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.itemName" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="itemNameTextOutput" attribute="value" />
+		</Binding>
+		<!-- COUNTING SPEED -->		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.countingSpeed" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="CountingSpeedOutput" attribute="value" />
+		</Binding>
+		<!-- COUNTING SPEED UNIT -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.countingSpeedUnit" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="CountingSpeedOutput" attribute="unit" />
+		</Binding>
+		<!-- COUNTING SPEED TEXT -->
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="main.countingSpeedTextSnippet" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="CountingSpeedText" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipe.stopDelay" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputStopDelay" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipe.onTime" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputOnTime" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipe.offTime" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputOffTime" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipe.startDelay" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputStartDelay" attribute="value" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::feeder:em.state" attribute="value" samplingRate="slow" />
+			<Target xsi:type="snippet" refId="main.feederStatusSnippet" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="main.feederStatusSnippet" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="TextOutputStatus" attribute="value" />
+		</Binding>
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonStartDelayVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="buttonStartDelay" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputStartDelayStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputStartDelay" attribute="style" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonStopDelayVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="buttonStopDelay" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputStopDelayStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputStopDelay" attribute="style" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonOnTimeVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="buttonOnTime" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputOnTimeStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputOnTime" attribute="style" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonOffTimeVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="buttonOffTime" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputOffTimeStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="numericInputOffTime" attribute="style" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipe.levelSensor" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="dropDownBoxLevelSensor" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.cmd.enable" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="ToggleButtonToggleBF" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.gapVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="itemGapEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.emptyModeVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="emptyModeEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.waitSpeedVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="waitSpeedEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.bypassCassetteVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="bypassCassetteVisibleEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.longFlapsVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="feeder" widgetRefId="longFlapsEnabledLabel" attribute="visible" />
+		</Binding>
+	
+		
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::feeder:em.status.substate" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="feeder" widgetRefId="TextOutputFeedSubstate" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::wing:this.hmi.config.mediumFlaps" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="feeder" widgetRefId="mediumFlapsEnabledLabel" attribute="visible" />
+</Binding>
+
+
+
+</Bindings>
+</BindingsSet>

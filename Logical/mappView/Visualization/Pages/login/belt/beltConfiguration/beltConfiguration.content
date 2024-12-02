@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="beltConfiguration" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="configuration" top="5" left="5" width="395" height="60" zIndex="0" text="$IAT/Common/Configuration" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Button" id="io" top="5" left="400" width="395" height="60" zIndex="1" text="$IAT/Common/IO" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelDelayBetweenBricks1" top="85" left="5" width="195" height="60" zIndex="2" multiLine="true" text="$IAT/login/belt/configuration/maxTorqueAllowd" wordWrap="true" textAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputMaxTorqueBelt" top="85" left="200" width="200" height="60" zIndex="3" format="{'metric':{'decimalPlaces':2,'minimumIntegerDigits':1,'maximumIntegerDigits':6},'imperial':{'decimalPlaces':2,'minimumIntegerDigits':1,'maximumIntegerDigits':6},'imperial-us':{'decimalPlaces':2,'minimumIntegerDigits':1,'maximumIntegerDigits':6}}" maxValue="2" unit="{'metric':'NU','imperial':'NU','imperial-us':'NU'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelAntiFlickNorm" top="160" left="5" width="195" height="60" zIndex="4" multiLine="true" text="Anti flickering normal" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputAntiFlickNorm" top="160" left="200" width="200" height="60" zIndex="5" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1,'maximumIntegerDigits':6},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1,'maximumIntegerDigits':6},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1,'maximumIntegerDigits':6}}" maxValue="10" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelAntiFlickItemGap" top="240" left="5" width="195" height="60" zIndex="6" multiLine="true" text="Anti flickering item gap" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputAntiFlickItemGap" top="240" left="200" width="200" height="60" zIndex="7" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1,'maximumIntegerDigits':6},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1,'maximumIntegerDigits':6},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1,'maximumIntegerDigits':6}}" maxValue="60" unit="{'metric':'MMT','imperial':'MMT','imperial-us':'MMT'}" unitAlign="right" />
+  </Widgets>
+</Content>

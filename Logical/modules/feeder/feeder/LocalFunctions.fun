@@ -1,0 +1,12 @@
+
+FUNCTION cmIsRunning : BOOL
+	VAR_INPUT
+		speed : LEGO_SPEED_ENUM;
+	END_VAR
+END_FUNCTION
+
+FUNCTION elementNeedsLowFilling : BOOL
+	VAR_INPUT
+		DesignId : DINT;
+	END_VAR
+END_FUNCTION

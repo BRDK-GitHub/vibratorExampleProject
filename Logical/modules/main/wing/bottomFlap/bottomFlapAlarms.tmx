@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">BottomFlapAlarms</prop>
+  </header>
+  <body>
+    <tu tuid="bottomFlapOpenTooLong">
+      <tuv xml:lang="zh">
+        <seg>底部叶片打开时间过长</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Spodni klapka-doba otevirani dlouha</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bottom flap opening time too long</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl hosszú az alsó szárny nyitási ideje</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thời gian mở nắp đáy quá lâu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="bottomFlapCloseTooLong">
+      <tuv xml:lang="zh">
+        <seg>底部叶片关闭时间过长</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Spodni klapka-doba zavirani dlouha</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bottom flap closing time too long</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl hosszú az alsó szárny zárási ideje</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thời gian đóng nắp đáy quá lâu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="bottomNeighbourOpenTooLong">
+      <tuv xml:lang="zh">
+        <seg>底部相邻叶片打开时间过长</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Doba otevirani klapky (soused) dlouha</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bottom neighbour flap opening time too long</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl hosszú az alsó szomszédos szárny nyitási ideje</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thời gian mở nắp bên cạnh phía dưới quá lâu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="bottomNeighbourCloseTooLong">
+      <tuv xml:lang="zh">
+        <seg>底部相邻叶片关闭时间过长</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Doba zavirani klapky (soused) dlouha</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bottom neighbour flap opening time too long</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl hosszú az alsó szomszédos szárny nyitási ideje</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thời gian mở nắp bên cạnh phía dưới quá lâu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="neighbourNotActive">
+      <tuv xml:lang="en">
+        <seg>Connection lost with neighbour machine</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A kapcsolat megszakadt a szomszédos berendezéssel</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Mất kết nối với máy bên cạnh</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

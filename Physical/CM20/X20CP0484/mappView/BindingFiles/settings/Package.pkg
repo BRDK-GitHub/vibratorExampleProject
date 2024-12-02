@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">settingsButtonsRight.eventbinding</Object>
+    <Object Type="File">templateData.binding</Object>
+    <Object Type="File">templateData.eventbinding</Object>
+    <Object Type="File">packml.binding</Object>
+    <Object Type="File">packml.eventbinding</Object>
+    <Object Type="File">elementData.binding</Object>
+    <Object Type="File">elementData.eventbinding</Object>
+    <Object Type="File">login.binding</Object>
+    <Object Type="File">login.eventbinding</Object>
+  </Objects>
+</Package>

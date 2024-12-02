@@ -1,0 +1,3 @@
+VAR
+	gUpperFlapInterface : gUpperFlapInterface_typ;
+END_VAR

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/settings/templateData</prop>
+  </header>
+  <body>
+    <tu tuid="loadTemplate">
+      <tuv xml:lang="zh">
+        <seg>从网关中加载配方模板</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nacíst linkovou recepturu.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Load recipe template from gateway.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Alállapot</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tải mẫu công thức từ cổng.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="saveTemplate">
+      <tuv xml:lang="zh">
+        <seg>将配方模板保存到网关\n
+(注意：如果配方名已被使用，将会覆盖已有配方)</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Ulozit linkovou recepturu.\n
+(POZNÁMKA: Pokud se pouzije stavajici nazev receptu, prepíse se.)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save recipe template to gateway.\n
+(NOTE: If the recipe name is in use it will overwrite the existing recipe)</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A recept-sablon mentése az átjáróra.\n
+(MEGJEGYZÉS: Ha a recept neve már használatban van, akkor felülírja a meglévő receptet)</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lưu mẫu công thức vào cổng.\n
+(GHI CHÚ: Nếu tên công thức đang được sử dụng, nó sẽ ghi đè lên công thức hiện có)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="1pcs">
+      <tuv xml:lang="zh">
+        <seg>1 片</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>1 ks</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 pcs</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>1 db</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>1 mảnh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2pcs">
+      <tuv xml:lang="zh">
+        <seg>2 片</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>2 ks</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>2 pcs</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>2 db</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>2 mảnh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3pcs">
+      <tuv xml:lang="zh">
+        <seg>3 片</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>3 ks</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>3 pcs</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>3 db</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>3 mảnh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4pcs">
+      <tuv xml:lang="cs">
+        <seg>4 ks</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>4 pcs</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>4 片及以上</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>4 db</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>4 mảnh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="bigCM">
+      <tuv xml:lang="zh">
+        <seg>大CM</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Velke CM</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Big CM</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Nagy CM</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>CM lớn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="loadTempButton">
+      <tuv xml:lang="zh">
+        <seg>加载模板</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nahrat recept</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Load template</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Sablon betöltése</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Chạy bản mẫu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="saveTempButton">
+      <tuv xml:lang="zh">
+        <seg>保存模板</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Ulozit recept</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save template</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lưu mẫu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="automaticTemplate">
+      <tuv xml:lang="en">
+        <seg>Automatic template</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>自动模板</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Mẫu tự động</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

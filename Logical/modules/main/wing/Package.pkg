@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">wing</Object>
+    <Object Type="File">wingAlarms.tmx</Object>
+    <Object Type="File">wingGlobal.typ</Object>
+    <Object Type="File">wingGlobal.var</Object>
+    <Object Type="File" Private="true">wingPackageGlobal.var</Object>
+    <Object Type="Package">upperFlap</Object>
+    <Object Type="Package">middleFlap</Object>
+    <Object Type="Package">bottomFlap</Object>
+    <Object Type="Package">cassette</Object>
+  </Objects>
+</Package>

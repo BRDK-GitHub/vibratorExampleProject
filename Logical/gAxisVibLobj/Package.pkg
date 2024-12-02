@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Ax">gAxisVibLi</Object>
+    <Object Type="DataObject" Language="Apt">lfCurCtr</Object>
+    <Object Type="DataObject" Language="Apt">lfNew</Object>
+  </Objects>
+</Package>

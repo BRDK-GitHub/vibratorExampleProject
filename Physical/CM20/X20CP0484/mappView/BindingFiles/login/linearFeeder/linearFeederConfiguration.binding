@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="linearFeederConfiguration_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+
+
+
+
+
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localVariables[1].VibControl_0.ManualFrequency" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="linearFeederConfiguration" widgetRefId="NumericInputLFFrequency" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VibratorCo:localVariables[1].config.emptyPercent" attribute="value" />
+<Target xsi:type="brease" contentRefId="linearFeederConfiguration" widgetRefId="NumericInputEmptyPctLF" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::belt:config.brickGapLfMin1Portion" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="linearFeederConfiguration" widgetRefId="NumericInputBrickGapPortion1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::belt:config.brickGapLfMin2Portion" attribute="value" />
+<Target xsi:type="brease" contentRefId="linearFeederConfiguration" widgetRefId="NumericInputBrickGapPortion2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::belt:config.brickGapLfMin3Portion" attribute="value" />
+<Target xsi:type="brease" contentRefId="linearFeederConfiguration" widgetRefId="NumericInputBrickGapPortion3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::belt:config.brickGapLfMin4Portion" attribute="value" />
+<Target xsi:type="brease" contentRefId="linearFeederConfiguration" widgetRefId="NumericInputBrickGapPortion4" attribute="value" />
+</Binding>
+
+</Bindings>
+</BindingsSet>

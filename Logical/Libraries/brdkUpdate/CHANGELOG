@@ -1,0 +1,14 @@
+# Change Log
+
+All notable changes to brdkUpdate will be documented in this file.
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and brdkUpdate adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [1.0.0] - 2020-12-22
+### Added
+- brdkUpdateManager() - Manages updates.
+- brdkUpdateCmpVersion() - Can compare two version strings. The version string must comply with Semantic Versioning x.x.x.
+- brdkUpdateFTPDistribute() - Distributes an update package to a list of PLC's.
+

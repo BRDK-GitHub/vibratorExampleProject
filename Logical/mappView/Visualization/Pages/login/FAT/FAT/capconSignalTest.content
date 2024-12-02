@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="capconSignalTestContent" height="940" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="0" x1="59" x2="739" y1="100" y2="100" />
+    <Widget xsi:type="widgets.brease.Label" id="capconTest1Label" top="0" left="40" width="720" height="100" zIndex="1" multiLine="true" text="Connect capcon and drop an object through (ex. screwdriver). Control that &quot;Analog input&quot; changes significantly when doing so.\nApprove test manually." wordWrap="true" textAlign="center" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="capconAnalogInput" top="180" left="420" width="139" height="40" zIndex="2" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="160" left="240" width="162" height="80" zIndex="3" text="Analog input:" textAlign="left" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="320" left="60" width="340" zIndex="4" text="Approve test:" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="approveCapconTest1" top="300" left="640" width="80" height="60" zIndex="5" mouseDownText="✓" mouseDownBorderColor="rgba(0, 0, 0, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="6" x1="59" x2="739" y1="520" y2="520" />
+    <Widget xsi:type="widgets.brease.Label" id="capconTest2Label" top="420" left="40" width="720" height="100" zIndex="7" multiLine="true" text="Start test without touching capcon. Max raw signal can't be more than 100mV peak-to-peak (P-P). If it is please control that power supply for capcon is correct!" wordWrap="true" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Button" id="startCapconTest2" top="580" left="320" width="160" height="60" zIndex="8" text="Start test" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="capconAnalogInput1" top="700" left="420" width="139" height="40" zIndex="9" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" unit="{'metric':'2Z','imperial':'2Z','imperial-us':'2Z'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="680" left="180" width="202" height="80" zIndex="10" text="Max raw signal P-P:" textAlign="left" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListCapconTest2" top="690" left="580" width="60" height="60" zIndex="11" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+  </Widgets>
+</Content>

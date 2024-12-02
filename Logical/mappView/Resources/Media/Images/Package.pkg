@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">flags</Object>
+    <Object Type="Package">header</Object>
+    <Object Type="File">iooff.svg</Object>
+    <Object Type="File">ioon.svg</Object>
+    <Object Type="File">exclamationMark.svg</Object>
+    <Object Type="File">bar-spinner.svg</Object>
+    <Object Type="File">ChangeoverButtonCheck.svg</Object>
+    <Object Type="File">ChangeoverButtonError.svg</Object>
+    <Object Type="File">ChangeoverButtonLoading.svg</Object>
+    <Object Type="File">nextButton.svg</Object>
+    <Object Type="File">menuIcon.svg</Object>
+    <Object Type="File">checkmark.svg</Object>
+    <Object Type="File">cross.svg</Object>
+    <Object Type="File">testPultHartingLeft.png</Object>
+    <Object Type="File">testPultHartingRight.png</Object>
+    <Object Type="File">capconVoltageMeassurement.jpg</Object>
+    <Object Type="File">photoSensorStep1.png</Object>
+    <Object Type="File">photoSensorStep2.png</Object>
+    <Object Type="File">photoSensorStep5.png</Object>
+    <Object Type="File">coilGapPicture.jpg</Object>
+    <Object Type="File">springLF2.png</Object>
+    <Object Type="File">noStep.jpg</Object>
+    <Object Type="File">pacemakerSticker.jpg</Object>
+    <Object Type="File">liftingSticker.png</Object>
+    <Object Type="File">groundSticker.jpg</Object>
+    <Object Type="File">springPacketNumber.png</Object>
+    <Object Type="File">LFSpringAdjustment.jpg</Object>
+    <Object Type="File">mountAccelerometerCF.jpg</Object>
+    <Object Type="File">cancel.svg</Object>
+    <Object Type="File">leftMachine.jpg</Object>
+    <Object Type="File">rightMachine.jpg</Object>
+  </Objects>
+</Package>

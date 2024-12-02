@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="alarm_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+
+		<!-- INFORMATION PAGE BUTTON -->
+		<EventBinding id="alarm.information.MouseDown">
+			<Source contentRefId="alarm" widgetRefId="information" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="information" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- STATISTICS PAGE BUTTON -->
+		<EventBinding id="alarm.statistics.MouseDown">
+			<Source contentRefId="alarm" widgetRefId="statistics" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="statistics" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- ALARM HISTORY PAGE BUTTON -->
+		<EventBinding id="alarm.alarmHistory.MouseDown">
+			<Source contentRefId="alarm" widgetRefId="alarmHistory" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="alarmHistory" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+
+		<!-- CLEAR ALL ALARMS -->
+		<EventBinding id="alarm.AcknowledgeAll" >
+			<Source xsi:type="session.Event" refId="AcknowledgeAll" event="ValueChanged"/>
+			<EventHandler condition="newValue" >
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="widgets.brease.AlarmList.Action" contentRefId="alarm" widgetRefId="AlarmList" >
+								<Method xsi:type="widgets.brease.AlarmList.Action.AcknowledgeAll" />
+							</Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="AcknowledgeAll" >
+								<Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+							</Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+		</EventBinding>
+
+		<!-- On contentLoaded set acknowledgeAll to false. It's not possible to clear on other pages and this will leave it "TRUE", so we reset it on content load. -->
+		<EventBinding id="alarm.ContentLoaded">
+			<Source xsi:type="clientSystem.Event" event="ContentLoaded" />
+			<EventHandler condition="contentId=&quot;alarm&quot;">
+				<Action>
+					<Target xsi:type="session.VariableAction" refId="AcknowledgeAll" >
+						<Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+
+		<!-- Encoder is out of sync. Show dialog with "please restart" 
+		<EventBinding>
+			<Source xsi:type="opcUa.Event" refId="::belt:this.hmi.restartMachineAfterTorqueTest" event="ValueChanged" />
+			<EventHandler condition="newValue=true">
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="pleaseRebootDialog" mode="modal" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding> -->
+
+	
+	</Bindings>
+</EventBindingSet>

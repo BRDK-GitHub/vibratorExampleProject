@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="mainButtonsRight_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="mainButtonsRight.IncreaseButton.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="mainButtonsRight" widgetRefId="IncreaseButton" event="MouseDown" />
+      <Operand datatype="ANY_INT" name="varIdx">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="selectedVariableIndex">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="varIdx = 1">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="main.itemQuantity">
+            <Method xsi:type="session.VariableAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 10">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.startDelay">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 11">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.stopDelay">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 12">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.onTime">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 13">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.offTime">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 20">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:CFCountSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 21">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[0].hmi.recipe.waitSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 22">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:LFCountSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 23">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[1].hmi.recipe.waitSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 24">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.countingSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="5" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 25">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.waitSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="5" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 30">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[1].hmi.recipe.rampUp">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 31">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.rampUp">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 32">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.rampDown">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 40">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::capcon:this.hmi.recipe.controlPrc">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 41">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::capcon:this.hmi.recipe.numSTDs">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 42">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::capcon:this.hmi.recipe.teachBrickCount">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="1" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="mainButtonsRight.DecreaseButton.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="mainButtonsRight" widgetRefId="DecreaseButton" event="MouseDown" />
+      <Operand datatype="ANY_INT" name="varIdx">
+        <ReadTarget xsi:type="session.VariableAction.Read" refId="selectedVariableIndex">
+          <Method xsi:type="session.VariableAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="varIdx = 1">
+        <Action>
+          <Target xsi:type="session.VariableAction" refId="main.itemQuantity">
+            <Method xsi:type="session.VariableAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 10">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.startDelay">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 11">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.stopDelay">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 12">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.onTime">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 13">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::feeder:this.hmi.recipe.offTime">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 20">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:CFCountSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 21">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[0].hmi.recipe.waitSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 22">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:LFCountSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 23">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[1].hmi.recipe.waitSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 24">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.countingSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-5" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 25">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.waitSpeed">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-5" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 30">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[1].hmi.recipe.rampUp">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 31">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.rampUp">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 32">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::belt:this.hmi.recipe.rampDown">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-10" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 40">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::capcon:this.hmi.recipe.controlPrc">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 41">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::capcon:this.hmi.recipe.numSTDs">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="varIdx = 42">
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::capcon:this.hmi.recipe.teachBrickCount">
+            <Method xsi:type="opcUa.NodeAction.AddValue" value="-1" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="session:selectedVariableIndex">
+      <Source xsi:type="session.Event" refId="selectedVariableIndex" event="ValueChanged" />
+      <EventHandler condition="oldValue = 1">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputItemQuantityStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonItemQuantityVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 10">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputStartDelayStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonStartDelayVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 11">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputStopDelayStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonStopDelayVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 12">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputOnTimeStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonOnTimeVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 13">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputOffTimeStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonOffTimeVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 20">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputCfCountSpeedStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonCfCountSpeedVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 21">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputCfWaitSpeedStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonCfWaitSpeedVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 22">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputLfCountSpeedStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonLfCountSpeedVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 23">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputLfWaitSpeedStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonLfWaitSpeedVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 24">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputBeltCountSpeedStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonBeltCountSpeedVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 25">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputBeltWaitSpeedStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonBeltWaitSpeedVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 30">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputLfRampUpStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonLfRampUpVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 31">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputBeltRampUpStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonBeltRampUpVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 32">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputBeltRampDownStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonBeltRampDownVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 40">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputControlPercentStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonControlPercentVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 41">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputNumberOfSTDEVStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonNumberOfSTDEVVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+      <EventHandler condition="oldValue = 42">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.inputTeachBrickCountStyle">
+                <Method xsi:type="session.VariableAction.SetValueString" value="default" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="main.buttonTeachBrickCountVisible">
+                <Method xsi:type="session.VariableAction.SetValueBool" value="true" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="main.itemQuantity.ValueChanged">
+      <Source xsi:type="session.Event" refId="main.itemQuantity" event="ValueChanged" />
+      <Operand datatype="ANY_INT" name="quantity">
+        <ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::capcon:this.hmi.recipe.brickCount">
+          <Method xsi:type="opcUa.NodeAction.GetValue" />
+        </ReadTarget>
+      </Operand>
+      <EventHandler condition="quantity &lt;&gt; newValue">
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="dialog.confirmCancelState">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="80" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogConfirmCancel" mode="modal" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

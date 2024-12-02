@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="wingConfiguration" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="configuration" top="5" left="5" width="197" height="60" zIndex="0" text="$IAT/Common/Configuration" margin="0px 0px" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Button" id="recipe" top="5" left="202" width="198" height="60" zIndex="1" text="$IAT/Common/Recipe" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Button" id="readout" top="5" left="400" width="198" height="60" zIndex="2" text="$IAT/Common/WingReadout" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Button" id="io" top="5" left="598" width="197" height="60" zIndex="3" text="$IAT/Common/IO" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWFlapMoveTime" top="85" left="5" width="200" height="60" zIndex="4" multiLine="true" text="$IAT/login/wing/configuration/FlapMoveTime" wordWrap="true" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWLowerFallTime1" top="85" left="400" width="195" height="60" zIndex="5" multiLine="true" text="$IAT/login/wing/configuration/transmissionDelay" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWFlapBottomMoveTime" top="165" left="5" width="200" height="60" zIndex="6" multiLine="true" text="$IAT/login/wing/configuration/FlapBottomMoveTime" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButtonWSimNeighbour" top="245" left="200" width="200" height="60" zIndex="8" mouseDownText="✓" style="Page" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWSimNeighbour" top="245" left="0" width="200" height="60" zIndex="7" multiLine="true" text="$IAT/login/wing/configuration/SimWing" wordWrap="true" textAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutputWtransmissionTime" top="80" left="595" width="200" height="60" zIndex="9" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1,'maximumIntegerDigits':8},'imperial':{'decimalPlaces':1,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':1,'minimumIntegerDigits':1}}" unit="{'metric':'C26','imperial':'C26','imperial-us':'C26'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputWFlapBottomMoveTime" top="160" left="200" width="200" height="60" zIndex="10" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" unit="{'metric':'C26','imperial':'C26','imperial-us':'C26'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputWFlapMoveTime" top="80" left="200" width="200" height="60" zIndex="11" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" unit="{'metric':'C26','imperial':'C26','imperial-us':'C26'}" unitAlign="right" />
+  </Widgets>
+</Content>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="cassetteIO_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.do_dosing" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListLevelSensorLowProcess" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[12].enable" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ToggleButtonLevelSensorLowForce" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.di_cassetteQueue" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListFlapClosedInput" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.di_cassetteReady" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListBoxReadyInput" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.di_neighbourBricksInCassette" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListLevelSensorBeltInput" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.di_neighbourActive" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListSensorBowlInput" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.di_neighbourIsDosing" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListFlapOpenInput" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.do_cassetteRelease" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListBeltForwardProcess" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.do_bricksReadyInCassette" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ImageListBeltBackwardProcess" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[13].enable" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ToggleButtonBeltForwardForce" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[14].enable" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="cassetteIO" widgetRefId="ToggleButtonBeltBackwardForce" attribute="value" />
+		</Binding>
+	</Bindings>
+</BindingsSet>

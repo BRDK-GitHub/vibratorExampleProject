@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="beltIO_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hw.di_photo" attribute="value" />
+			<Target xsi:type="brease" contentRefId="beltIO" widgetRefId="ImageListPhoto" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.force.speed" attribute="value" />
+			<Target xsi:type="brease" contentRefId="beltIO" widgetRefId="NumericInputActSpeed" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:axis.status.actVelocity" attribute="value" />
+			<Target xsi:type="brease" contentRefId="beltIO" widgetRefId="NumericOutputActSpeed" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.force.enable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="beltIO" widgetRefId="ToggleButtonForceActSpeed" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:axis.status.torque.actual" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="beltIO" widgetRefId="NumericOutputActSpeed1" attribute="value" />
+		</Binding>
+	<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::belt:config.speedRipple" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="beltIO" widgetRefId="NumericOutputSpeedRipple" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

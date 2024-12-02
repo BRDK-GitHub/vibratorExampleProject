@@ -1,0 +1,10 @@
+VAR CONSTANT
+	ELEMENT_SIZE_LIMIT : REAL := 250000;
+	TIME_EMPTY_SMALL_ITEM : UDINT := 20000000; (*20s*)
+END_VAR
+VAR
+	interface : REFERENCE TO gMiddleFlapInterface_typ;
+	this : {REDUND_UNREPLICABLE} local_typ;
+	em : {REDUND_UNREPLICABLE} brdkEM;
+	testStateFAT : USINT;
+END_VAR

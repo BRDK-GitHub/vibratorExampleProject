@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Common</prop>
+  </header>
+  <body>
+    <tu tuid="Mode">
+      <tuv xml:lang="vi">
+        <seg>Chế độ</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>模式</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stav</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Üzemmód</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Modo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mode</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Peak">
+      <tuv xml:lang="vi">
+        <seg>Đỉnh</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>峰值</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Top</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyska</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Csúcspont</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>altura</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Peak</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Integral">
+      <tuv xml:lang="vi">
+        <seg>Tích hợp</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>求和</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Integrale</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Plocha</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Integrált</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Integral</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Integral</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Samples">
+      <tuv xml:lang="vi">
+        <seg>Mẫu</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>采样</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Antal</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Delka</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Minták</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Longitud</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Samples</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Statistics">
+      <tuv xml:lang="vi">
+        <seg>Số liệu thống kê</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>数据选择</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Statistik</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Statistika</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Statisztika</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Statistics</seg>
+      </tuv>
+    </tu>
+    <tu tuid="max">
+      <tuv xml:lang="vi">
+        <seg>tối đa</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>最大</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>max.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>max.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>max.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="min">
+      <tuv xml:lang="vi">
+        <seg>tối thiểu</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>最小</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>min.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>min.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>min.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Frequency">
+      <tuv xml:lang="vi">
+        <seg>Tần số</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>频率</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Frekvens</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Frekvence</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Frekvencia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Frequency</seg>
+      </tuv>
+    </tu>
+    <tu tuid="STDEV">
+      <tuv xml:lang="vi">
+        <seg>STDEV</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>标准偏差</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>sm.odchylka</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>STDEV</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>STDEV</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Element">
+      <tuv xml:lang="vi">
+        <seg>Cấu kiện</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>元件缺失</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Element</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Elem</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Element</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Configuration">
+      <tuv xml:lang="vi">
+        <seg>Cấu hình</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>设置</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Konfiguration</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Konfigurace</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Konfiguráció</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Linearization">
+      <tuv xml:lang="vi">
+        <seg>Tuyến tính</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>线性整定</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Linearisering</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Linearizace</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Linearizálás</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Linearization</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MaxCurrent">
+      <tuv xml:lang="vi">
+        <seg>Dòng tối đa</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>最大电流</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Max. strøm</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Max. proud</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Max. áramerősség</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Max. current</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MaxVoltage">
+      <tuv xml:lang="vi">
+        <seg>Điện áp tối đa</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>最大电压</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Max. spænding</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Max. napeti</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Max. feszültség</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Max. voltage</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Inputs">
+      <tuv xml:lang="vi">
+        <seg>Đầu vào</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>输入</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vstupy</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Bemenetek</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Inputs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Outputs">
+      <tuv xml:lang="vi">
+        <seg>Đầu ra</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>输出</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vystupy</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kimenetek</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Outputs</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ForceValue">
+      <tuv xml:lang="vi">
+        <seg>Giá Trị Lực</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>强制值</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Force hodnota</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Erő érték</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Force Value</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ForceEnable">
+      <tuv xml:lang="vi">
+        <seg>Buộc Kích Hoạt</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>强制使能</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Force povolit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Erő engedélyezése</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Force Enable</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ProcessVariable">
+      <tuv xml:lang="vi">
+        <seg>Biến Quy Trình</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>过程变量</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Procesni promenna</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Folyamatváltozó</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Process Variable</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ActualVibration">
+      <tuv xml:lang="vi">
+        <seg>Độ rung thực tế</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>当前震动</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Aktualni vibrace</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tényleges rezgés</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Actual vibration</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Amplitude">
+      <tuv xml:lang="vi">
+        <seg>Biên độ</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>幅值</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Amplituda</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Amplitúdó</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Amplitude</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IO">
+      <tuv xml:lang="vi">
+        <seg>I/O</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>输入输出</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>I/O</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>I/O</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I/O</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Point">
+      <tuv xml:lang="vi">
+        <seg>Điểm</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>光标</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Bod</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Pont</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Point</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Point1X">
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Point}1 X</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Point}1 X</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Point}1 X</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>{$IAT/Common/Point}1 X</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Point}1 X</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Point1Y">
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Point}1 Y</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Point}1 Y</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Point}1 Y</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>{$IAT/Common/Point}1 Y</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Point}1 Y</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Point2X">
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Point}2 X</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Point}2 X</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Point}2 X</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>{$IAT/Common/Point}2 X</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Point}2 X</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Point2Y">
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Point}2 Y</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Point}2 Y</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Point}2 Y</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>{$IAT/Common/Point}2 Y</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Point}2 Y</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CountSpeed">
+      <tuv xml:lang="vi">
+        <seg>Đếm tốc độ</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>点数速度</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Tælle hastighed</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pocit.rychlost</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Számlálási sebesség</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Veloc. conteo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Count speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="WaitSpeed">
+      <tuv xml:lang="vi">
+        <seg>Tốc độ chờ</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>等待速度</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Vente hastighed</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Cekac.rychlost</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Várakozási sebesség</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>t. espera</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wait speed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="WingReadout">
+      <tuv xml:lang="vi">
+        <seg>Đọc Biên</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>缓冲单元读数</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Casy klapek</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szárny leolvasása</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wing Readout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ItemNumber">
+      <tuv xml:lang="vi">
+        <seg>Số sản phẩm</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>物料号</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Cislo zbozi</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tétel száma</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>nr. de pieza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Item number</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ItemName">
+      <tuv xml:lang="vi">
+        <seg>Tên sản phẩm</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>物料名称</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nazev elem.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tétel neve</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Nombre</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Item name</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ItemQuantity">
+      <tuv xml:lang="vi">
+        <seg>Số lượng sản phẩm</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>物料数量</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pocet kusu</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tétel mennyisége</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>cant. pieza</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Item quantity</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Recipe">
+      <tuv xml:lang="vi">
+        <seg>Công thức</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>配方</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Recipe</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Recept</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Recipe</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Test">
+      <tuv xml:lang="vi">
+        <seg>Kiểm tra</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>测试</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Test</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Test</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Teszt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Test</seg>
+      </tuv>
+    </tu>
+    <tu tuid="factoryReset">
+      <tuv xml:lang="vi">
+        <seg>Khôi Phục Cài Đặt Gốc</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>恢复初始设置</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Factory Reset</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Version">
+      <tuv xml:lang="vi">
+        <seg>Phiên Bản: {#::machine:this.hmi.version}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>版本: {#::machine:this.hmi.version}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Verze: {#::machine:this.hmi.version}</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Verzió: {#::machine:this.hmi.version}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Version: {#::machine:this.hmi.version}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ItemTypeId">
+      <tuv xml:lang="vi">
+        <seg>ID loại sản phẩm</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Item type ID</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Teaching">
+      <tuv xml:lang="vi">
+        <seg>Hướng dẫn</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Teaching</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorRate">
+      <tuv xml:lang="vi">
+        <seg>Tỷ Lệ Lỗi</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error Rate</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CMdata">
+      <tuv xml:lang="en">
+        <seg>CM data</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

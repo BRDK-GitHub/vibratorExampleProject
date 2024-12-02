@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/settings/capconStatistics</prop>
+  </header>
+  <body>
+    <tu tuid="GoodCount">
+      <tuv xml:lang="da">
+        <seg>Antal gode</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Good count</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>OK spocitano</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>合格计数</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Jó számlálás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Số đếm tốt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BadCount">
+      <tuv xml:lang="da">
+        <seg>Antal dårlige</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bad count</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>NOK spocitano</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>不合格计数</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Rossz számlálás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Số đếm xấu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="GoodStatistics">
+      <tuv xml:lang="da">
+        <seg>Statistik for gode</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Statistics for good</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Statistika pro dobre</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>合格数据统计</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A jó elemek statisztikája</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thống kê tốt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Average">
+      <tuv xml:lang="da">
+        <seg>Gennemsnit</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Average</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prumer</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>平均值</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Trung bình</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PeakMax">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/max}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PeakMin">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/min}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PeakAverage">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Peak} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Peak} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Peak} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Peak} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PeakSTDEV">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Peak} {$IAT/Common/STDEV}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IntegralMax">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/max}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IntegralMin">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/min}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IntegralAverage">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Integral} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Integral} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Integral} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Integral} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IntegralSTDEV">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Integral} {$IAT/Common/STDEV}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SamplesMax">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/max}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/max}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SamplesMin">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/min}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/min}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SamplesAverage">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Samples} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Samples} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Samples} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Samples} {$IAT/settings/capconStatistics/Average}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SamplesSTDEV">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Samples} {$IAT/Common/STDEV}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

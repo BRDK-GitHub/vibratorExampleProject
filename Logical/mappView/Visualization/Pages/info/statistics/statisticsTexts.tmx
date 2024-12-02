@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/info/statistics</prop>
+  </header>
+  <body>
+    <tu tuid="Timeouts">
+      <tuv xml:lang="zh">
+        <seg>超时</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Timeout</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Timeouts</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>OK adagok</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hết giờ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="OKPortions">
+      <tuv xml:lang="zh">
+        <seg>正确批次</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>OK davky</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>OK portions</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Hibaarány</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Phần đã OK</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ErrorRate">
+      <tuv xml:lang="zh">
+        <seg>错误率</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Cetnost chyb</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error rate</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tỷ lệ lỗi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="IntegralTooSmall">
+      <tuv xml:lang="zh">
+        <seg>总和过小</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Plocha nizka</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Integral too small</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tích phân quá nhỏ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Integral.TooBig">
+      <tuv xml:lang="zh">
+        <seg>总和过大</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Plocha vysoka</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Integral too big</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szárny hiba</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tích phân quá lớn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FlapError">
+      <tuv xml:lang="zh">
+        <seg>叶片故障</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Chyba klapky</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Flap error</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl sok elem</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lỗi nắp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TooMany">
+      <tuv xml:lang="zh">
+        <seg>元件过多</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prilis mnoho elementu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Too many elements</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl kevés elem</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Quá nhiều cấu kiện</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TooFew">
+      <tuv xml:lang="zh">
+        <seg>元件太少</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prilis malo elementu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Too few elements</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Számlálás után</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Quá ít cấu kiện</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AfterCount">
+      <tuv xml:lang="zh">
+        <seg>已点数量</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Po spocteni</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>After counting</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Érvénytelen adag</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Sau khi đếm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="InvalidBuffer">
+      <tuv xml:lang="zh">
+        <seg>无效缓存</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Chybny buffer</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Invalid portion</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Statisztika visszaállítása</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Phần không hợp lệ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PeakTooSmall">
+      <tuv xml:lang="zh">
+        <seg>峰值过小</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vrchol nizky</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Peak too small</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đỉnh quá nhỏ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PeakTooBig">
+      <tuv xml:lang="zh">
+        <seg>峰值过大</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vrchol vysoky</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Peak too big</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đỉnh quá lớn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SamplesTooSmall">
+      <tuv xml:lang="zh">
+        <seg>采样过小</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Delka prilis nizka</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Samples too small</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Mẫu quá nhỏ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SamplesTooBig">
+      <tuv xml:lang="zh">
+        <seg>采样过大</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Delka prilis vysoka</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Samples too big</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Mẫu quá lớn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Reset">
+      <tuv xml:lang="zh">
+        <seg>重置数据</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Resetovat statistiku</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Reiniciar las estadísticas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reset statistic</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Statisztika visszaállítása</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đặt lại thống kê</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NOKPortions">
+      <tuv xml:lang="zh">
+        <seg>错误批次</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Not OK portions</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Nem OK adagok</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Phần không OK</seg>
+      </tuv>
+    </tu>
+    <tu tuid="leftLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/info/statistics/OKPortions}\n\n\n\n{$IAT/info/statistics/NOKPortions}\n\n\n\n{$IAT/info/statistics/Integral.TooBig}\n\n\n\n{$IAT/info/statistics/AfterCount}\n\n\n\n\n\n\n\n{$IAT/info/information/LatestError}\n\n\n\n</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/info/statistics/OKPortions}\n\n\n\n{$IAT/info/statistics/NOKPortions}\n\n\n\n{$IAT/info/statistics/Integral.TooBig}\n\n\n\n{$IAT/info/statistics/AfterCount}\n\n\n\n\n\n\n\n{$IAT/info/information/LatestError}\n\n\n\n</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/info/statistics/OKPortions}\n\n\n\n{$IAT/info/statistics/NOKPortions}\n\n\n\n{$IAT/info/statistics/Integral.TooBig}\n\n\n\n{$IAT/info/statistics/AfterCount}\n\n\n\n\n\n\n\n{$IAT/info/information/LatestError}\n\n\n\n</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rightLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/info/statistics/ErrorRate}\n\n\n\n\n\n\n\n{$IAT/info/statistics/IntegralTooSmall}\n\n\n\n\n\n\n\n\n\n\n\n\n{$IAT/info/information/PreviousError}\n\n\n\n</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/info/statistics/ErrorRate}\n\n\n\n\n\n\n\n{$IAT/info/statistics/IntegralTooSmall}\n\n\n\n\n\n\n\n\n\n\n\n{$IAT/info/information/PreviousError}\n\n\n\n</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/info/statistics/ErrorRate}\n\n\n\n\n\n\n\n{$IAT/info/statistics/IntegralTooSmall}\n\n\n\n\n\n\n\n\n\n\n\n{$IAT/info/information/PreviousError}\n\n\n\n</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

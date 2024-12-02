@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<AcoposParameterTable>
+  <Root Name="Parameters">
+    <Parameter Name="SGEN_SW_END_IGNORE" ID="128" Value="1" Description="Limit values: Ignore SW end positions" />
+    <Parameter Name="MOTOR_ENCOD_ATTR" ID="652" Value="0" Description="Motor: Encoder: Attribute" />
+    <Parameter Name="MOTOR_TEMPSENS_TYPE" ID="1215" Value="0" Description="Temperature sensor: Type" />
+    <Parameter Name="BRAKE_MODE" ID="90" Value="76" Description="Motor holding brake: Mode" />
+    <Parameter Name="MOTOR_NUM_PHASES" ID="1208" Value="1" Description="Motor: Number of motor phases" />
+    <Group Name="Axis Parameter Identification, Synchronous Motor">
+      <Group Description="General Parameters">
+        <Parameter Name="MOTOR_TYPE" ID="30" Value="2" Description="Motor: Type" />
+        <Parameter Name="MOTOR_COMPATIBILITY" ID="31" Value="0x0203" Description="Motor: Software compatibility" />
+        <Parameter Name="MOTOR_WIND_CONNECT" ID="46" Value="1" Description="Motor: Winding connection" />
+        <Parameter Name="MOTOR_INERTIA" ID="62" Value="0" Unit="kgm²" Description="Motor: Moment of inertia" />
+        <Parameter Name="MOTOR_TAU_THERM" ID="849" Value="0" Unit="s" Description="Motor: Thermal time constant" />
+      </Group>
+      <Group Description="Brake Parameters">
+        <Parameter Name="MOTOR_BRAKE_CURR_RATED" ID="42" Value="0" Unit="A" Description="Motor holding brake: Rated current" />
+        <Parameter Name="MOTOR_BRAKE_TORQ_RATED" ID="43" Value="0" Unit="Nm" Description="Motor holding brake: Rated torque" />
+        <Parameter Name="MOTOR_BRAKE_ON_TIME" ID="44" Value="0" Unit="s" Description="Motor holding brake: Engaging delay" />
+        <Parameter Name="MOTOR_BRAKE_OFF_TIME" ID="45" Value="0" Unit="s" Description="Motor holding brake: Release delay" />
+      </Group>
+      <Group Description="Thermo Sensor Parameters">
+        <Parameter Name="MOTOR_TEMPSENS_PAR1" ID="64" Value="0" Description="Temperature sensor: Parameter 1" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR2" ID="65" Value="0" Description="Temperature sensor: Parameter 2" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR3" ID="66" Value="0" Description="Temperature sensor: Parameter 3" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR4" ID="67" Value="0" Description="Temperature sensor: Parameter 4" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR5" ID="68" Value="0" Description="Temperature sensor: Parameter 5" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR6" ID="69" Value="0" Description="Temperature sensor: Parameter 6" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR7" ID="70" Value="0" Description="Temperature sensor: Parameter 7" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR8" ID="71" Value="0" Description="Temperature sensor: Parameter 8" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR9" ID="72" Value="0" Description="Temperature sensor: Parameter 9" />
+        <Parameter Name="MOTOR_TEMPSENS_PAR10" ID="73" Value="0" Description="Temperature sensor: Parameter 10" />
+        <Parameter Name="MOTOR_WIND_TEMP_MAX" ID="74" Value="50" Unit="°C" Description="Temperature sensor: Limit temperature" />
+      </Group>
+      <Group Description="Result Parameters of Parameter Identification">
+        <Parameter Name="MOTOR_POLEPAIRS" ID="47" Value="1" Description="Motor: Number of pole-pairs" />
+        <Parameter Name="MOTOR_VOLTAGE_RATED" ID="48" Value="200" Unit="V" Description="Motor: Rated voltage" />
+        <Parameter Name="MOTOR_SPEED_RATED" ID="50" Value="6000" Unit="1/min" Description="Motor: Rated speed" />
+        <Parameter Name="MOTOR_SPEED_MAX" ID="51" Value="6600" Unit="1/min" Description="Motor: Maximum speed" />
+        <Parameter Name="MOTOR_TORQ_STALL" ID="52" Value="1" Unit="Nm" Description="Motor: Stall torque" />
+        <Parameter Name="MOTOR_TORQ_RATED" ID="53" Value="1" Unit="Nm" Description="Motor: Rated torque" />
+        <Parameter Name="MOTOR_TORQ_MAX" ID="54" Value="1" Unit="Nm" Description="Motor: Peak torque" />
+        <Parameter Name="MOTOR_CURR_STALL" ID="56" Value="1" Unit="A" Description="Motor: Stall current" />
+        <Parameter Name="MOTOR_CURR_RATED" ID="57" Value="2.6" Unit="A" Description="Motor: Rated current" />
+        <Parameter Name="MOTOR_CURR_MAX" ID="58" Value="3" Unit="A" Description="Motor: Peak current" />
+        <Parameter Name="MOTOR_WIND_CROSS_SECT" ID="59" Value="1" Unit="mm²" Description="Motor: Line cross section" />
+        <Parameter Name="MOTOR_STATOR_RESISTANCE" ID="60" Value="92.617" Unit="Ohm" Description="Motor: Stator resistance" />
+        <Parameter Name="MOTOR_STATOR_INDUCTANCE" ID="61" Value="5.803" Unit="Henry" Description="Motor: Stator inductance" />
+        <Parameter Name="MOTOR_NUM_PHASES" ID="1208" Value="1" Description="Motor: Number of motor phases" />
+      </Group>
+      <Group Name="DELAY">
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="DELAY_TIME+0" Description="Function block: Create a FB instance" />
+        <Parameter Name="DELAY_IN_PARID+0" ID="7168" Value="CYCLIC_TODRV_COUNT" Description="FB0 DELAY parameter ID of input" />
+        <Parameter Name="DELAY_TIME+0" ID="7176" Value="0.0004" Unit="s" Description="FB0 DELAY time" />
+      </Group>
+      <Group Name="COUNT">
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="COUNT_MODE+0" Description="Function block: Create a FB instance" />
+        <Parameter Name="USER_I4_VAR2" ID="585" Value="300" Description="Function block: User I4 variable2" />
+        <Parameter Name="COUNT_MODE+0" ID="13824" Value="0" Description="FB0 COUNT: Mode" />
+        <Parameter Name="COUNT_ENABLE_PARID+0" ID="13904" Value="CONST_I4_ONE" Description="FB0 COUNT: Parameter ID of enable input" />
+        <Parameter Name="COUNT_EV1_PARID+0" ID="13832" Value="CYCLIC_TODRV_COUNT" Description="FB0 COUNT: Parameter ID of event input1" />
+        <Parameter Name="COUNT_EV2_PARID+0" ID="13840" Value="DELAY_VALUE_I4+0" Description="FB0 COUNT: Parameter ID of event input2" />
+        <Parameter Name="COUNT_CMP_VALUE+0" ID="13872" Value="2" Description="FB0 FB COUNT: Comparator compare value" />
+        <Parameter Name="COUNT_MAX_VALUE+0" ID="13864" Value="3" Description="FB0 COUNT: Maximum counter value" />
+        <Parameter Name="COUNT_MODE+0" ID="13824" Value="5" Description="FB0 COUNT: Mode" />
+      </Group>
+      <Group Name="CMP">
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="CMP_MODE+0" Description="Function block: Create a FB instance" />
+        <Parameter Name="CMP_IN_PARID+0" ID="6656" Value="COUNT_VALUE+0" Description="FB0 CMP parameter ID of input" />
+        <Parameter Name="CMP_THRESHOLD+0" ID="6664" Value="2" Description="FB0 CMP threshold" />
+        <Parameter Name="CMP_MODE+0" ID="6688" Value="6" Description="FB0 CMP mode" />
+      </Group>
+      <Group>
+        <Parameter Name="CYCLIC_TODRV_PAR_INDEX" ID="232" Value="0" Description="Cyclic communication: Parameter index of data to drive" />
+        <Parameter Name="CYCLIC_TODRV_PARID" ID="207" Value="CYCLIC_FRDRV_REC_INDEX" Description="Cyclic communication: Parameter ID of data to drive" />
+        <Parameter Name="FUNCTION_BLOCK_CREATE" ID="777" Value="IPL_MODE+0" Disabled="FALSE" Description="Function block: Create a FB instance" />
+        <Parameter Name="IPL_IN_PARID+0" ID="8712" Value="USER_R4_VAR1" Disabled="FALSE" Description="FB0 FB IPL: Parameter ID of input" />
+        <Parameter Name="IPL_EV_PARID+0" ID="8760" Value="CMP_VALUE+0" Description="FB0 FB IPL: Parameter ID of event input" />
+        <Parameter Name="IPL_CYCLE_TIME+0" ID="8720" Value="1600" Unit="us" Description="FB0 FB IPL: Cycle time" />
+        <Parameter Name="IPL_MODE+0" ID="8704" Value="2" Disabled="FALSE" Description="FB0 FB IPL: Mode - (4) quadric no overshoot" />
+      </Group>
+      <Group>
+        <Parameter Name="F_SWITCH" ID="347" Value="10000" Unit="cps" Description="Inverter: Switch frequency" />
+        <Parameter Name="MOTOR_VOLTAGE_CONST" ID="49" Value="100" Unit="mV*min" Description="Motor: Voltage constant" />
+        <Parameter ID="813" Value="0" Description="PARID_SIGEN_OFFS" />
+        <Parameter Name="MOTOR_TORQ_CONST" ID="55" Value="3" Unit="Nm/A" Description="Motor: Torque constant" />
+        <Parameter Name="MOTOR_COMMUT_OFFSET" ID="63" Value="0" Unit="rad" Description="Motor: Commutation offset" />
+        <Parameter Name="CONTROLLER_MODE" ID="328" Value="5" Description="CTRL Controller: Mode" />
+        <Parameter Name="ICTRL_SET_PARID" ID="713" Value="8752" Description="CTRL Current controller: Set value parameter ID of stator current quadrature component" />
+        <Parameter Name="TLIM_MODE" ID="1480" Value="0" Description="CTRL Torque limiter: Mode" />
+        <Parameter Name="ICTRL_US_FILTER1_A0" ID="1569" Value="2451" Description="CTRL Current: Set voltage filter coefficient A0" />
+        <Parameter Name="ICTRL_US_FILTER1_A1" ID="1570" Value="2200" Description="CTRL Current: Set voltage filter coefficient A1" />
+        <Parameter Name="ICTRL_US_FILTER_TYPE" ID="1568" Value="1" Description="CTRL Current: Set voltage filter type" />
+        <Parameter Name="ICTRL_AUTO_CONFIG" ID="1166" Value="0" Description="CTRL Current: Automatic configuration" />
+        <Parameter Name="ICTRL_KV" ID="223" Value="2000" Unit="V/A" Description="CTRL Current controller: Proportional amplification factor" />
+        <Parameter Name="ICTRL_TI" ID="225" Value="0.0033906708" Unit="s" Description="CTRL Current controller: Integral action time" />
+      </Group>
+    </Group>
+  </Root>
+</AcoposParameterTable>

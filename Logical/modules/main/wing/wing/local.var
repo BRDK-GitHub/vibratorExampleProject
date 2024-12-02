@@ -1,0 +1,8 @@
+VAR
+	j : USINT;
+	this : {REDUND_UNREPLICABLE} local_typ;
+	em : {REDUND_UNREPLICABLE} brdkEM;
+	recipe : REFERENCE TO recipe_wing_typ;
+	config : REFERENCE TO config_wing_typ;
+	interface : REFERENCE TO gWingInterface_typ;
+END_VAR

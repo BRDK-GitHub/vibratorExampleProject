@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="machineConfiguration_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="machineConfiguration.io.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="machineConfiguration" widgetRefId="io" event="MouseDown" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.Navigate" pageId="machineIO" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="machineConfiguration.saveConfigToT50Button.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="machineConfiguration" widgetRefId="saveConfigToT50Button" event="MouseDown" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="dialog.confirmCancelState">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="60" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogConfirmCancel" mode="modal" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="machineConfiguration.updateMachineButton.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="machineConfiguration" widgetRefId="updateMachineButton" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="dialog.confirmCancelState">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="90" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogConfirmCancel" mode="modal" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="machineConfiguration.updateAllMachinesButton.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="machineConfiguration" widgetRefId="updateAllMachinesButton" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="dialog.confirmCancelState">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="100" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogConfirmCancel" mode="modal" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_4">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="machineConfiguration" widgetRefId="testButton" event="MouseDown" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.Navigate" pageId="machineTestPage" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="machineConfiguration.updateEWUButton.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="machineConfiguration" widgetRefId="updateEWUButton" event="Click" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="dialog.confirmCancelState">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="110" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogConfirmCancel" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

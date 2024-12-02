@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/settings</prop>
+  </header>
+  <body>
+    <tu tuid="PackML">
+      <tuv xml:lang="zh">
+        <seg>PackML</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>PackML</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PackML</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>PackML</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>PackML</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ItemData">
+      <tuv xml:lang="zh">
+        <seg>元件物料数据</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Data elemetu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Element data</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Elemadatok</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Dữ liệu cấu kiện</seg>
+      </tuv>
+    </tu>
+    <tu tuid="TemplateData">
+      <tuv xml:lang="zh">
+        <seg>模板数据</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Lokal.recept.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Template data</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Sablon adatok</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Dữ liệu mẫu</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

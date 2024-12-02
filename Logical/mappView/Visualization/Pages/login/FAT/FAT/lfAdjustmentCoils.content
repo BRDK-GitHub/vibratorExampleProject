@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="lfAdjustmentCoilsContent" height="940" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="0" x1="59" x2="739" y1="140" y2="140" />
+    <Widget xsi:type="widgets.brease.Label" id="lfAdjustmentDescriptionLabelSmall" top="20" left="40" width="720" height="100" zIndex="1" multiLine="true" text="Adjust the magnetic gap between the iron core and coil (see picture). The gap should be 0.6 mm." wordWrap="true" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Image" id="ImageCoilLF" top="160" left="140" width="520" height="320" zIndex="2" image="Media/Images/springLF2.png" />
+    <Widget xsi:type="widgets.brease.Label" id="Label1" top="880" left="60" width="340" zIndex="3" text="Approve adjustment:" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="approveCoilGapLFToggleButton" top="860" left="640" width="80" height="60" zIndex="4" mouseDownText="✓" mouseDownBorderColor="rgba(0, 0, 0, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="lfAdjustmentDescriptionLabelBig" top="20" left="40" width="720" height="100" zIndex="5" multiLine="true" text="Adjust the magnetic gap between the iron core and coil (see picture). The gap should be 0.5 mm." wordWrap="true" textAlign="center" />
+  </Widgets>
+</Content>

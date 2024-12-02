@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/main/ramps</prop>
+  </header>
+  <body>
+    <tu tuid="RampUp">
+      <tuv xml:lang="zh">
+        <seg>平稳启动</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Start rampe</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Start rampa</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Rampa inicio</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ramp up</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Rámpa felfelé</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tăng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RampDown">
+      <tuv xml:lang="zh">
+        <seg>平稳停止</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Stop rampe</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stop rampa</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Rampa parada</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ramp down</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Rámpa lefelé</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Giảm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LinearFeederRampUp">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BeltRampUp">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampUp}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BeltRampDown">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampDown}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampDown}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampDown}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/main/ramps/RampDown}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="leftLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/main/ramps/RampUp}\n\n\n\n{$IAT/main/ramps/RampDown}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/main/ramps/RampUp}\n\n\n\n{$IAT/main/ramps/RampDown}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/main/ramps/RampUp}\n\n\n\n{$IAT/main/ramps/RampDown}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="middleLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/FeederLinear}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/FeederLinear}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/FeederLinear}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rightLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/Belt}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/Belt}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/Belt}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

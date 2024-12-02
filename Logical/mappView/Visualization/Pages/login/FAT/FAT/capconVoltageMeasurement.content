@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="capconVoltageMeasurementContent" height="940" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="0" x1="59" x2="739" y1="120" y2="120" />
+    <Widget xsi:type="widgets.brease.Label" id="cfAdjustmentDescriptionLabel" top="20" left="40" width="720" height="100" zIndex="1" multiLine="true" text="Use multimeter to measure and adjust voltage level on both power\n supplies as shown in the picture. Control that the analog inputs is\n increasing when a LEGO element is thrown through capcon." wordWrap="true" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="11" x1="160" x2="620" y1="680" y2="680" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line3" zIndex="12" x1="160" x2="621" y1="860" y2="860" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line4" zIndex="13" x1="160" x2="621" y1="800" y2="800" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line5" zIndex="14" x1="160" x2="621" y1="740" y2="740" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line7" zIndex="15" x1="620" x2="620" y1="680" y2="861" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line8" zIndex="16" x1="160" x2="160" y1="680" y2="860" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line9" zIndex="17" x1="360" x2="360" y1="680" y2="860" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line10" zIndex="18" x1="480" x2="480" y1="680" y2="860" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="680" left="160" width="200" height="60" zIndex="10" text="Measuring point" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="739" left="160" width="200" height="60" zIndex="9" text="V1" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="800" left="160" width="200" height="60" zIndex="8" text="V2" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="680" left="360" width="120" height="60" zIndex="7" text="Voltage Target" textAlign="center" fontSize="16px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="740" left="360" width="120" height="60" zIndex="6" text="+18 V" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label9" top="800" left="360" width="120" height="60" zIndex="5" text="-15.8 V" textAlign="center" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label10" top="680" left="480" width="140" height="60" zIndex="4" text="Measured Voltage" textAlign="center" fontSize="13px" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="measuredReistanceOP11" top="739" left="480" width="140" height="60" zIndex="3" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':2,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':2,'minimumIntegerDigits':1}}" unit="{'metric':'2H','imperial':'2H','imperial-us':'2H'}" unitAlign="right" borderWidth="2px" cornerRadius="0px" backColor="rgba(240, 240, 240, 1)" borderStyle="none" textAlign="center" bold="true" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="measuredResistanceHartingWing" top="800" left="480" width="140" height="60" zIndex="2" format="{'metric':{'decimalPlaces':3,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':2,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':2,'minimumIntegerDigits':1}}" maxValue="0" minValue="-20" unit="{'metric':'2H','imperial':'2H','imperial-us':'2H'}" unitAlign="right" cornerRadius="0px" backColor="rgba(240, 240, 240, 1)" borderStyle="none" textAlign="center" bold="true" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListOP11OK" top="739" left="620" width="60" height="60" zIndex="19" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListHartingWingOK" top="800" left="620" width="60" height="60" zIndex="20" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="140" left="230" width="350" height="460" zIndex="21" image="Media/Images/capconVoltageMeassurement.jpg" />
+  </Widgets>
+</Content>

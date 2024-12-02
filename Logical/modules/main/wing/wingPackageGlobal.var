@@ -1,0 +1,4 @@
+VAR
+(*	MODE_NEIGHBOUR_PRODUCING : DINT := 30; Neighbour mode. Synchronized with neighbour machine.*)
+(*	MODE_ALONE_PRODUCING : DINT := 31; Alone mode. No synchronization with neighbour machine.*)
+END_VAR

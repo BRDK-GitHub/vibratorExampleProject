@@ -1,0 +1,69 @@
+# Change Log
+
+All notable changes to brdkMC  will be documented in this file.
+brdkMC adheres to [Semantic Versioning](http://semver.org/).
+
+## [2.2.2] - 2017-05-03
+
+### Fixed
+- axis period and factor was not initialized if an axis error occoured before the initialization
+
+
+## [2.2.1] - 2017-04-24
+
+### Fixed
+- configuration.ignoreSwLimit not always writing to parID 128 (SGEN_SW_END_IGNORE), and in some cases sw end limits were still active
+
+
+## [2.2.0] - 2017-02-06
+
+### Fixed
+- RTinfo FUB cyclic call only until task cyletime is found, this reduces the total CPU load for the brdkMC FUB call.
+
+### Changed
+- status.torque.actual, status.torque.peak, status.torque.continous is now no longer showed as an absolute value. This provides the information if the motor torque is negative or positive. 
+
+### Fixed
+- Read motor and drive info not ok, if ACOPOS drive is rebooted.
+
+
+## [2.1.4] - 2016-12-15
+
+### Fixed
+- status.inMotion would be set high shortly when powering off in STANDSTILL. This due to CMD_QUICKSTOP automatically set by the MC_Power FUB when powering off.
+
+
+## [2.1.3] - 2016-09-02
+
+### Fixed
+- status.inMotion could in rare occations not represent the correct status for the axis.
+
+
+## [2.1.2] - 2016-08-25
+
+### Fixed
+- cyclic read functionblocks was not reset if communication was lost to the drive. Functionblock got stuck in ST_ERROR.
+- encoder status is reset if battery warning bit is set. Should only reset if alarm bit is set.
+
+
+## [2.1.1] - 2016-06-03
+
+### Fixed
+- commands jog positive and jog negative could not interrupt each other and change direction
+
+
+## [2.1.0] - 2016-04-08
+
+### Added
+- configuration.ignoreSwLimit to set SGEN_SW_END_LIMIT_IGNORE ParId. SGEN_SW_END_LIMIT_IGNORE ParId set in the Acopos Parameter Table is always overwritten by this configuration.
+
+
+## [2.0.1] - 2016-03-17
+
+### Fixed
+- command.gearOut was not sending the state to ST_GEAR_OUT, so status.done was never set for this command
+
+
+## [2.0.0] - 2015-12-21
+First released version of the new library
+

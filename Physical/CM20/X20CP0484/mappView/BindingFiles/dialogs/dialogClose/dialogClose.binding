@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="dialogClose_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+  	<Binding mode="oneWay">
+		<Source xsi:type="session" refId="dialog.closeState" attribute="value" />
+		<Target xsi:type="snippet" refId="dialog.closeStateSnippet" attribute="value" />
+	</Binding>
+	<Binding mode="oneWay">
+		<Source xsi:type="session" refId="dialog.closeState" attribute="value" />
+		<Target xsi:type="snippet" refId="dialog.closeImageSnippet" attribute="value" />
+	</Binding>
+	<Binding mode="oneWay">
+		<Source xsi:type="snippet" refId="dialog.closeStateSnippet" attribute="value" />
+		<Target xsi:type="brease" contentRefId="dialogClose" widgetRefId="dialogHeader" attribute="value" />
+	</Binding>
+	<Binding mode="oneWay">
+		<Source xsi:type="snippet" refId="dialog.closeImageSnippet" attribute="value" />
+		<Target xsi:type="brease" contentRefId="dialogClose" widgetRefId="cancelButton" attribute="text" />
+	</Binding>
+  	<Binding mode="oneWay">
+		<Source xsi:type="session" refId="dialog.closeButtonStyle" attribute="value" />
+		<Target xsi:type="brease" contentRefId="dialogClose" widgetRefId="cancelButton" attribute="style" />
+	</Binding>
+</Bindings>
+</BindingsSet>

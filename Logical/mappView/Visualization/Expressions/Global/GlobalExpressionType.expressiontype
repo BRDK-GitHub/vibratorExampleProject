@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExpressionTypeSet id="GlobalExpressionType" xmlns="http://www.br-automation.com/iat2016/expressionType/v1">
+  <ExpressionTypes>
+   
+		<ExpressionType name="minToMs" datatype="ANY_INT"> 
+			<Operands> 
+				<Operand name="min" datatype="ANY_INT" /> 
+			</Operands> 
+			<Operation>
+				min * 60000
+			</Operation> 
+		</ExpressionType>
+		
+	
+		
+	</ExpressionTypes>
+</ExpressionTypeSet>

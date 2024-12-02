@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/main/enabled</prop>
+  </header>
+  <body>
+    <tu tuid="ItemGap.0" />
+    <tu tuid="ItemGap.1">
+      <tuv xml:lang="en">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>间距</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Khoảng cách</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

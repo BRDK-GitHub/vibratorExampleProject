@@ -1,0 +1,3 @@
+VAR
+	gSimulation : gSimulation_typ;
+END_VAR

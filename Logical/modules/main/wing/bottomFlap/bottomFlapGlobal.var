@@ -1,0 +1,3 @@
+VAR
+	gBottomFlapInterface : gBottomFlapInterface_typ;
+END_VAR

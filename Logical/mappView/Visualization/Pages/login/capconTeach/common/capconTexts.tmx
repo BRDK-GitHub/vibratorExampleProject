@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/login/capconTeach</prop>
+  </header>
+  <body>
+    <tu tuid="Limits">
+      <tuv xml:lang="zh">
+        <seg>限定值</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Grænser</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Limity</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Limits</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Határok</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Giới hạn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Diagnostics">
+      <tuv xml:lang="zh">
+        <seg>诊断</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Diagnosticering</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Diagnostika</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Diagnostics</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Diagnosztika</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Chẩn đoán</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

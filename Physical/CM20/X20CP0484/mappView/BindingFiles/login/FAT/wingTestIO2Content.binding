@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="wingTestIO2Content_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::cassette:this.hw.di_cassetteQueue" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="ImageListNeighbourIsDosing" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.approveFunctionality" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="approveIoTestManuel" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.upperFlapOK" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="changeoverTestUpper" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.middleFlapOK" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="changeoverTestMiddle" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.bottomFlapOK" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="changeoverTestBottom" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.neighbourFlapOK" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="changeoverTestNeihbour" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.cassetteReleaseOK" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="changeoverTestNeihbour1" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="ImageListLevelSensorTestOK" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::cassette:this.hmi.do_dosingForce" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="ToggleButton12" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::cassette:this.hmi.do_bricksReadyInCassetteForce" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingTestIO2Content" widgetRefId="ToggleButton14" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

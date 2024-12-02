@@ -1,0 +1,7 @@
+VAR
+	gVibratorInterface : ARRAY[0..NUM_VIBRATOR] OF gVibratorInterface_typ;
+END_VAR
+VAR CONSTANT
+	VIBRATOR_ALARM_SIZE : USINT := 0;
+	NUM_VIBRATOR : USINT := 1; (*1 means 2*)
+END_VAR

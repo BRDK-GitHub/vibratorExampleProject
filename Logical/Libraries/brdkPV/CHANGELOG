@@ -1,0 +1,10 @@
+# Change Log
+
+All notable changes to brdkSTR  will be documented in this file.
+brdkSTR  adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased]
+
+## [1.0.0] - 2019-10-08
+### Added
+- brdkPVLocalName() - Create PV names that can be used for e.g. mappReceipe and mappData function blocks

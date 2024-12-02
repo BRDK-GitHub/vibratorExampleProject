@@ -1,0 +1,3 @@
+VAR CONSTANT
+	MAX_ITEM_SIZE : UINT := 200; (*Max. size of item string*)
+END_VAR

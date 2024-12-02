@@ -1,0 +1,27 @@
+VAR CONSTANT
+	CYCLE_TIME_seconds : REAL := 0.04;
+END_VAR
+VAR
+	MpRecipeRegPar_Config : MpRecipeRegPar;
+	this : local_typ;
+	state : UINT;
+END_VAR
+VAR RETAIN
+	stateRetain : UINT;
+END_VAR
+VAR
+	resultFATOld : resultFAT_typ;
+	resultFAT : resultFAT_typ; (*Will store the results doing FAT.*)
+	i : USINT;
+	stateRecipe : UINT;
+	levelTestState : USINT;
+	nodeIdList : ARRAY[0..4] OF UDINT;
+	UsbNodeListGet_0 : UsbNodeListGet;
+	usbState : UINT;
+	buffer : usbNode_typ;
+	UsbNodeGet_0 : UsbNodeGet;
+	paramString : STRING[80];
+	DevLink_0 : DevLink;
+	dirCreate_0 : DirCreate;
+	reportState : UINT;
+END_VAR

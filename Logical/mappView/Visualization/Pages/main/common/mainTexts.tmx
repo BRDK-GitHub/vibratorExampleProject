@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/main</prop>
+  </header>
+  <body>
+    <tu tuid="FlapTime">
+      <tuv xml:lang="vi">
+        <seg>Thời gian sử dụng nắp</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>叶片时间</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Flap tid</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Cas klapky</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szárny idő</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Flap time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Normal">
+      <tuv xml:lang="vi">
+        <seg>Bình thường</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>正常</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Normal</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Normalni</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Normál</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Normal</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Normal</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Long">
+      <tuv xml:lang="vi">
+        <seg>Lâu</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>长</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Lang</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Dlouhe</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Hosszú</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Largo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Long</seg>
+      </tuv>
+    </tu>
+    <tu tuid="VibratorBelt">
+      <tuv xml:lang="vi">
+        <seg>Máy Rung/Đai</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>振动器/皮带</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Vibrator/Bånd</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vibr./pas</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Vibrátorok/Szalag</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Vibr./Banda</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Vibrators/Belt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Ramps">
+      <tuv xml:lang="vi">
+        <seg>Dốc</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>平缓启停</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Ramper</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Rampy</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Rámpák</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Rampas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ramps</seg>
+      </tuv>
+    </tu>
+    <tu tuid="longFlapsEnabled">
+      <tuv xml:lang="vi">
+        <seg>Lâu</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>超长叶片打开时间已使能</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Dlouhe</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Hosszú</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Largo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Long</seg>
+      </tuv>
+    </tu>
+    <tu tuid="itemGapEnabled">
+      <tuv xml:lang="vi">
+        <seg>Khoảng cách</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>拱型元件点数功能</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Otvor</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Rés</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Hueco</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gap</seg>
+      </tuv>
+    </tu>
+    <tu tuid="emptyModeEnabled">
+      <tuv xml:lang="vi">
+        <seg>Trống</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>清空模式开启</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Empty</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Üres</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Vacío</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Empty</seg>
+      </tuv>
+    </tu>
+    <tu tuid="waitSpeedDisabled">
+      <tuv xml:lang="vi">
+        <seg>Đợi</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>不使用等待速度</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Bez cekac.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Várakozás</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>t.espera.off</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wait off</seg>
+      </tuv>
+    </tu>
+    <tu tuid="dosingEnabled">
+      <tuv xml:lang="vi">
+        <seg>Lượng</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>正在投料</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Dosing</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Adagolás</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dosing</seg>
+      </tuv>
+    </tu>
+    <tu tuid="bypassCassette">
+      <tuv xml:lang="vi">
+        <seg>Bỏ qua băng cassette</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>正在投料</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bypass cassette</seg>
+      </tuv>
+    </tu>
+    <tu tuid="topLabel">
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/CMdata}\n\n\n{$IAT/Common/ItemNumber}\n\n\n{$IAT/Common/ItemQuantity}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/CMdata}\n\n\n{$IAT/Common/ItemNumber}\n\n\n{$IAT/Common/ItemQuantity}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/CMdata}\n\n\n{$IAT/Common/ItemNumber}\n\n\n{$IAT/Common/ItemQuantity}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CSText.0">
+      <tuv xml:lang="vi">
+        <seg>Thời gian chu kỳ</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>节拍时间</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Cyklus tid</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Cas cyklu</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Ciklusidő</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cycle time</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CSText.1">
+      <tuv xml:lang="vi">
+        <seg>TMU</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>TMU</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>TMU </seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>IME</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>TMU</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CSText.3">
+      <tuv xml:lang="vi">
+        <seg>Tính thiết thực </seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>使用率</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyuziti</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Használhatóság </seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Utility </seg>
+      </tuv>
+    </tu>
+    <tu tuid="CSText.2">
+      <tuv xml:lang="vi">
+        <seg>Đầu ra</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>输出</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Výstup</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kimenet</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Output</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CycleTime">
+      <tuv xml:lang="zh">
+        <seg>节拍时间</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Tmu">
+      <tuv xml:lang="zh">
+        <seg>TMU</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UtilityPercent">
+      <tuv xml:lang="zh">
+        <seg>使用率</seg>
+      </tuv>
+    </tu>
+    <tu tuid="errorRate">
+      <tuv xml:lang="vi">
+        <seg>Tỷ lệ lỗi</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>错误率
+</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Chybovost</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Hibaarány</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error rate</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mediumFlapsEnabled">
+      <tuv xml:lang="vi">
+        <seg>Nắp vừa</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>中型襟翼</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Střední klapky</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Közepes szárnyak</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>
+Solapas medianas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Medium flaps</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

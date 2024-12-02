@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="additionInformationContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.status.additionalInfo.typeNo" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="NumericInput1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.status.additionalInfo.serialNo" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="NumericInput2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.status.additionalInfo.rnoNo" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="NumericInput4" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.status.additionalInfo.topSerialNo" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="NumericInput6" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.additionalInfo.vibratorUnitType" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="TextInput8" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.additionalInfo.topUnitType" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="TextInput7" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.status.additionalInfo.IRTHno" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="NumericInputIRTHno" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.additionalInfo.IRTHno" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="additionInformationContent" widgetRefId="TextInput6" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/main/capcon</prop>
+  </header>
+  <body>
+    <tu tuid="TeachBrickCount">
+      <tuv xml:lang="zh">
+        <seg>示教元件计数</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Læring klods antal</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pocet el. k nacteni</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Téglaszámlálás betanítása</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Teach brick count</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hướng dẫn đếm khối gạch</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RejectStrategy">
+      <tuv xml:lang="zh">
+        <seg>拒出策略</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Afvis strategi</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Typ vyrazovani</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Capcon stratégia</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Capcon strategy</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Chiến lược Capcon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NumOfSTDEV">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/STDEV}数量</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Antal {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pocet {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A {$IAT/Common/STDEV} száma</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Number of {$IAT/Common/STDEV}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Số lượng {$IAT/Common/STDEV}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ControlPercent">
+      <tuv xml:lang="zh">
+        <seg>示教百分比</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Læring procent</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Procento nacteni</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Betanítási százalék</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Teach percent</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Phần trăm hướng dẫn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ItemGap">
+      <tuv xml:lang="zh">
+        <seg>物料间距</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Hul i element</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Otvor</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tétel rés</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Hueco</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Item gap</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Khoảng cách sản phẩm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Reteach">
+      <tuv xml:lang="zh">
+        <seg>重新示教</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Omlær</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Znovu ucit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Újratanítás</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Ensenar de nuevo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reteach</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hướng dẫn lại</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RejectStrategyPeakMax">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} max</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} max</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} max</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} tối đa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RejectStrategyIntegral">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Integral}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Integral}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Integral}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Integral}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RejectStrategySamples">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Samples}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Samples}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Samples}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Samples}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MaxNoiseSpeed">
+      <tuv xml:lang="zh">
+        <seg>最大信噪变化</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Maks støj hastighed</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Max Noise Speed</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tốc Độ Tiếng Ồn Tối Đa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="emptyMode">
+      <tuv xml:lang="zh">
+        <seg>清空模式开启</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Rezim vyprazdnit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Üres üzemmód</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Modo vacío</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Empty mode</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Chế độ trống</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RejectStrategyPeakMin">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} min</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} min</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} min</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n{$IAT/Common/Peak} tối thiểu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="leftLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Mode}\n\n\n\n{$IAT/main/capcon/ItemGap}\n\n\n\n{$IAT/main/capcon/ControlPrc}\n\n\n\n\n\n\n\n\n\n{$IAT/main/FlapTime}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Mode}\n\n\n\n{$IAT/main/capcon/ItemGap}\n\n\n\n{$IAT/main/capcon/ControlPrc}\n\n\n\n{$IAT/main/FlapTime}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Mode}\n\n\n\n{$IAT/main/capcon/ItemGap}\n\n\n\n{$IAT/main/capcon/ControlPrc}\n\n\n\n{$IAT/main/FlapTime}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="rightLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{$IAT/main/capcon/emptyMode}
+</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n\n\n\n{$IAT/info/statistics/OKPortions}\n\n\n\n{$IAT/info/statistics/NOKPortions}\n\n\n\n\n\n\n\n\n\n{$IAT/main/capcon/emptyMode}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/main/capcon/RejectStrategy}\n\n\n\n{$IAT/info/statistics/OKPortions}\n\n\n\n{$IAT/info/statistics/NOKPortions}\n\n\n\n\n\n\n\n\n\n{$IAT/main/capcon/emptyMode}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ControlPrc">
+      <tuv xml:lang="es-MX">
+        <seg>Control%</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Control%</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Control%</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StrategyOff">
+      <tuv xml:lang="zh">
+        <seg>关闭</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vypnuto</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Ki</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Off</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tắt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StrategyMedium">
+      <tuv xml:lang="zh">
+        <seg>简单</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stredni</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Közepes</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Medio</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Medium</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Trung bình</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StrategyOn">
+      <tuv xml:lang="zh">
+        <seg>高级</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zapnuto</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Be</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>BẬT</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MediumFlaps">
+      <tuv xml:lang="zh">
+        <seg>启用中襟翼</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Povolit střední klapky</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Közepes szárnyak engedélyezése</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>
+Habilitar solapas medianas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Enable medium flaps</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Kích hoạt nắp trung bình</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="generateReportContent" height="940" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="6" x1="60" x2="380" y1="20" y2="20" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line3" zIndex="7" x1="60" x2="380" y1="200" y2="200" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line4" zIndex="8" x1="60" x2="380" y1="140" y2="140" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line5" zIndex="9" x1="60" x2="380" y1="80" y2="80" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line7" zIndex="10" x1="380" x2="380" y1="20" y2="201" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line8" zIndex="11" x1="60" x2="60" y1="20" y2="620" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line9" zIndex="12" x1="260" x2="261" y1="20" y2="620" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line10" zIndex="13" x1="380" x2="380" y1="20" y2="620" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Label" id="labelMachineSetup" top="80" left="58" width="200" height="60" zIndex="4" multiLine="true" text="Machine setup" wordWrap="true" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="200" left="59" width="200" height="60" zIndex="5" multiLine="true" text="Additional machine information" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListMachineSetupOK" top="80" left="290" width="60" height="60" zIndex="14" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListAdditionalInfoOK" top="200" left="290" width="60" height="60" zIndex="15" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Line" id="Line6" zIndex="16" x1="60" x2="380" y1="260" y2="260" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line11" zIndex="17" x1="60" x2="380" y1="320" y2="320" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line12" zIndex="18" x1="60" x2="380" y1="380" y2="380" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line13" zIndex="19" x1="60" x2="380" y1="440" y2="440" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line14" zIndex="20" x1="60" x2="380" y1="500" y2="500" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListCapconVoltageMeas" top="260" left="290" width="60" height="60" zIndex="21" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListLevelSensorTest" top="380" left="290" width="60" height="60" zIndex="22" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListPhotoSensorAdjustments" top="440" left="290" width="60" height="60" zIndex="23" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListPhotoSensorTest" top="500" left="290" width="60" height="60" zIndex="24" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListCFCoil" top="80" left="630" width="60" height="60" zIndex="25" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label7" top="260" left="59" width="201" height="60" zIndex="26" multiLine="true" text="Capcon voltage measurement" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label9" top="380" left="59" width="200" height="60" zIndex="27" multiLine="true" text="Level sensor test" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label10" top="440" left="59" width="200" height="60" zIndex="28" multiLine="true" text="Photo sensor adjustment" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label11" top="500" left="60" width="200" height="60" zIndex="29" multiLine="true" text="Photo sensor test" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label12" top="80" left="400" width="192" height="60" zIndex="30" multiLine="true" text="CF coil adjustment" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Line" id="Line19" zIndex="32" x1="400" x2="720" y1="20" y2="20" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line20" zIndex="33" x1="400" x2="720" y1="200" y2="200" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line21" zIndex="34" x1="400" x2="720" y1="140" y2="140" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line22" zIndex="35" x1="400" x2="720" y1="80" y2="80" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line23" zIndex="36" x1="720" x2="720" y1="20" y2="201" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line24" zIndex="37" x1="400" x2="401" y1="20" y2="620" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line25" zIndex="38" x1="600" x2="600" y1="20" y2="620" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line26" zIndex="39" x1="720" x2="720" y1="20" y2="620" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label16" top="200" left="400" width="200" height="60" zIndex="31" multiLine="true" text="LF coil adjustment" wordWrap="true" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListCFSpring" top="140" left="630" width="60" height="60" zIndex="40" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Line" id="Line27" zIndex="41" x1="400" x2="720" y1="260" y2="260" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line28" zIndex="42" x1="400" x2="720" y1="320" y2="320" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line29" zIndex="43" x1="400" x2="720" y1="380" y2="380" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line30" zIndex="44" x1="400" x2="720" y1="440" y2="440" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Button" id="AutoGenBtn" top="680" left="260" width="280" height="60" zIndex="45" text="Generate reports" />
+    <Widget xsi:type="widgets.brease.Label" id="Label15" top="320" left="59" width="201" height="60" zIndex="46" multiLine="true" text="Capcon signal tests" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListCapconSignalTestOK" top="320" left="290" width="60" height="60" zIndex="47" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label18" top="560" left="60" width="200" height="60" zIndex="1" multiLine="true" text="Belt feeder I/O test" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListBFtestOK" top="560" left="290" width="60" height="60" zIndex="0" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label26" top="140" left="60" width="200" height="60" zIndex="48" multiLine="true" text="Wing connector" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListWingConnectorOK" top="140" left="290" width="60" height="60" zIndex="49" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label27" top="20" left="400" width="200" height="60" zIndex="50" multiLine="true" text="Wing IO test" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListWingIOTestOK" top="20" left="630" width="60" height="60" zIndex="51" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label28" top="380" left="400" width="200" height="60" zIndex="52" multiLine="true" text="After 88H test adjustments" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList88hTest" top="320" left="630" width="60" height="60" zIndex="53" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label30" top="440" left="400" width="200" height="60" zIndex="54" multiLine="true" text="Calibrate CF with habasit" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListAfter88hAdjustments" top="380" left="630" width="60" height="60" zIndex="55" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListFinalFATDone" top="680" left="560" width="60" height="60" zIndex="56" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelUserNotShared" top="640" left="0" width="280" height="100" zIndex="2" multiLine="true" text="Can't connect to FT50 shared memory. Please load configuration in panel service menu." wordWrap="true" textColor="rgba(255, 0, 0, 1)" textAlign="left" visible="false" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelInitialGroundMeas" top="20" left="60" width="200" height="60" zIndex="3" multiLine="true" text="Initial ground measurement" wordWrap="true" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListInitialGroundMeasurement" top="20" left="290" width="60" height="60" zIndex="57" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Line" id="Line32" zIndex="58" x1="60" x2="380" y1="560" y2="560" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line33" zIndex="72" x1="60" x2="380" y1="500" y2="500" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Label" id="Label13" top="140" left="400" width="192" height="60" zIndex="59" multiLine="true" text="CF Spring adjustment" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label14" top="260" left="400" width="192" height="60" zIndex="60" multiLine="true" text="LF Spring adjustment" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label17" top="320" left="400" width="192" height="60" zIndex="61" multiLine="true" text="88h test" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label31" top="500" left="400" width="200" height="60" zIndex="62" multiLine="true" text="12h test" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Label" id="Label32" top="560" left="400" width="200" height="60" zIndex="63" multiLine="true" text="Machine markings" wordWrap="true" backColor="rgba(255, 255, 255, 0)" textAlign="center" fontSize="20px" bold="false" />
+    <Widget xsi:type="widgets.brease.Line" id="Line34" zIndex="64" x1="400" x2="720" y1="500" y2="500" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line35" zIndex="65" x1="400" x2="720" y1="560" y2="560" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.Line" id="Line36" zIndex="66" x1="400" x2="720" y1="620" y2="620" lineWidth="2px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListLFCoil" top="200" left="630" width="60" height="60" zIndex="67" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListLFSpring" top="260" left="630" width="60" height="60" zIndex="68" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListCaliCFWithHabasit" top="440" left="630" width="60" height="60" zIndex="69" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageList12hTest" top="500" left="630" width="60" height="60" zIndex="70" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListMachineMarkings" top="560" left="630" width="60" height="60" zIndex="71" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="73" x1="40" x2="760" y1="780" y2="780" />
+    <Widget xsi:type="widgets.brease.Label" id="Label8" top="840" left="60" width="220" height="40" zIndex="74" multiLine="true" text="Transfer to USB:" wordWrap="true" textAlign="right" />
+    <Widget xsi:type="widgets.brease.Button" id="transferToUSBButton" top="820" left="460" width="179" height="60" zIndex="75" text="Transfer" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="changeoverTestUpper" top="820" left="660" width="60" height="60" zIndex="76" imageList="['Media/Images/cross.svg', 'Media/Images/checkmark.svg']" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="820" left="280" width="180" height="60" zIndex="77" text="USB NOT ready" textColor="rgba(230, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="820" left="300" width="120" height="60" zIndex="78" text="USB ready" textColor="rgba(0, 200, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Line" id="Line37" zIndex="79" x1="60" x2="380" y1="620" y2="620" lineWidth="2px" />
+  </Widgets>
+</Content>

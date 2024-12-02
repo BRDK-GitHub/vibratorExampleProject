@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">FeederAlarms</prop>
+  </header>
+  <body>
+    <tu tuid="lowLevel">
+      <tuv xml:lang="zh">
+        <seg>上料传送带过低</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Element feeder nizka hladina</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Element feeder is low</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Banda silo - bajo</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Elemadagoló szintje alacsony</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Máy nạp cấu kiện sắp hết</seg>
+      </tuv>
+    </tu>
+    <tu tuid="boxMissing">
+      <tuv xml:lang="zh">
+        <seg>上料传送带箱子缺失</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Chybi p-box pod feederem</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder box is missing</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Adagolódoboz hiányzik</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hộp nạp bị thiếu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="cannotCloseFlap">
+      <tuv xml:lang="zh">
+        <seg>上料传送带无法关闭叶片</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Element feeder nemuze zavrit klapku</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder cannot close flap</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Az adagoló nem tudja zárni a szárnyat</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Máy nạp không thể đóng nắp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="cannotOpenFlap">
+      <tuv xml:lang="zh">
+        <seg>上料传送带无法打开叶片</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Element feeder nemuze otevrit klapku</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Feeder cannot open flap</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Az adagoló nem tudja nyitni a szárnyat</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Máy nạp không thể mở nắp</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

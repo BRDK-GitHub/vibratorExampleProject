@@ -1,0 +1,6 @@
+
+OPCUA_METHOD CopyRecipe
+	ARG_INPUT
+		direction : Byte := method.copyRecipe.direction; (*Copies recipe data*)
+	END_ARG
+END_OPCUA_METHOD

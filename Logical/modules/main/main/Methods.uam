@@ -1,0 +1,15 @@
+
+OPCUA_METHOD SetMode
+	ARG_INPUT
+		Mode : set_mode_typ := setMode;
+	END_ARG
+END_OPCUA_METHOD
+
+OPCUA_METHOD LampMode
+	ARG_INPUT
+		Mode : lamp_flash_typ := lampFlash;
+		Color : lamp_color_typ := lampColor;
+		Timeout : UInt32 := lampTimeout; (*[ms] Time in ms*)
+		Repeat : UInt32 := lampRepeat; (*Amount of times that lamp blinks in "Blink method"*)
+	END_ARG
+END_OPCUA_METHOD

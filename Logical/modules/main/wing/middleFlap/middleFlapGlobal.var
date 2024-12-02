@@ -1,0 +1,3 @@
+VAR
+	gMiddleFlapInterface : gMiddleFlapInterface_typ;
+END_VAR

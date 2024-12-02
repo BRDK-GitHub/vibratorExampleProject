@@ -1,0 +1,3 @@
+VAR
+	gAlarm : gAlarm_typ; (*Global alarm module interface.*)
+END_VAR

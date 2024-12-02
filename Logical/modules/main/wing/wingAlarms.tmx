@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">WingAlarms</prop>
+  </header>
+  <body>
+    <tu tuid="StepperWUError">
+      <tuv xml:lang="en">
+        <seg>Stepper Wing Unit error</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Lépcsős szárnyegység hibája</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lỗi Đơn Vị Biên Động Cơ Bước</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

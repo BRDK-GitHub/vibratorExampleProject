@@ -1,0 +1,4 @@
+VAR
+	Client : Client_typ := (0); (*Data for Client Task*)
+	receive_data : UDINT;
+END_VAR

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="linearizationButtonsRight" height="130" width="470" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="start" top="0" left="316" width="140" height="130" zIndex="0" text="" style="imageGreen" />
+  </Widgets>
+</Content>

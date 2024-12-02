@@ -1,0 +1,6 @@
+(*Belt --> Capcon*)
+(*Capcon --> Belt*)
+VAR_CONFIG
+	Cyclic#3.gCapconInterface.status.ready AT %Q.Cyclic#2.gBeltInterface.cmd.dropBrick; (*Command to belt that the capcon is ready for a brick*)
+	Cyclic#3.::gCapconInterface.status.numBricksInPortion AT %Q.Cyclic#2.::gBeltInterface.parameter.brickCountInPortion; (*Insert your comment here...*)
+END_VAR

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="en" Type="Language">
+    <Property ID="LanguageName" Value="English" />
+    <Property ID="IsDesignLanguage" Value="TRUE" />
+  </Element>
+  <Element ID="es-MX" Type="Language">
+    <Property ID="LanguageName" Value="Spanish" />
+    <Property ID="NativeName" Value="español" />
+  </Element>
+  <Element ID="hu" Type="Language">
+    <Property ID="LanguageName" Value="Hungarian" />
+    <Property ID="NativeName" Value="magyar" />
+  </Element>
+  <Element ID="cs" Type="Language">
+    <Property ID="LanguageName" Value="Czech" />
+    <Property ID="NativeName" Value="čeština" />
+  </Element>
+  <Element ID="da" Type="Language">
+    <Property ID="LanguageName" Value="Danish" />
+    <Property ID="NativeName" Value="dansk" />
+  </Element>
+  <Element ID="zh" Type="Language">
+    <Property ID="LanguageName" Value="Chinese" />
+    <Property ID="NativeName" Value="中文" />
+  </Element>
+  <Element ID="pl" Type="Language">
+    <Property ID="LanguageName" Value="Polish" />
+    <Property ID="NativeName" Value="polski" />
+  </Element>
+  <Element ID="vi" Type="Language">
+    <Property ID="LanguageName" Value="Vietnamese" />
+    <Property ID="NativeName" Value="tiếng Việt" />
+  </Element>
+</Configuration>

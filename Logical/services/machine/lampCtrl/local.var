@@ -1,0 +1,13 @@
+VAR
+	config : config_typ;
+	lamp : plc_lamp_typ;
+END_VAR
+VAR RETAIN
+	statusString : status_string_typ;
+END_VAR
+VAR
+	blink : flash_typ;
+	flash : flash_typ;
+	lampIOLink : lamp_iolink_typ;
+	RTInfo_0 : RTInfo;
+END_VAR

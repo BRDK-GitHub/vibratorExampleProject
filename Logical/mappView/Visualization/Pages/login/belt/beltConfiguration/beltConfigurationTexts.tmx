@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/login/belt/configuration</prop>
+  </header>
+  <body>
+    <tu tuid="delayBetweenBricks">
+      <tuv xml:lang="zh">
+        <seg>直线输送带元件间延时</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Delay between bricks</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zpozdeni mezi elem.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Késleltetés a téglák között</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Độ trễ giữa các khối gạch</seg>
+      </tuv>
+    </tu>
+    <tu tuid="maxTorqueAllowd">
+      <tuv xml:lang="zh">
+        <seg>直线输送带最大扭矩</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Maximum torque</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Maximális nyomaték</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Mô-men xoắn tối đa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="addToRamp">
+      <tuv xml:lang="zh">
+        <seg>添加以向上/向下倾斜</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Add to ramp up/down</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pridejte k start/stop rampe</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Hozzáadás a rámpa emeléséhez/leengedéséhez</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thêm vào đoạn tăng/giảm</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

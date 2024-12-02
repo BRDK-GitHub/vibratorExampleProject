@@ -1,0 +1,4 @@
+VAR
+	cm : brdkCM;
+	this : local_typ;
+END_VAR

@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="Dialog.Confirm">
+      <tuv xml:lang="vi">
+        <seg>Xác nhận</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>确认</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Potvrdit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Megerősítés</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Confirm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Cancel">
+      <tuv xml:lang="vi">
+        <seg>Hủy bỏ</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>取消</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zpet</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Mégse</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cancel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.AckTune">
+      <tuv xml:lang="vi">
+        <seg>Xác nhận điều chỉnh?</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>确认整定参数？</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Potvrdit ladeni?</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Visszaigazolja a finomhangolást?</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Acknowledge tuning?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.EmptyBowl">
+      <tuv xml:lang="vi">
+        <seg>Máy rung và máy nạp có trống không? Nếu trống thì hãy lấy hộp ở máy nạp ra và xác nhận.</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>振动盘与上料器是否已清空？如果是，请取出上料器箱子并确认。</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Jsou dopravniky prazdne? Pokud ano, odeberte box pod feederem a potvrdte.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A vibrátorok és az adagoló üresek? Ha igen, akkor vegye ki a dobozt az adagolóból, és erősítse meg.</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Confirma que la centrifuga y el silo están vacíos.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Is the vibrators and feeder empty? If then take box at feeder out and confirm.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.LoginMenu">
+      <tuv xml:lang="vi">
+        <seg>Menu đăng nhập</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>登陆菜单</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prihlasovaci menu</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Bejelentkezés menü</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login menu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Login">
+      <tuv xml:lang="vi">
+        <seg>Đăng nhập</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>登录</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prihlaseni</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Bejelentkezés</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Tuning">
+      <tuv xml:lang="vi">
+        <seg>Đang chỉnh máy rung, vui lòng đợi</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>整定振动器，请等待。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tuning vibrator, please wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.StopMenu">
+      <tuv xml:lang="vi">
+        <seg>Dừng menu</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>停止菜单</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stop menu</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Stop menü</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stop menu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.DataSelect">
+      <tuv xml:lang="vi">
+        <seg>Chọn dữ liệu</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>数据选择</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyber dat</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Adatok kiválasztása</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Data select</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.RejectAll">
+      <tuv xml:lang="vi">
+        <seg>Từ chối tất cả</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>全部拒出</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyradit vse</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Összes elvetése</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Rechazar todo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Reject all</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Stop">
+      <tuv xml:lang="vi">
+        <seg>Dừng</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>停止菜单</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stop</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállítás</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Parada</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stop</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.bfEmpty">
+      <tuv xml:lang="vi">
+        <seg>bfemp.</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>送料皮带清空</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>pas vypr.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Egy. rezgő ürítés</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>bsvaciar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>bfemp.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.cfEmpty">
+      <tuv xml:lang="vi">
+        <seg>cfemp</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>振动盘清空</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>kz vypr</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Körrezgő ürítés</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>cfvaciar</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>cfemp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Empty">
+      <tuv xml:lang="vi">
+        <seg>Làm trống tất cả</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>全部清空</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyprazd.vse</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Összes kiürítése</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Vaciar todo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Empty all</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.ConfirmMech">
+      <tuv xml:lang="vi">
+        <seg>Vui lòng xác nhận rằng tất cả các bộ phận cơ khí đã được đặt thành khối gạch mong muốn</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>请确认机械挡板已调整到位</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prosim potvrdte  ze byla hraditka nastavena na dany element</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kérjük, ellenőrizze, hogy minden mechanikus alkatrész a kívánt téglához lett-e állítva</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Please confirm that all mechanical parts have been set to the desired brick</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.LoginFailed">
+      <tuv xml:lang="vi">
+        <seg>Đăng nhập thất bại</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>登陆失败</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prihlaseni neuspesne</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A bejelentkezés sikertelen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login failed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Height">
+      <tuv xml:lang="vi">
+        <seg>Chiều cao:</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>高度:</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyska:</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Magasság:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Height:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Width">
+      <tuv xml:lang="vi">
+        <seg>Chiều rộng:</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>宽度:</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Sirka:</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szélesség:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Width:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.start.confirmVibGuides">
+      <tuv xml:lang="vi">
+        <seg>Đặt hướng dẫn máy rung thành:</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>设置挡板拨片</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Check at vibrator guides er indstillet korrekt</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nastavte vibr. na:</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Állítsa be a vibrátor vezetőket erre:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set vibrator guides to:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Angle">
+      <tuv xml:lang="vi">
+        <seg>Góc</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>角度</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Uhel</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szög</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Angle</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.MissingLinearPoint">
+      <tuv xml:lang="vi">
+        <seg>Thiếu hiệu chuẩn/tuyến tính hóa</seg>
+      </tuv>
+      <tuv xml:lang="pl">
+        <seg>Brak kalibracji/linearyzacji</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>缺少校准/线性化</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Manglende kalibrering/linearisering</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Chybí kalibrace / linearizace</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>
+Hiányzik a kalibrálás/linearizálás</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Falta calibración/linealización</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Missing calibration / linearization</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.LinearProgress">
+      <tuv xml:lang="vi">
+        <seg>Máy rung đang tuyến tính hóa. Vui lòng chờ</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>振动器正在线性整定中。请等待</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vibracni podavac linearizovan. Prosim cekejte</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A vibrátor linearizál. Kérjük, várjon</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Vibrator is linearisaring. Please wait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.emptySmallItems">
+      <tuv xml:lang="vi">
+        <seg>Những sản phẩm nhỏ trống</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>清空小物料</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Empty small items</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.brickInBottom">
+      <tuv xml:lang="vi">
+        <seg>Khối gạch ở nắp dưới. Bạn có chắc chắn muốn để trống không? Cân nhắc chạy chế độ trống trước khi làm trống.</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>底部叶片上留有元件。是否确认要清空？请确认切换到清空模式再清空。</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Element ve spodní klapce. Jste si jisti, že chcete vyprazdnit? Pred vyprázdnenim zvazte spusteni rezimu vyprazdnit.</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tégla az alsó szárnyban. Biztos, hogy ki akarja üríteni? Fontolja meg üres üzemmód futtatását az ürítés előtt.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Brick in bottom flap. Are you sure that you want to empty? Consider to run empty mode before emptying.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Dialog.Start">
+      <tuv xml:lang="vi">
+        <seg>Bắt đầu</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>启动</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Start</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

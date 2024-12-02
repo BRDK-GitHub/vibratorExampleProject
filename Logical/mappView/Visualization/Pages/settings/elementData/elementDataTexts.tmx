@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/settings/elementData</prop>
+  </header>
+  <body>
+    <tu tuid="LocalElementData.ElementNumber">
+      <tuv xml:lang="en">
+        <seg>Element number</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Cislo zbozi</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>元件数量</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Átlag</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Số cấu kiện</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LocalElementData.SelectedBrick">
+      <tuv xml:lang="en">
+        <seg>Selected brick</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vybrany element</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>选定的元件</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Elemszám</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Khối gạch được chọn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LocalElementData.Clear">
+      <tuv xml:lang="en">
+        <seg>Clear</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vycistit</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>清除</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kiválasztott tégla</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Xóa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LocalElementData.Back">
+      <tuv xml:lang="en">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zpet</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>后退</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Törlés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Quay lại</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

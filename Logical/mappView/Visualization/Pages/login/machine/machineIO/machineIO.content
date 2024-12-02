@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="machineIO" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="configuration" top="5" left="5" width="263" height="60" zIndex="0" text="$IAT/Common/Configuration" margin="0px 0px" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Label" id="io" top="5" left="268" width="264" height="60" zIndex="1" text="$IAT/Common/IO" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelMAlarmBeacon" top="180" left="0" width="195" height="60" zIndex="2" multiLine="true" text="$IAT/login/machine/io/AlarmBeacon" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelCFOutputs" top="85" left="5" width="195" height="60" zIndex="3" text="$IAT/Common/Outputs" style="LabelLeft" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelCFProcessVar" top="85" left="200" width="200" height="60" zIndex="4" text="$IAT/Common/ProcessVariable" style="LabelCenter" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelCFForceEnable" top="85" left="400" width="195" height="60" zIndex="5" text="$IAT/Common/ForceEnable" style="LabelCenter" />
+    <Widget xsi:type="widgets.brease.ImageList" id="ImageListAlarmBeacon" top="165" left="200" width="200" height="60" zIndex="6" imageList="['Media/Images/iooff.svg', 'Media/Images/ioon.svg']" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButtonAlarmBeaconForce" top="165" left="448" height="60" zIndex="7" mouseDownText="✓" style="Page" />
+    <Widget xsi:type="widgets.brease.Button" id="testButton" top="5" left="532" width="263" height="60" zIndex="8" text="Test" style="TabButton" />
+  </Widgets>
+</Content>

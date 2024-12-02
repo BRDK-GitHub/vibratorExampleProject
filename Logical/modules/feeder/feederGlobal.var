@@ -1,0 +1,3 @@
+VAR
+	gFeederInterface : gFeederInterface_typ;
+END_VAR

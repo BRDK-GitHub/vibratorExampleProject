@@ -1,0 +1,3 @@
+VAR
+	gWingInterface : gWingInterface_typ;
+END_VAR

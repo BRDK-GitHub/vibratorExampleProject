@@ -1,0 +1,8 @@
+(*Main --> Belt*)
+VAR_CONFIG
+	Cyclic#3.::gMainInterface.status.doCalibrate AT %Q.Cyclic#3.::gBeltInterface.cmd.calibrate; (*Insert your comment here...*)
+END_VAR
+(*Belt --> Main*)
+VAR_CONFIG
+	Cyclic#3.::gBeltInterface.status.calibratingMode AT %Q.Cyclic#3.::gMainInterface.cmd.activateCalibrateMode[0]; (*Insert your comment here...*)
+END_VAR

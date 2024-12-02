@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="dialogStop" height="710" width="600" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="header" top="0" left="0" width="600" height="60" zIndex="0" text="$IAT/Dialog.StopMenu" style="dialog" />
+    <Widget xsi:type="widgets.brease.Button" id="bfempButton" top="220" left="10" width="185" height="130" zIndex="1" imageAlign="top" text="$IAT/Dialog.bfEmpty" imageWidth="140" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Button" id="cfempButton" top="220" left="210" width="180" height="130" zIndex="2" imageAlign="top" text="$IAT/Dialog.cfEmpty" imageWidth="140" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Button" id="EmptyButton" top="220" left="410" width="185" height="130" zIndex="3" imageAlign="top" text="$IAT/Dialog.Empty" imageWidth="140" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="RejectAllToggleButton" top="60" left="100" width="400" height="130" zIndex="4" text="$IAT/Dialog.RejectAll" fontSize="40px" checkedBackColor="rgba(34, 139, 34, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="StartButton" top="380" left="210" width="180" height="130" zIndex="5" imageAlign="right" text="$IAT/Dialog.Start" imageHeight="40" imageWidth="40" backColor="rgba(34, 149, 34, 1)" textColor="rgba(0, 0, 0, 1)" />
+    <Widget xsi:type="widgets.brease.Button" id="cancelButton" top="540" left="230" width="140" height="130" zIndex="6" text="" style="imageRed" />
+  </Widgets>
+</Content>

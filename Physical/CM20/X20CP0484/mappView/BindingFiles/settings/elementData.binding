@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="elementData_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::main:this.hmi.recipeCurrent.itemName" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="elementData" widgetRefId="itemNameTextOutput" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::main:this.hmi.recipeCurrent.itemNumber" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="elementData" widgetRefId="itemNumberTextOutput" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipeCurrent.itemGap" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextCapcon" widgetRefId="ToggleButtonItemGap" attribute="value" />
+		</Binding>
+	
+	
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipeCurrent.useWaitSpeed" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextVibBelt" widgetRefId="toggleButtonUseWaitSpeed" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.recipeCurrent.brickCount" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="elementData" widgetRefId="itemQuantityNumericOutput" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipeCurrent.levelSensor" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextFeeder" widgetRefId="dropDownBoxLevelSensor" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipeCurrent.offTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextFeeder" widgetRefId="numericOutputOffTime" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipeCurrent.onTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextFeeder" widgetRefId="numericOutputOnTime" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipeCurrent.stopDelay" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextFeeder" widgetRefId="numericOutputStopDelay" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::feeder:this.hmi.recipeCurrent.startDelay" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextFeeder" widgetRefId="numericOutputStartDelay" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::EM_vibrat:localVariables[0].hmi.recipeCurrent.countingSpeed" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextVibBelt" widgetRefId="numericOutputCountSpeedCF" attribute="value" />
+		</Binding>
+
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::EM_vibrat:localVariables[0].hmi.recipeCurrent.waitSpeed" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextVibBelt" widgetRefId="numericOutputWaitSpeedCF" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::vibrator:localVariables[1].hmi.recipeCurrent.waitSpeed" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextVibBelt" widgetRefId="numericOutputWaitSpeedLF" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::vibrator:localVariables[1].hmi.recipeCurrent.countingSpeed" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextVibBelt" widgetRefId="numericOutputCountSpeedLF" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipeCurrent.waitSpeed" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextVibBelt" widgetRefId="numericOutputBeltWaitSpeed" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipeCurrent.countingSpeed" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextVibBelt" widgetRefId="numericOutputBeltCountSpeed" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::vibrator:localVariables[1].hmi.recipeCurrent.rampUp" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextRamps" widgetRefId="NumericOutputLfRampUp" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipeCurrent.rampDown" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextRamps" widgetRefId="NumericOutputBeltRampDown" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipeCurrent.rampUp" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="settingsDataNextRamps" widgetRefId="NumericOutputBeltRampUp" attribute="value" />
+		</Binding>
+	
+	
+		
+
+</Bindings>
+</BindingsSet>

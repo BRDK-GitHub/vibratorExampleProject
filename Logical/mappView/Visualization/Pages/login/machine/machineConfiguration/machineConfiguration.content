@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="machineConfiguration" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="configuration" top="5" left="5" width="263" height="60" zIndex="0" text="$IAT/Common/Configuration" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Button" id="io" top="5" left="268" width="264" height="60" zIndex="1" text="$IAT/Common/IO" style="TabButton" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputLogoutTime" top="85" left="595" width="200" height="60" zIndex="2" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" unit="{'metric':'MIN','imperial':'MIN','imperial-us':'MIN'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelLogoutTime" top="98" left="400" width="195" height="42" zIndex="3" text="$IAT/login/machine/configuration/LogoutTime" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleSwitchAutoLogout" top="85" left="200" width="200" height="60" zIndex="4" mouseDownText="✓" style="Page" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="MachineTypeToggleButton" top="175" left="200" width="200" height="60" zIndex="5" mouseDownText="$IAT/login/machine/configuration/Left" text="$IAT/login/machine/configuration/Right" fontSize="20px" style="Page" />
+    <Widget xsi:type="widgets.brease.Button" id="saveConfigToT50Button" top="265" left="200" width="200" height="60" zIndex="6" text="Save" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.ImageList" id="SaveToFT50StatusImgList" top="265" left="420" width="75" height="75" zIndex="7" imageList="['', 'checkIcon.png', 'cancelButton.png']" imagePrefix="Media/Images/" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="leftLabel" top="98" left="5" width="195" height="422" zIndex="8" multiLine="true" text="$IAT/login/machine/configuration/leftLabel" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.Button" id="updateMachineButton" top="355" left="200" width="200" height="60" zIndex="9" text="Update" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.Button" id="updateAllMachinesButton" top="445" left="200" width="200" height="60" zIndex="10" text="Update line" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.Button" id="testButton" top="5" left="532" width="263" height="60" zIndex="11" text="Test" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Button" id="updateEWUButton" top="540" left="200" width="200" height="60" zIndex="13" text="Update eWU" fontSize="24px" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelLogoutTime1" top="540" left="5" width="195" height="60" zIndex="12" text="Update eWU" textAlign="right" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="versionEwuUpdate" top="540" left="420" width="200" height="60" zIndex="14" value="v.x.x.x" textAlign="right" bold="true" visible="false" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelLogoutTime2" top="633" left="5" width="195" height="60" zIndex="15" multiLine="true" text="Hide test HMI" wordWrap="true" textAlign="right" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleSwitchHideExpFeatures" top="634" left="199" width="200" height="60" zIndex="16" mouseDownText="✓" style="Page" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelEnableAutoMode" top="160" left="404" width="195" height="60" zIndex="17" text="Enable Auto Mode" wordWrap="true" textAlign="right" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleSwitchAutoModeEnable" top="160" left="595" width="200" height="60" zIndex="18" mouseDownText="✓" style="Page" />
+  </Widgets>
+</Content>

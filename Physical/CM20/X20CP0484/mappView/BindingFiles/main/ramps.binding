@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ramps_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<!-- MAIN COMMON -->
+		<!-- ITEM QUANTITY -->
+		<Binding mode="twoWay">
+			<Source xsi:type="session" refId="main.itemQuantity" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="itemQuantityNumericInput" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonItemQuantityVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="itemQuantityButton" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputItemQuantityStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="itemQuantityNumericInput" attribute="style" />
+		</Binding>
+		<!-- ITEM NUMBER -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.itemNumber" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="itemNumberTextOutput" attribute="value" />
+		</Binding>
+		<!-- ITEM NAME -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.itemName" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="itemNameTextOutput" attribute="value" />
+		</Binding>
+		<!-- COUNTING SPEED -->		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.countingSpeed" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="CountingSpeedOutput" attribute="value" />
+		</Binding>
+		<!-- COUNTING SPEED UNIT -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.countingSpeedUnit" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="CountingSpeedOutput" attribute="unit" />
+		</Binding>
+		<!-- COUNTING SPEED TEXT -->
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="main.countingSpeedTextSnippet" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="CountingSpeedText" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::vibrator:localVariables[1].hmi.recipe.rampUp" attribute="value" samplingRate="default" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="NumericInputLfRampUp" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipe.rampUp" attribute="value" samplingRate="default" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="NumericInputBeltRampUp" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipe.rampDown" attribute="value" samplingRate="default" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="NumericInputBeltRampDown" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonLfRampUpVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="buttonLfRampUp" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputLfRampUpStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="NumericInputLfRampUp" attribute="style" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonBeltRampUpVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="buttonBeltRampUp" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputBeltRampUpStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="NumericInputBeltRampUp" attribute="style" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonBeltRampDownVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="buttonBeltRampDown" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputBeltRampDownStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="NumericInputBeltRampDown" attribute="style" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.gapVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="itemGapEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.emptyModeVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="emptyModeEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.waitSpeedVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="waitSpeedEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.bypassCassetteVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="bypassCassetteVisibleEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.longFlapsVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ramps" widgetRefId="longFlapsEnabledLabel" attribute="visible" />
+		</Binding>
+	
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::upperFlap:this.hmi.errorRate" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="ramps" widgetRefId="errorRateOutput1" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::wing:this.hmi.config.mediumFlaps" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="ramps" widgetRefId="mediumFlapsEnabledLabel" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>

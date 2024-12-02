@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/login/machine/io</prop>
+  </header>
+  <body>
+    <tu tuid="StopButton">
+      <tuv xml:lang="en">
+        <seg>Stop button</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stop tlacitko</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>停止按钮</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Stop gomb</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Nút dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StartButton">
+      <tuv xml:lang="en">
+        <seg>Start button</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Start tlacitko</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>启动按钮</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Start gomb</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Nút bắt đầu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StopButtonIndicator">
+      <tuv xml:lang="en">
+        <seg>Stop button indicator</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stop tlacitko indikator</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>停止指示灯</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállító gomb jelző</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Chỉ báo nút dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StartButtonIndicator">
+      <tuv xml:lang="en">
+        <seg>Start button indicator</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Start tlacitko indikator</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>启动指示灯</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Indító gomb jelző</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Chỉ báo nút khởi động</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmBeacon">
+      <tuv xml:lang="en">
+        <seg>Alarm beacon</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>报警灯</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Alarm majak</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Riasztó jelzőfény</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đèn hiệu báo động</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

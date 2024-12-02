@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="I/O mapping">IoMap.iom</Object>
+    <Object Type="File">mainFeeder.vvm</Object>
+    <Object Type="File">mainVibr.vvm</Object>
+    <Object Type="File">mainBelt.vvm</Object>
+    <Object Type="File">mainCapcon.vvm</Object>
+    <Object Type="File">vibrBelt.vvm</Object>
+    <Object Type="File">beltCapcon.vvm</Object>
+    <Object Type="File">capconWing.vvm</Object>
+    <Object Type="File">capconCass.vvm</Object>
+    <Object Type="File">beltFeeder.vvm</Object>
+    <Object Type="File">mainToWing.vvm</Object>
+    <Object Type="File">mainToCass.vvm</Object>
+    <Object Type="File">sampWingHw.vvm</Object>
+    <Object Type="File">vibrSinWav.vvm</Object>
+    <Object Type="Package">Connectivity</Object>
+    <Object Type="Package">TextSystem</Object>
+    <Object Type="Package">UnitSystem</Object>
+    <Object Type="Package">AccessAndSecurity</Object>
+    <Object Type="Package">mappControl</Object>
+    <Object Type="Package">mappMotion</Object>
+    <Object Type="Package">mappServices</Object>
+    <Object Type="Package">mappSafety</Object>
+    <Object Type="Package">mappView</Object>
+    <Object Type="Package">mappVision</Object>
+    <Object Type="Package">mappCockpit</Object>
+    <Object Type="Package">Motion</Object>
+    <Object Type="Package">DTM</Object>
+    <Object Type="Package">ExternalHardware</Object>
+  </Objects>
+  <Configuration ModuleId="X20CP0484">
+    <AutomationRuntime Version="H4.93" />
+    <Build GccVersion="4.1.2" PreBuildStep="cscript &quot;$(AS_PROJECT_PATH)\build.vbs&quot; &quot;$(AS_PROJECT_PATH)&quot; &quot;$(AS_PROJECT_NAME)&quot; &quot;$(AS_CONFIGURATION)&quot;" />
+    <DefaultTargetMemory Tasks="UserROM" />
+    <Safety SafetyRelease="0.0" />
+<<<<<<< working copy
+    <Transfer AddToUserPart="False" AdditionalUserDir="" AllowDowngrade="False" AllowInitialTransfer="False" AllowPartitioning="False" ExecuteInitExitProgram="False" ForceInitialTransfer="False" IdentificationTypeValue="" IgnoreVersion="True" KeepNonVolatileMemory="False" PreserveVariableValues="True" ProjectConsistent="False" RebootDuringTransfer="False" SavedOfflineInstallationFolder="" SavedPipDestinationFolder="C:\projects\LEGO\updates\cm20-2.0.3-forceInit" SavedRuntimeUtilityCenterPackagePath="" TargetIdentificationType="Always" TryToBootInRunMode="False" UserFilesIgnoreDifference="True" />
+=======
+    <Transfer AddToUserPart="False" AdditionalUserDir="" AllowDowngrade="False" AllowInitialTransfer="False" AllowPartitioning="False" ExecuteInitExitProgram="False" ForceInitialTransfer="False" IdentificationTypeValue="" IgnoreVersion="True" KeepNonVolatileMemory="False" PreserveVariableValues="False" ProjectConsistent="False" RebootDuringTransfer="True" SavedOfflineInstallationFolder="" SavedPipDestinationFolder="C:\projects\LEGO\updates\cm20-2.0.6forceInitial" SavedRuntimeUtilityCenterPackagePath="" TargetIdentificationType="Always" TryToBootInRunMode="False" UserFilesIgnoreDifference="True" />
+>>>>>>> merge rev
+    <Vc FirmwareVersion="" />
+  </Configuration>
+</Cpu>

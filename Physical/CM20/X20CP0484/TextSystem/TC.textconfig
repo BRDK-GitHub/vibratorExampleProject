@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="TextConfig" Type="TextConfig">
+    <Group ID="Languages">
+      <Property ID="UserDefaultLanguage" Value="en" />
+      <Property ID="UserFallbackLanguage" Value="en" />
+      <Group ID="TargetLanguages">
+        <Property ID="TargetLanguage[1]" Value="en" />
+        <Property ID="TargetLanguage[2]" Value="es-MX" />
+        <Property ID="TargetLanguage[3]" Value="cs" />
+        <Property ID="TargetLanguage[4]" Value="da" />
+        <Property ID="TargetLanguage[5]" Value="hu" />
+        <Property ID="TargetLanguage[6]" Value="zh" />
+        <Property ID="TargetLanguage[7]" Value="pl" />
+        <Property ID="TargetLanguage[8]" Value="vi" />
+      </Group>
+    </Group>
+    <Group ID="TargetFiles">
+      <Property ID="TargetFile[1]" Value="services.recipe.recipeMappAlarms.tmx" />
+      <Property ID="TargetFile[2]" Value="services.recipe.recipeUserAlarms.tmx" />
+      <Property ID="TargetFile[3]" Value="services.config.configMappAlarms.tmx" />
+      <Property ID="TargetFile[4]" Value="services.config.configUserAlarms.tmx" />
+      <Property ID="TargetFile[5]" Value="modules.main.capcon.capconAlarms.tmx" />
+      <Property ID="TargetFile[6]" Value="modules.main.belt.beltAlarms.tmx" />
+      <Property ID="TargetFile[7]" Value="modules.main.mainAlarms.tmx" />
+      <Property ID="TargetFile[8]" Value="modules.main.vibrator.vibratorAlarms.tmx" />
+      <Property ID="TargetFile[9]" Value="mappView.Visualization.Pages.settings.packml.packmlTexts.tmx" />
+      <Property ID="TargetFile[10]" Value="mappView.Visualization.Dialogs.DialogTexts.tmx" />
+      <Property ID="TargetFile[11]" Value="modules.feeder.feederAlarms.tmx" />
+      <Property ID="TargetFile[12]" Value="modules.main.wing.wingAlarms.tmx" />
+      <Property ID="TargetFile[13]" Value="mappView.Resources.Texts.UnitTexts.tmx" />
+      <Property ID="TargetFile[14]" Value="modules.main.wing.cassette.cassetteAlarms.tmx" />
+      <Property ID="TargetFile[15]" Value="modules.main.wing.upperFlap.upperFlapAlarms.tmx" />
+      <Property ID="TargetFile[16]" Value="modules.main.wing.middleFlap.middleFlapAlarms.tmx" />
+      <Property ID="TargetFile[17]" Value="modules.main.wing.bottomFlap.bottomFlapAlarms.tmx" />
+      <Property ID="TargetFile[18]" Value="mappView.Visualization.Pages.login.beltFeeder.beltFeederIO.beltFeederIOTexts.tmx" />
+      <Property ID="TargetFile[19]" Value="mappView.Visualization.Pages.login.capconTeach.capconStatistics.capconStatisticsTexts.tmx" />
+      <Property ID="TargetFile[20]" Value="mappView.Visualization.Pages.login.capconTeach.common.capconTexts.tmx" />
+      <Property ID="TargetFile[21]" Value="mappView.Visualization.Pages.main.common.mainTexts.tmx" />
+      <Property ID="TargetFile[22]" Value="mappView.Visualization.Pages.main.feeder.feederTexts.tmx" />
+      <Property ID="TargetFile[23]" Value="mappView.Visualization.Pages.main.vibrator.vibratorTexts.tmx" />
+      <Property ID="TargetFile[24]" Value="mappView.Visualization.Pages.main.ramps.rampsTexts.tmx" />
+      <Property ID="TargetFile[25]" Value="mappView.Visualization.Pages.main.capcon.capconTexts.tmx" />
+      <Property ID="TargetFile[26]" Value="mappView.Visualization.Pages.settings.elementData.elementDataTexts.tmx" />
+      <Property ID="TargetFile[27]" Value="mappView.Visualization.Pages.login.machine.machineConfiguration.machineConfigurationTexts.tmx" />
+      <Property ID="TargetFile[28]" Value="mappView.Visualization.Pages.login.wing.wingConfiguration.wingConfigurationTexts.tmx" />
+      <Property ID="TargetFile[29]" Value="mappView.Visualization.Pages.login.circularFeeder.circularFeederConfiguration.circularFeederConfigurationTexts.tmx" />
+      <Property ID="TargetFile[30]" Value="mappView.Visualization.Pages.login.capcon.capconConfiguration.capconConfigurationTexts.tmx" />
+      <Property ID="TargetFile[31]" Value="mappView.Visualization.Pages.settings.common.settingsTexts.tmx" />
+      <Property ID="TargetFile[32]" Value="mappView.Widgets.keyboards.Resources.Texts.numpadTexts.tmx" />
+      <Property ID="TargetFile[33]" Value="mappView.Visualization.Pages.CommonContent.Modules.tmx" />
+      <Property ID="TargetFile[34]" Value="mappView.Resources.Texts.PackML.tmx" />
+      <Property ID="TargetFile[35]" Value="mappView.Visualization.Pages.main.feeder.feederStatus.tmx" />
+      <Property ID="TargetFile[36]" Value="mappView.Visualization.Pages.main.capcon.capconMode.tmx" />
+      <Property ID="TargetFile[37]" Value="mappView.Visualization.Pages.CommonContent.Common.tmx" />
+      <Property ID="TargetFile[38]" Value="mappView.Visualization.Pages.CommonContent.Pages.tmx" />
+      <Property ID="TargetFile[39]" Value="mappView.Visualization.Pages.CommonContent.Modes.tmx" />
+      <Property ID="TargetFile[40]" Value="mappView.Visualization.Pages.info.common.infoTexts.tmx" />
+      <Property ID="TargetFile[41]" Value="mappView.Visualization.Pages.info.information.informationTexts.tmx" />
+      <Property ID="TargetFile[42]" Value="mappView.Visualization.Pages.info.statistics.statisticsTexts.tmx" />
+      <Property ID="TargetFile[43]" Value="mappView.Visualization.Pages.login.wing.wingIO.wingIOTexts.tmx" />
+      <Property ID="TargetFile[44]" Value="mappView.Visualization.Pages.login.machine.machineIO.machineIOTexts.tmx" />
+      <Property ID="TargetFile[45]" Value="mappView.Visualization.Pages.login.capcon.capconIO.capconIOTexts.tmx" />
+      <Property ID="TargetFile[46]" Value="mappView.Visualization.Pages.CommonContent.ModuleStates.tmx" />
+      <Property ID="TargetFile[47]" Value="mappView.Visualization.Pages.info.information.informationCassetteStatus.tmx" />
+      <Property ID="TargetFile[48]" Value="mappView.Visualization.Pages.info.information.informationBeltStatus.tmx" />
+      <Property ID="TargetFile[49]" Value="mappView.Visualization.Pages.login.network.networkTexts.tmx" />
+      <Property ID="TargetFile[50]" Value="mappView.Visualization.Pages.info.information.infomationErrorTexts.tmx" />
+      <Property ID="TargetFile[51]" Value="mappView.Visualization.Pages.login.wing.wingReadout.wingReadoutTexts.tmx" />
+      <Property ID="TargetFile[52]" Value="mappView.Visualization.Pages.login.belt.beltConfiguration.beltConfigurationTexts.tmx" />
+      <Property ID="TargetFile[53]" Value="mappView.Visualization.Pages.login.belt.beltIO.beltIOTexts.tmx" />
+      <Property ID="TargetFile[54]" Value="services.data.dataAlarms.tmx" />
+      <Property ID="TargetFile[55]" Value="mappView.Visualization.Pages.login.wing.wingRecipe.wingRecipeTexts.tmx" />
+      <Property ID="TargetFile[56]" Value="mappView.Visualization.Pages.login.cassette.cassetteConfiguration.cassetteConfigurationTexts.tmx" />
+      <Property ID="TargetFile[57]" Value="mappView.Visualization.Pages.login.capcon.capconRecipe.capconRecipeTexts.tmx" />
+      <Property ID="TargetFile[58]" Value="mappView.Visualization.Pages.settings.templateData.templateDataTexts.tmx" />
+      <Property ID="TargetFile[59]" Value="mappView.Visualization.Dialogs.dialogClose.dialogCloseStates.tmx" />
+      <Property ID="TargetFile[60]" Value="mappView.Visualization.Dialogs.dialogConfirmCancel.dialogConfirmCancelStates.tmx" />
+      <Property ID="TargetFile[61]" Value="mappView.Visualization.Pages.CommonContent.Images.tmx" />
+      <Property ID="TargetFile[62]" Value="mappView.Visualization.Dialogs.dialogClose.dialogClose.tmx" />
+      <Property ID="TargetFile[63]" Value="mappView.Visualization.Pages.login.circularFeeder.calibrationStatusSnippetCF.tmx" />
+      <Property ID="TargetFile[64]" Value="mappView.Visualization.Pages.login.circularFeeder.calibrationStatusSnippetLF.tmx" />
+    </Group>
+  </Element>
+</Configuration>

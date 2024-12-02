@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="wingReadout_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		
+		
+		
+		
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::upperFlap:this.flapTest.openTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::upperFlap:this.flapTest.closingTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal1" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::middleFlap:this.flapTest.openTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal4" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::middleFlap:this.flapTest.closingTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal5" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.flapTest.openTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal2" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.flapTest.closingTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal3" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.flapTest.neighbourOpenTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal6" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.flapTest.neighbourClosingTime" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="NumericOutputSignal7" attribute="value" />
+		</Binding>
+	<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::wing:this.test.runUpperFlapContinuously" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="ToggleButtonUpperFlapTest" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::wing:this.test.runMiddleFlapContinuously" attribute="value" />
+<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="ToggleButtonMiddleFlapTest" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::wing:this.test.runBottomFlapContinuously" attribute="value" />
+<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="ToggleButtonBottomFlapTest" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::wing:this.test.startTestSequence" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="wingReadout" widgetRefId="ToggleButtonUpperFlapTest1" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

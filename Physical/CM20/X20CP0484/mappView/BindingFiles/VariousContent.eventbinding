@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="VariousContentEventBinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+
+		<EventBinding>
+			<Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gBeltInterface.status.teachingDone" event="ValueChanged" />
+			<EventHandler condition="newValue AND NOT oldValue">
+				<Action>
+					<Target xsi:type="session.VariableAction" refId="State" >
+						<Method xsi:type="session.VariableAction.SetValueNumber" value="10" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+
+		<EventBinding id="RunningContent.StateChange">
+			<Source xsi:type="session.Event" refId="common.machineState" event="ValueChanged" />
+            <Operand name="mode" datatype="ANY_INT">
+				<ReadTarget xsi:type="session.VariableAction.Read" refId="common.machineMode" >
+					<Method xsi:type="session.VariableAction.GetValue" />
+				</ReadTarget>
+			</Operand>
+			<EventHandler condition="newValue = 17 AND mode = 22">
+				<Action>
+					<Target xsi:type="session.VariableAction" refId="State" >
+						<Method xsi:type="session.VariableAction.SetValueNumber" value="22" />
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="newValue = 17 AND mode = 25">
+				<Action>
+					<Target xsi:type="session.VariableAction" refId="State" >
+						<Method xsi:type="session.VariableAction.SetValueNumber" value="8" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+
+		
+	</Bindings>
+</EventBindingSet>

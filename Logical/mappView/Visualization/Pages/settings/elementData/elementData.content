@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="elementData" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="templateData" top="5" left="7" width="263" height="60" zIndex="0" text="$IAT/settings/TemplateData" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Button" id="packml" top="5" left="268" width="264" height="60" zIndex="1" text="$IAT/settings/PackML" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Label" id="elementData" top="5" left="532" width="263" height="60" zIndex="2" text="$IAT/settings/ItemData" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Label" id="itemNameLabel" top="70" left="5" width="135" height="60" zIndex="3" text="$IAT/Common/ItemName" />
+    <Widget xsi:type="widgets.brease.Label" id="itemNumberLabel" top="125" left="5" width="135" height="60" zIndex="4" text="$IAT/Common/ItemNumber" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="itemNameTextOutput" top="70" left="140" width="327" height="50" zIndex="5" value="n/a" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.TextOutput" id="itemNumberTextOutput" top="125" left="140" width="327" height="50" zIndex="6" value="n/a" fontSize="20px" />
+    <Widget xsi:type="widgets.brease.Button" id="feederButton" top="205" left="7" width="197" height="60" zIndex="7" text="$IAT/Common/Modules/Feeder" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Button" id="vibratorButton" top="205" left="204" width="197" height="60" zIndex="8" text="$IAT/main/VibratorBelt" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Button" id="rampsButton" top="205" left="401" width="197" height="60" zIndex="9" text="$IAT/main/Ramps" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Button" id="capconButton" top="205" left="598" width="196" height="60" zIndex="10" text="$IAT/Common/Modules/Capcon" style="TabButton" />
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBoxContent" top="265" left="0" width="800" height="522" zIndex="11">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.ContentControl" id="ContentControlNextRecipe" top="0" left="0" zIndex="0" contentId="settingsDataNextFeeder" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Label" id="itemQuantityLabel" top="125" left="470" width="164" height="60" zIndex="12" text="$IAT/Common/ItemQuantity" />
+    <Widget xsi:type="widgets.brease.NumericOutput" id="itemQuantityNumericOutput" top="125" left="630" width="164" height="50" zIndex="13" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" />
+  </Widgets>
+</Content>

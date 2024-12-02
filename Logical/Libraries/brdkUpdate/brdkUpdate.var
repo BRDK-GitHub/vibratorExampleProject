@@ -1,0 +1,13 @@
+VAR CONSTANT
+	BRDK_UPDATE_USER_FILE_DEVICE : STRING[80] := 'BRDK_UPDATE_USER'; (*USER partition file device name.*)
+	BRDK_UPDATE_USB_FILE_DEVICE : STRING[80] := 'BRDK_UPDATE_USB'; (*USB file device name.*)
+	BRDK_UPDATE_USER_PATH : STRING[80] := 'F:\'; (*Path for USER partition.*)
+	BRDK_UPDATE_DEFAULT_FILE_NAME : STRING[80] := 'arnbcfg.xml'; (*Default file name for update xml file.*)
+	BRDK_UPDATE_AR_TRANSFER_PATH : STRING[80] := '\artransfer.br'; (*Default path from update folder to 'artransfer.br' file.*)
+	BRDK_UPDATE_MAX_VERSION_NUM_LEN : USINT := 10; (*Max length of each verion number string.*)
+	BRDK_UPDATE_PIP_FILE_ERROR : DINT := -535835272; (*Wrong format in arnbcfg.xml file.*)
+	BRDK_UPDATE_POINTER_ERROR : DINT := -535835273; (*Pointer error.*)
+	BRDK_UPDATE_FORMAT_ERROR : DINT := -535835274; (*Format error.*)
+	BRDK_UPDATE_MAX_FTP_CLIENTS : USINT := 2; (*Max. number of FTP clients in the list.*)
+	BRDK_UPDATE_FTP_DEVICE_NAME : STRING[80] := 'BRDK_UPDATE_FTP'; (*FTP device name.*)
+END_VAR

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/login/cassette</prop>
+  </header>
+  <body>
+    <tu tuid="cassetteReady">
+      <tuv xml:lang="zh">
+        <seg>盛料盒就绪</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cassette ready</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Kazeta pripravena</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kazetta készen áll</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Băng cassette đã sẵn sàng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="cassetteQueue">
+      <tuv xml:lang="zh">
+        <seg>盛料盒前方排队</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cassette queue</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Kazeta fronta</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kazetta sorban áll</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hàng chờ băng cassette</seg>
+      </tuv>
+    </tu>
+    <tu tuid="neighbourBricksInCassette">
+      <tuv xml:lang="zh">
+        <seg>相邻点数机已投料</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Neighbour bricks in cassette</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Soused-elem. v kazete</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szomszéd téglák a kazettában</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Khối gạch bên cạnh trong băng cassette</seg>
+      </tuv>
+    </tu>
+    <tu tuid="neighbourActive">
+      <tuv xml:lang="zh">
+        <seg>相邻点数机已就绪</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Neighbour active</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Soused aktivni</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szomszéd aktív</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Khối bên cạnh đang hoạt động</seg>
+      </tuv>
+    </tu>
+    <tu tuid="neighbourDosing">
+      <tuv xml:lang="zh">
+        <seg>相邻点数机正在投料</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Neighbour dosing</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg> </seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lượng khối bên cạnh</seg>
+      </tuv>
+    </tu>
+    <tu tuid="cassetteRelease">
+      <tuv xml:lang="zh">
+        <seg>盛料盒释放</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Cassette release</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Uvolneni kazety</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kazetta kiadás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Nhả băng cassette</seg>
+      </tuv>
+    </tu>
+    <tu tuid="bricksReadyInCassette">
+      <tuv xml:lang="zh">
+        <seg>已投料</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bricks ready in cassette</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Elem.pripr.v kazete</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Téglák készen a kazettában</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Khối gạch đã sẵn sàng trong băng cassette</seg>
+      </tuv>
+    </tu>
+    <tu tuid="dosing">
+      <tuv xml:lang="zh">
+        <seg>正在投料</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dosing</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lượng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="dosingLineCmd">
+      <tuv xml:lang="zh">
+        <seg>正在投料</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dosing line command</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lệnh dòng định lượng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="cassetteStartDelay">
+      <tuv xml:lang="en">
+        <seg>Cassette start delay</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zpozdení start kazety</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>盛料盒启动延迟</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kazetta indítási késleltetés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Độ trễ khởi động băng cassette</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

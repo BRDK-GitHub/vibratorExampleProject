@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="settingsButtonsRight_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<!-- REBOOT BUTTON -->
+		<EventBinding id="settingsButtonsRight.RebootButton.Click">
+	      <Source xsi:type="widgets.brease.Button.Event" contentRefId="settingsButtonsRight" widgetRefId="RebootButton" event="Click" />
+	      <EventHandler>
+		  	<Sequence>
+				<Step order="0">
+			        <Action>
+			          <Target xsi:type="session.VariableAction" refId="dialog.confirmCancelState">
+			            <Method xsi:type="session.VariableAction.SetValueNumber" value="10" />
+			          </Target>
+			        </Action>
+				</Step>
+				<Step order="1">
+					<Action>
+						<Target xsi:type="clientSystem.Action">
+							<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogConfirmCancel" mode="modal" />
+						</Target>
+					</Action>
+				</Step>
+			</Sequence>	
+	      </EventHandler>
+	    </EventBinding>
+		<!-- LOGIN BUTTON -->
+		<EventBinding id="settingsButtonsRight.LoginButton.MouseDown">
+			<Source contentRefId="settingsButtonsRight" widgetRefId="LoginButton" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Parallel>
+					<Action>
+						<Target xsi:type="clientSystem.Action">
+							<Method xsi:type="clientSystem.Action.Navigate" pageId="login" />
+						</Target>
+					</Action>
+					<Action>
+							<Target xsi:type="session.VariableAction" refId="commonMain.pageName" >
+								<Method xsi:type="session.VariableAction.SetValueNumber" value="39" />
+							</Target>
+						</Action>
+				</Parallel>
+			</EventHandler>
+		</EventBinding>
+	</Bindings>
+</EventBindingSet>

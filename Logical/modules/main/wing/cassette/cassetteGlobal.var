@@ -1,0 +1,3 @@
+VAR
+	gCassetteInterface : gCassetteInterface_typ;
+END_VAR

@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="mpAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+      <Group ID="BySeverity">
+        <Group ID="[0]">
+          <Property ID="Severity" Value="1" Description="severity 1 abort Main" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="abortMain" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlash" />
+          </Selector>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Severity" Value="10" Description="Severity 10 is abort  Feeder" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlash" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="abortFeeder" />
+          </Selector>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Severity" Value="20" Description="Severity 20 is abort CF" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="abortMain" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlash" />
+          </Selector>
+          <Selector ID="[2]" Value="Reaction">
+            <Property ID="Name" Value="abortCircularFeeder" />
+          </Selector>
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Severity" Value="30" Description="Severity 30 is abort LF" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="abortMain" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlash" />
+          </Selector>
+          <Selector ID="[2]" Value="Reaction">
+            <Property ID="Name" Value="abortLinearFeeder" />
+          </Selector>
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Severity" Value="40" Description="Severity 40 is abort Belt" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="abortMain" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlash" />
+          </Selector>
+          <Selector ID="[2]" Value="Reaction">
+            <Property ID="Name" Value="abortBelt" />
+          </Selector>
+        </Group>
+        <Group ID="[5]">
+          <Property ID="Severity" Value="50" Description="Severity 50 is abort Capcon" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="abortMain" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlash" />
+          </Selector>
+          <Selector ID="[2]" Value="Reaction">
+            <Property ID="Name" Value="abortCapcon" />
+          </Selector>
+        </Group>
+        <Group ID="[6]">
+          <Property ID="Severity" Value="60" Description="Severity 60 is abort Wing" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="abortWing" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlash" />
+          </Selector>
+          <Selector ID="[2]" Value="Reaction">
+            <Property ID="Name" Value="abortMain" />
+          </Selector>
+        </Group>
+        <Group ID="[7]">
+          <Property ID="Severity" Value="70" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="abortMain" />
+          </Selector>
+          <Selector ID="[1]" Value="Reaction">
+            <Property ID="Name" Value="abortFeeder" />
+          </Selector>
+        </Group>
+        <Group ID="[8]">
+          <Property ID="Severity" Value="1000" Description="Severity 1000 is a warning - will show constant light on alarm beacon" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconOn" />
+          </Selector>
+        </Group>
+        <Group ID="[9]">
+          <Property ID="Severity" Value="1001" Description="Severity 1001 is a warning - will blink the alarm beacon slow." />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="alarmBeaconFlashSlow" />
+          </Selector>
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="KA10ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA10ModuleError}" />
+        <Property ID="Code" Value="100" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="KA11ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA11ModuleError}" />
+        <Property ID="Code" Value="101" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="KA12ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA12ModuleError}" />
+        <Property ID="Code" Value="102" />
+      </Group>
+      <Group ID="[3]">
+        <Property ID="Name" Value="KA13ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA13ModuleError}" />
+        <Property ID="Code" Value="103" />
+      </Group>
+      <Group ID="[4]">
+        <Property ID="Name" Value="KA14ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA14ModuleError}" />
+        <Property ID="Code" Value="104" />
+      </Group>
+      <Group ID="[5]">
+        <Property ID="Name" Value="KA15ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA15ModuleError" />
+        <Property ID="Code" Value="105" />
+      </Group>
+      <Group ID="[6]">
+        <Property ID="Name" Value="KA16ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA16ModuleError}" />
+        <Property ID="Code" Value="106" />
+      </Group>
+      <Group ID="[7]">
+        <Property ID="Name" Value="KA17ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA17ModuleError}" />
+        <Property ID="Code" Value="107" />
+      </Group>
+      <Group ID="[8]">
+        <Property ID="Name" Value="KA18ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA18ModuleError}" />
+        <Property ID="Code" Value="108" />
+      </Group>
+      <Group ID="[9]">
+        <Property ID="Name" Value="KA19ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA19ModuleError}" />
+        <Property ID="Code" Value="109" />
+      </Group>
+      <Group ID="[10]">
+        <Property ID="Name" Value="KA20ModuleError" />
+        <Property ID="Message" Value="{$MainAlarms/KA20ModuleErrorr}" />
+        <Property ID="Code" Value="110" />
+      </Group>
+      <Group ID="[11]">
+        <Property ID="Name" Value="feederLowLevel" />
+        <Property ID="Message" Value="{$FeederAlarms/lowLevel}" />
+        <Property ID="Code" Value="200" />
+        <Property ID="Severity" Value="1000" />
+      </Group>
+      <Group ID="[12]">
+        <Property ID="Name" Value="feederBoxMissing" />
+        <Property ID="Message" Value="{$FeederAlarms/boxMissing}" />
+        <Property ID="Code" Value="201" />
+        <Property ID="Severity" Value="1000" />
+      </Group>
+      <Group ID="[13]">
+        <Property ID="Name" Value="feederCannotCloseFlap" />
+        <Property ID="Message" Value="{$FeederAlarms/cannotCloseFlap}" />
+        <Property ID="Code" Value="202" />
+        <Property ID="Severity" Value="10" />
+      </Group>
+      <Group ID="[14]">
+        <Property ID="Name" Value="feederCannotOpenFlap" />
+        <Property ID="Message" Value="{$FeederAlarms/cannotOpenFlap}" />
+        <Property ID="Code" Value="203" />
+        <Property ID="Severity" Value="70" Description="abort both main and feeder" />
+      </Group>
+      <Group ID="[15]">
+        <Property ID="Name" Value="circularFeederAxisFault" />
+        <Property ID="Message" Value="{&amp;circularFeederFaultText}" />
+        <Property ID="Code" Value="300" />
+        <Property ID="Severity" Value="20" />
+      </Group>
+      <Group ID="[16]">
+        <Property ID="Name" Value="linearFeederAxisFault" />
+        <Property ID="Message" Value="{&amp;linearFeederFaultText}" />
+        <Property ID="Code" Value="400" />
+        <Property ID="Severity" Value="30" />
+      </Group>
+      <Group ID="[17]">
+        <Property ID="Name" Value="beltMissingElements" />
+        <Property ID="Message" Value="{$BeltAlarms/missingElements}" />
+        <Property ID="Code" Value="506" />
+        <Property ID="Severity" Value="1001" />
+      </Group>
+      <Group ID="[18]">
+        <Property ID="Name" Value="beltAxisError" />
+        <Property ID="Message" Value="{$BeltAlarms/axisError}" />
+        <Property ID="Code" Value="507" />
+        <Property ID="Severity" Value="40" />
+      </Group>
+      <Group ID="[19]">
+        <Property ID="Name" Value="beltBlocked" />
+        <Property ID="Message" Value="{$BeltAlarms/beltBlocked}" />
+        <Property ID="Code" Value="508" />
+        <Property ID="Severity" Value="40" />
+      </Group>
+      <Group ID="[20]">
+        <Property ID="Name" Value="capconTeachingError" />
+        <Property ID="Message" Value="{$CapconAlarms/teachingError}" />
+        <Property ID="Code" Value="600" />
+        <Property ID="Severity" Value="50" />
+      </Group>
+      <Group ID="[21]">
+        <Property ID="Name" Value="capconOffsetError" />
+        <Property ID="Message" Value="{$CapconAlarms/offsetError}" />
+        <Property ID="Code" Value="601" />
+        <Property ID="Severity" Value="50" />
+      </Group>
+      <Group ID="[22]">
+        <Property ID="Name" Value="capconNoise" />
+        <Property ID="Message" Value="{$CapconAlarms/noise}" />
+        <Property ID="Code" Value="602" />
+        <Property ID="Severity" Value="50" />
+      </Group>
+      <Group ID="[23]">
+        <Property ID="Name" Value="upperFlapOpenTooLong" />
+        <Property ID="Message" Value="{$UpperFlapAlarms/upperFlapOpenTooLong}" />
+        <Property ID="Code" Value="700" />
+      </Group>
+      <Group ID="[24]">
+        <Property ID="Name" Value="upperFlapCloseTooLong" />
+        <Property ID="Message" Value="{$UpperFlapAlarms/upperFlapCloseTooLong}" />
+        <Property ID="Code" Value="701" />
+      </Group>
+      <Group ID="[25]">
+        <Property ID="Name" Value="middleFlapOpenTooLong" />
+        <Property ID="Message" Value="{$MiddleFlapAlarms/middleFlapOpenTooLong}" />
+        <Property ID="Code" Value="800" />
+      </Group>
+      <Group ID="[26]">
+        <Property ID="Name" Value="middleFlapCloseTooLong" />
+        <Property ID="Message" Value="{$MiddleFlapAlarms/middleFlapCloseTooLong}" />
+        <Property ID="Code" Value="801" />
+      </Group>
+      <Group ID="[27]">
+        <Property ID="Name" Value="bottomFlapOpenTooLong" />
+        <Property ID="Message" Value="{$BottomFlapAlarms/bottomFlapOpenTooLong}" />
+        <Property ID="Code" Value="900" />
+      </Group>
+      <Group ID="[28]">
+        <Property ID="Name" Value="bottomFlapCloseTooLong" />
+        <Property ID="Message" Value="{$BottomFlapAlarms/bottomFlapCloseTooLong}" />
+        <Property ID="Code" Value="901" />
+      </Group>
+      <Group ID="[29]">
+        <Property ID="Name" Value="neighbourBottomFlapOpenTooLong" />
+        <Property ID="Message" Value="{$BottomFlapAlarms/bottomNeighbourOpenTooLong}" />
+        <Property ID="Code" Value="902" />
+      </Group>
+      <Group ID="[30]">
+        <Property ID="Name" Value="neighbourBottomFlapCloseTooLong" />
+        <Property ID="Message" Value="{$BottomFlapAlarms/bottomNeighbourCloseTooLong}" />
+        <Property ID="Code" Value="903" />
+      </Group>
+      <Group ID="[31]">
+        <Property ID="Name" Value="neighbourNotActive" />
+        <Property ID="Message" Value="{$BottomFlapAlarms/neighbourNotActive}" />
+        <Property ID="Code" Value="904" />
+      </Group>
+      <Group ID="[32]">
+        <Property ID="Name" Value="offsetErrorCurrent" />
+        <Property ID="Code" Value="37" />
+      </Group>
+      <Group ID="[33]">
+        <Property ID="Name" Value="offsetErrorVoltage" />
+        <Property ID="Code" Value="38" />
+      </Group>
+      <Group ID="[34]">
+        <Property ID="Name" Value="CMerrorHigh" />
+        <Property ID="Code" Value="39" />
+      </Group>
+      <Group ID="[35]">
+        <Property ID="Name" Value="modulationOffset" />
+        <Property ID="Code" Value="41" />
+      </Group>
+      <Group ID="[36]">
+        <Property ID="Name" Value="phaseRegulation" />
+        <Property ID="Code" Value="42" />
+      </Group>
+      <Group ID="[37]">
+        <Property ID="Name" Value="noCoreSaturation" />
+        <Property ID="Code" Value="43" />
+      </Group>
+      <Group ID="[38]">
+        <Property ID="Name" Value="brakeError" />
+        <Property ID="Code" Value="44" />
+      </Group>
+      <Group ID="[39]">
+        <Property ID="Name" Value="powerCircuitError" />
+        <Property ID="Code" Value="45" />
+      </Group>
+      <Group ID="[40]">
+        <Property ID="Name" Value="capconSpeedNoise" />
+        <Property ID="Message" Value="{$CapconAlarms/MaxSpeed}" />
+        <Property ID="Code" Value="603" />
+        <Property ID="Severity" Value="50" />
+      </Group>
+      <Group ID="[41]">
+        <Property ID="Name" Value="notEnoughFreeMem" />
+        <Property ID="Message" Value="{$dataAlarms/notEnoughFreeMem}" />
+        <Property ID="Code" Value="604" />
+        <Property ID="Severity" Value="1000" />
+      </Group>
+      <Group ID="[42]">
+        <Property ID="Name" Value="cantEmptyNeedCassette" />
+        <Property ID="Message" Value="{$MainAlarms/cantEmptyNeedCassette}" />
+        <Property ID="Code" Value="605" />
+        <Property ID="Severity" Value="1000" />
+      </Group>
+      <Group ID="[43]">
+        <Property ID="Name" Value="opcuaMethodError" />
+        <Property ID="Message" Value="{$MainAlarms/opcuaMethodError}" />
+        <Property ID="Code" Value="606" />
+        <Property ID="Severity" Value="1000" />
+      </Group>
+      <Group ID="[44]">
+        <Property ID="Name" Value="stepperWUError" />
+        <Property ID="Message" Value="{$WingAlarms/StepperWUError}" />
+        <Property ID="Code" Value="607" />
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Snippets">
+      <Group ID="[0]">
+        <Property ID="Key" Value="linearFeederFaultText" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::vibrator:local_no_opcua[1].axisAlarmText" />
+        </Selector>
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Key" Value="circularFeederFaultText" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::vibrator:local_no_opcua[0].axisAlarmText" />
+        </Selector>
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Key" Value="beltAxisFaultText" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::belt:this.axisAlarmText" />
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

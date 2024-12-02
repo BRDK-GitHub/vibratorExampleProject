@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="templateData_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<!-- PACKML PAGE BUTTON -->
+		<EventBinding id="templateData.packml.MouseDown">
+			<Source contentRefId="templateData" widgetRefId="packml" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="packml" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- ELEMENT DATA PAGE BUTTON -->
+		<EventBinding id="templateData.elementData.MouseDown">
+			<Source contentRefId="templateData" widgetRefId="elementData" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="elementData" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+	
+		
+
+
+
+		
+		<!-- save button -->
+		<EventBinding id="templateData.save.MouseDown">
+			<Source contentRefId="templateData" widgetRefId="save" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::updateCM:this.hmi.automatic.save" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>	
+		
+		<!-- load button -->
+		<EventBinding id="templateData.load.MouseDown">
+			<Source contentRefId="templateData" widgetRefId="load" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::updateCM:this.hmi.automatic.load" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="true" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		
+		<!-- recipe already exists. Confirm overwrite -->
+		<EventBinding>
+			<Source xsi:type="opcUa.Event" refId="::updateCM:this.hmi.automatic.alreadyExists" event="ValueChanged" />
+			<EventHandler condition="newValue">
+				<Sequence>
+				<Step order="0">
+			        <Action>
+			          <Target xsi:type="session.VariableAction" refId="dialog.confirmCancelState">
+			            <Method xsi:type="session.VariableAction.SetValueNumber" value="70" />
+			          </Target>
+			        </Action>
+				</Step>
+				<Step order="1">
+					<Action>
+						<Target xsi:type="clientSystem.Action">
+							<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogConfirmCancel" mode="modal" />
+						</Target>
+					</Action>
+				</Step>
+			</Sequence>	
+			</EventHandler>
+		</EventBinding>
+		
+		<!-- Confirm save of recipe -->
+		<EventBinding>
+			<Source xsi:type="opcUa.Event" refId="::updateCM:this.hmi.automatic.confirmSave" event="ValueChanged" />
+			<EventHandler condition="newValue">
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="dialog.closeState">
+								<Method xsi:type="session.VariableAction.SetValueNumber" value="70" />
+							</Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="clientSystem.Action">
+								<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogClose" mode="modal" />
+							</Target>
+						</Action>
+					</Step>
+				</Sequence>	
+			</EventHandler>
+		</EventBinding>
+		
+		<!-- Confirm load of recipe -->
+		<EventBinding>
+			<Source xsi:type="opcUa.Event" refId="::updateCM:this.hmi.automatic.confirmLoad" event="ValueChanged" />
+			<EventHandler condition="newValue">
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="dialog.closeState">
+								<Method xsi:type="session.VariableAction.SetValueNumber" value="80" />
+							</Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="clientSystem.Action">
+								<Method xsi:type="clientSystem.Action.OpenDialog" dialogId="dialogClose" mode="modal" />
+							</Target>
+						</Action>
+					</Step>
+				</Sequence>	
+			</EventHandler>
+		</EventBinding>
+		
+	
+	
+	</Bindings>
+</EventBindingSet>

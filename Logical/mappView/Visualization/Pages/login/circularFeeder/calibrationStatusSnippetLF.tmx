@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/calibrationStatusSnippetLF</prop>
+  </header>
+  <body>
+    <tu tuid="calibrationStatusSnippetLF.0">
+      <tuv xml:lang="en">
+        <seg>No calibration done</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Servus Welt!</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Bonjour tout le monde!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="calibrationStatusSnippetLF.1">
+      <tuv xml:lang="en">
+        <seg>Calibration OK</seg>
+      </tuv>
+    </tu>
+    <tu tuid="calibrationStatusSnippetLF.2">
+      <tuv xml:lang="en">
+        <seg>Resonance frequency not good. Should be &gt; 96Hz and &lt; 102Hz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="calibrationStatusSnippetLF.3">
+      <tuv xml:lang="en">
+        <seg>Calibration OK</seg>
+      </tuv>
+    </tu>
+    <tu tuid="calibrationStatusSnippetLF.4">
+      <tuv xml:lang="en">
+        <seg>Resonance frequency not good. Should be &gt; 47Hz and &lt; 52Hz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="calibrationStatusSnippetLF.5">
+      <tuv xml:lang="en">
+        <seg>Calibration OK</seg>
+      </tuv>
+    </tu>
+    <tu tuid="calibrationStatusSnippetLF.6">
+      <tuv xml:lang="en">
+        <seg>Resonance frequency not good. Should be &gt; 96Hz and &lt; 106Hz</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

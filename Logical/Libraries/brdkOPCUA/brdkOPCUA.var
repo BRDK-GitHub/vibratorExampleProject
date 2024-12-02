@@ -1,0 +1,6 @@
+VAR CONSTANT
+	BRDK_OPCUA_MAX_EVENT_NS : USINT := 3; (*3 means 4*)
+	BRDK_OPCUA_EVENT_NS_OPCUA : UINT := 4; (*Namespace index of http://opcfoundation.org/UA/*)
+	BRDK_OPCUA_EVENT_NS_PV : UINT := 5; (*Namespace index of http://br-automation.com/OpcUa/PLC/PV/*)
+	BRDK_OPCUA_EVENT_NS_PLC : UINT := 6; (*Namespace index of http://br-automation.com/OpcUa/PLC/*)
+END_VAR

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">BeltAlarms</prop>
+  </header>
+  <body>
+    <tu tuid="pwmUnderVoltage">
+      <tuv xml:lang="zh">
+        <seg>PWM欠压</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>PWM napeti pod limit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>PWM feszültség alatt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PWM Under Voltage</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thấp Áp Điều Chỉnh Điện Áp Ra Tải (Pulse Width Modulation, PWM)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pwmOverVoltage">
+      <tuv xml:lang="zh">
+        <seg>PWM过压</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>PWM napeti nad limit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>PWM túlfeszültség</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PWM Over Voltage</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Quá Áp PWM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pwmOverTemperature">
+      <tuv xml:lang="zh">
+        <seg>PWM超温</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>PWM teplota nad limit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>PWM túlmelegedés</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PWM Over Temperature</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Quá Nhiệt PWM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pwmOperatingError">
+      <tuv xml:lang="zh">
+        <seg>PWM操作故障</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>PWM provozni chyba </seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>PWM működési hiba</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PWM Operating Error</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lỗi Vận Hành PWM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pwmCurrentError">
+      <tuv xml:lang="zh">
+        <seg>PWM当前故障</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>PWM chyba proudu</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>PWM áramerősség-hiba</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PWM Current Error</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lỗi Dòng PWM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="pwmOverCurrent">
+      <tuv xml:lang="zh">
+        <seg>PWM过流</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>PWM proud nad limit</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>PWM túláram</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>PWM Over Current</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Quá Dòng PWM</seg>
+      </tuv>
+    </tu>
+    <tu tuid="missingElements">
+      <tuv xml:lang="zh">
+        <seg>元件缺失</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Chybejici elementy</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Hiányzó elemek</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Missing elements</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Cấu kiện bị thiếu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="axisError">
+      <tuv xml:lang="zh">
+        <seg>皮带伺服轴故障</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Chyba serva pas.dopravniku</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szalag szervotengely hiba</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Error de banda</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Belt servo axis error</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lỗi trục servo dây đai</seg>
+      </tuv>
+    </tu>
+    <tu tuid="beltBlocked">
+      <tuv xml:lang="zh">
+        <seg>
+皮带被卡住</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pás zablokovaný</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Szíj blokkolva</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Banda bloqueada</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Belt blocked</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Dây đai bị chặn</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

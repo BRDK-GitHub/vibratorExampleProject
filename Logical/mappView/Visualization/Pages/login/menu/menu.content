@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="menu" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="network" top="20" left="40" width="140" height="130" zIndex="0" imageAlign="top" text="$IAT/Header/Pages/Page.41" imageHeight="100" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Button" id="machine" top="20" left="320" width="140" height="130" zIndex="1" imageAlign="top" text="$IAT/Header/Pages/Page.42" imageHeight="100" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Button" id="beltFeeder" top="220" left="40" width="140" height="130" zIndex="2" imageAlign="top" text="$IAT/Common/Modules/Feeder" imageHeight="100" />
+    <Widget xsi:type="widgets.brease.Button" id="circularFeeder" top="220" left="320" width="140" height="130" zIndex="3" imageAlign="top" multiLine="true" text="$IAT/Common/Modules/FeederCircular" wordWrap="true" imageHeight="100" />
+    <Widget xsi:type="widgets.brease.Button" id="linearFeeder" top="220" left="600" width="140" height="130" zIndex="4" imageAlign="top" multiLine="true" text="$IAT/Common/Modules/FeederLinear" wordWrap="true" imageHeight="100" />
+    <Widget xsi:type="widgets.brease.Button" id="belt" top="420" left="40" width="140" height="130" zIndex="5" imageAlign="top" text="$IAT/Common/Modules/Belt" imageHeight="100" />
+    <Widget xsi:type="widgets.brease.Button" id="wing" top="620" left="40" width="140" height="130" zIndex="6" imageAlign="top" text="$IAT/Common/Modules/Wing" imageHeight="100" />
+    <Widget xsi:type="widgets.brease.Button" id="capcon" top="420" left="320" width="140" height="130" zIndex="7" imageAlign="top" text="$IAT/Common/Modules/Capcon" imageHeight="100" />
+    <Widget xsi:type="widgets.brease.Button" id="cassette" top="620" left="320" width="140" height="130" zIndex="8" imageAlign="top" text="$IAT/Common/Modules/Cassette" imageHeight="100" fontSize="27px" />
+    <Widget xsi:type="widgets.brease.Button" id="factoryReset" top="620" left="600" width="140" height="130" zIndex="9" imageAlign="top" multiLine="true" text="$IAT/Common/factoryReset" wordWrap="true" imageHeight="100" textColor="rgba(210, 0, 0, 1)" textAlign="center" fontSize="28px" />
+    <Widget xsi:type="widgets.brease.Button" id="sdm" top="20" left="600" width="140" height="130" zIndex="10" imageAlign="top" multiLine="true" text="$IAT/Header/Pages/Page.50" wordWrap="true" imageHeight="100" fontSize="25px" />
+    <Widget xsi:type="widgets.brease.Button" id="FAT" top="420" left="600" width="140" height="130" zIndex="11" imageAlign="top" text="FAT" imageHeight="100" />
+  </Widgets>
+</Content>

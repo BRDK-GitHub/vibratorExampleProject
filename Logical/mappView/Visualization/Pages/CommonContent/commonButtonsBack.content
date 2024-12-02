@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="commonButtonsBack" height="130" width="330" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="back" top="0" left="14" width="140" height="130" zIndex="0" text="" style="imageYellow" />
+  </Widgets>
+</Content>

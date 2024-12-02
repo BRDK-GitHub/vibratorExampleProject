@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<vdef:Visualization id="visu" autoUpdate="true" xmlns:vdef="http://www.br-automation.com/iat2015/visualizationDefinition/v2">
+  <StartPage pageRefId="feeder" />
+  <Pages>
+    <Page refId="feeder" />
+    <Page refId="vibrator" />
+    <Page refId="ramps" />
+    <Page refId="capcon" />
+    <Page refId="alarm" />
+    <Page refId="alarmHistory" />
+    <Page refId="information" />
+    <Page refId="statistics" />
+    <Page refId="templateData" />
+    <Page refId="packml" />
+    <Page refId="capconStatistics" />
+    <Page refId="elementData" />
+    <Page refId="login" />
+    <Page refId="language" />
+    <Page refId="menu" />
+    <Page refId="network" />
+    <Page refId="machineConfiguration" />
+    <Page refId="machineIO" />
+    <Page refId="machineTestPage" />
+    <Page refId="sdm" />
+    <Page refId="beltFeederIO" />
+    <Page refId="beltFeederConfig" />
+    <Page refId="circularFeederConfiguration" />
+    <Page refId="circularFeederLinearization" />
+    <Page refId="circularFeederIO" />
+    <Page refId="linearFeederConfiguration" />
+    <Page refId="linearFeederLinearization" />
+    <Page refId="linearFeederIO" />
+    <Page refId="beltConfiguration" />
+    <Page refId="beltIO" />
+    <Page refId="capconConfiguration" />
+    <Page refId="capconRecipe" />
+    <Page refId="capconIO" />
+    <Page refId="wingConfiguration" />
+    <Page refId="wingRecipe" />
+    <Page refId="wingReadout" />
+    <Page refId="wingIO" />
+    <Page refId="cassetteConfiguration" />
+    <Page refId="cassetteIO" />
+    <Page refId="FATPage" />
+  </Pages>
+  <Navigations />
+  <BindingsSets>
+    <BindingsSet refId="commonMain_binding" />
+    <BindingsSet refId="main_binding" />
+    <BindingsSet refId="feeder_binding" />
+    <BindingsSet refId="vibrator_binding" />
+    <BindingsSet refId="ramps_binding" />
+    <BindingsSet refId="capcon_binding" />
+    <BindingsSet refId="information_binding" />
+    <BindingsSet refId="statistics_binding" />
+    <BindingsSet refId="alarm_binding" />
+    <BindingsSet refId="alarmHistory_binding" />
+    <BindingsSet refId="templateData_binding" />
+    <BindingsSet refId="packml_binding" />
+    <BindingsSet refId="login_binding" />
+    <BindingsSet refId="capconStatistics_binding" />
+    <BindingsSet refId="elementData_binding" />
+    <BindingsSet refId="network_binding" />
+    <BindingsSet refId="machineIO_binding" />
+    <BindingsSet refId="machineConfiguration_binding" />
+    <BindingsSet refId="machineTestContent_binding" />
+    <BindingsSet refId="beltFeederIO_binding" />
+    <BindingsSet refId="circularFeederLinearization_binding" />
+    <BindingsSet refId="circularFeederConfiguration_binding" />
+    <BindingsSet refId="circularFeederIO_binding" />
+    <BindingsSet refId="linearFeederLinearization_binding" />
+    <BindingsSet refId="linearFeederConfiguration_binding" />
+    <BindingsSet refId="linearFeederIO_binding" />
+    <BindingsSet refId="beltIO_binding" />
+    <BindingsSet refId="beltConfiguration_binding" />
+    <BindingsSet refId="capconConfiguration_binding" />
+    <BindingsSet refId="capconRecipe_binding" />
+    <BindingsSet refId="capconIO_binding" />
+    <BindingsSet refId="wingConfiguration_binding" />
+    <BindingsSet refId="wingRecipe_binding" />
+    <BindingsSet refId="wingReadout_binding" />
+    <BindingsSet refId="wingIO_binding" />
+    <BindingsSet refId="cassetteConfiguration_binding" />
+    <BindingsSet refId="cassetteIO_binding" />
+    <BindingsSet refId="circularFeederIOdev_binding" />
+    <BindingsSet refId="dialogStop" />
+    <BindingsSet refId="linearProgressDialogBinding" />
+    <BindingsSet refId="dialogClose_binding" />
+    <BindingsSet refId="dialogConfirmCancel_binding" />
+    <BindingsSet refId="initialGroundMeasurementContent_binding" />
+    <BindingsSet refId="FATArrowsContent_binding" />
+    <BindingsSet refId="visualInspectionContent_binding" />
+    <BindingsSet refId="wingTestIOContent_binding" />
+    <BindingsSet refId="additionInformationContent_binding" />
+    <BindingsSet refId="capconVoltageMeasurementContent_binding" />
+    <BindingsSet refId="capconSignalTestContent_binding" />
+    <BindingsSet refId="levelSensorContent_binding" />
+    <BindingsSet refId="photoSensorContent_binding" />
+    <BindingsSet refId="photoSensorTestContent_binding" />
+    <BindingsSet refId="bfTestIOContent_binding" />
+    <BindingsSet refId="wingTestIO2Content_binding" />
+    <BindingsSet refId="cfAdjustmentCoilsContent_binding" />
+    <BindingsSet refId="lfAdjustmentCoilsContent_binding" />
+    <BindingsSet refId="hourTest88Content_binding" />
+    <BindingsSet refId="afterTestAdjustmentsContent_binding" />
+    <BindingsSet refId="hourTest12hContent_binding" />
+    <BindingsSet refId="visualInspection2Content_binding" />
+    <BindingsSet refId="generateReportContent_binding" />
+    <BindingsSet refId="cfAdjustmentSpringsContent_binding" />
+    <BindingsSet refId="lfAdjustmentSpringsContent_binding" />
+    <BindingsSet refId="cfCaliHabasitContent_binding" />
+    <BindingsSet refId="enterDateDialogContent_binding" />
+    <BindingsSet refId="FATFooterContent_binding" />
+  </BindingsSets>
+  <EventBindingsSets>
+    <EventBindingsSet refId="GlobalEventBinding" />
+    <EventBindingsSet refId="commonMain_eventbinding" />
+    <EventBindingsSet refId="commonButtonsLeft_eventbinding" />
+    <EventBindingsSet refId="commonButtonsBack_eventbinding" />
+    <EventBindingsSet refId="mainButtonsRight_eventbinding" />
+    <EventBindingsSet refId="feeder_eventbinding" />
+    <EventBindingsSet refId="vibrator_eventbinding" />
+    <EventBindingsSet refId="ramps_eventbinding" />
+    <EventBindingsSet refId="capcon_eventbinding" />
+    <EventBindingsSet refId="infoButtonsRight_eventbinding" />
+    <EventBindingsSet refId="information_eventbinding" />
+    <EventBindingsSet refId="statistics_eventbinding" />
+    <EventBindingsSet refId="alarm_eventbinding" />
+    <EventBindingsSet refId="alarmHistory_eventbinding" />
+    <EventBindingsSet refId="settingsButtonsRight_eventbinding" />
+    <EventBindingsSet refId="templateData_eventbinding" />
+    <EventBindingsSet refId="packml_eventbinding" />
+    <EventBindingsSet refId="capconStatistics_eventbinding" />
+    <EventBindingsSet refId="elementData_eventbinding" />
+    <EventBindingsSet refId="login_eventbinding" />
+    <EventBindingsSet refId="language" />
+    <EventBindingsSet refId="menu_eventbinding" />
+    <EventBindingsSet refId="logout" />
+    <EventBindingsSet refId="network_eventbinding" />
+    <EventBindingsSet refId="machineConfiguration_eventbinding" />
+    <EventBindingsSet refId="machineIO_eventbinding" />
+    <EventBindingsSet refId="machineTestContent_eventbinding" />
+    <EventBindingsSet refId="linearizationButtonsRight_eventbinding" />
+    <EventBindingsSet refId="circularFeederConfiguration_eventbinding" />
+    <EventBindingsSet refId="circularFeederLinearization_eventbinding" />
+    <EventBindingsSet refId="circularFeederIO_eventbinding" />
+    <EventBindingsSet refId="linearFeederConfiguration_eventbinding" />
+    <EventBindingsSet refId="linearFeederLinearization_eventbinding" />
+    <EventBindingsSet refId="linearFeederIO_eventbinding" />
+    <EventBindingsSet refId="beltConfiguration_eventbinding" />
+    <EventBindingsSet refId="beltIO_eventbinding" />
+    <EventBindingsSet refId="beltFeeder_eventbinding" />
+    <EventBindingsSet refId="capconConfiguration_eventbinding" />
+    <EventBindingsSet refId="capconRecipe_eventbinding" />
+    <EventBindingsSet refId="capconIO_eventbinding" />
+    <EventBindingsSet refId="wingConfiguration_eventbinding" />
+    <EventBindingsSet refId="wingRecipe_eventbinding" />
+    <EventBindingsSet refId="wingReadout_eventbinding" />
+    <EventBindingsSet refId="wingIO_eventbinding" />
+    <EventBindingsSet refId="cassetteConfiguration_eventbinding" />
+    <EventBindingsSet refId="cassetteIO_eventbinding" />
+    <EventBindingsSet refId="dialogStop" />
+    <EventBindingsSet refId="linearProgressContent_eventbinding" />
+    <EventBindingsSet refId="dialogClose_eventbinding" />
+    <EventBindingsSet refId="dialogConfirmCancel_eventbinding" />
+    <EventBindingsSet refId="VariousContentEventBinding" />
+    <EventBindingsSet refId="FATFooterContent_eventbinding" />
+    <EventBindingsSet refId="FATArrowsContent_eventbinding" />
+    <EventBindingsSet refId="capconSignalTestContent_eventbinding" />
+    <EventBindingsSet refId="levelSensorContent_eventbinding" />
+    <EventBindingsSet refId="photoSensorTestContent_eventbinding" />
+    <EventBindingsSet refId="bfTestIOContent_eventbinding" />
+    <EventBindingsSet refId="wingTestIO2Content_eventbinding" />
+    <EventBindingsSet refId="generateReportContent_eventbinding" />
+    <EventBindingsSet refId="cfAdjustmentSpringsContent_eventbinding" />
+    <EventBindingsSet refId="lfAdjustmentSpringsContent_eventbinding" />
+    <EventBindingsSet refId="cfCaliHabasitContent_eventbinding" />
+    <EventBindingsSet refId="enterDateDialogContent_eventbinding" />
+  </EventBindingsSets>
+  <Dialogs>
+    <Dialog refId="dialogStop" />
+    <Dialog refId="dialogConfirmCancel" />
+    <Dialog refId="dialogClose" />
+    <Dialog refId="linearProgressDialog" />
+    <Dialog refId="enterDateDialog" />
+  </Dialogs>
+  <Contents>
+    <Content refId="commonMain" preCache="true" />
+    <Content refId="commonButtonsLeft" preCache="true" />
+    <Content refId="commonButtonsRight" preCache="true" />
+    <Content refId="mainButtonsRight" preCache="true" />
+    <Content refId="feeder" preCache="true" />
+    <Content refId="vibrator" preCache="true" />
+    <Content refId="ramps" preCache="true" />
+    <Content refId="capcon" preCache="true" />
+    <Content refId="infoButtonsRight" preCache="true" />
+    <Content refId="information" preCache="true" />
+    <Content refId="statistics" preCache="true" />
+    <Content refId="alarm" preCache="true" />
+    <Content refId="alarmHistory" preCache="true" />
+    <Content refId="settingsButtonsRight" preCache="true" />
+    <Content refId="templateData" preCache="true" />
+    <Content refId="packml" preCache="false" />
+    <Content refId="capconStatistics" preCache="false" />
+    <Content refId="elementData" preCache="false" />
+    <Content refId="login" preCache="true" />
+    <Content refId="settingsDataNextFeeder" preCache="false" />
+    <Content refId="settingsDataNextVibBelt" preCache="false" />
+    <Content refId="settingsDataNextRamps" preCache="false" />
+    <Content refId="settingsDataNextCapcon" preCache="false" />
+    <Content refId="menu" preCache="false" />
+    <Content refId="network" preCache="false" />
+    <Content refId="machineIO" preCache="false" />
+    <Content refId="machineConfiguration" preCache="false" />
+    <Content refId="machineTestContent" preCache="false" />
+    <Content refId="sdm" preCache="false" />
+    <Content refId="beltFeederIO" preCache="false" />
+    <Content refId="linearizationButtonsRight" preCache="false" />
+    <Content refId="circularFeederConfiguration" preCache="false" />
+    <Content refId="circularFeederLinearization" preCache="false" />
+    <Content refId="circularFeederIO" preCache="false" />
+    <Content refId="linearFeederConfiguration" preCache="false" />
+    <Content refId="linearFeederLinearization" preCache="false" />
+    <Content refId="linearFeederIO" preCache="false" />
+    <Content refId="beltConfiguration" preCache="false" />
+    <Content refId="beltIO" preCache="false" />
+    <Content refId="capconConfiguration" preCache="false" />
+    <Content refId="capconRecipe" preCache="false" />
+    <Content refId="capconIO" preCache="false" />
+    <Content refId="wingConfiguration" preCache="false" />
+    <Content refId="wingIO" preCache="false" />
+    <Content refId="wingReadout" preCache="false" />
+    <Content refId="wingRecipe" preCache="false" />
+    <Content refId="cassetteConfiguration" preCache="false" />
+    <Content refId="cassetteIO" preCache="false" />
+    <Content refId="circularFeederIOdev" preCache="false" />
+    <Content refId="dialogStop" preCache="true" />
+    <Content refId="initialGroundMeasurementContent" preCache="false" />
+    <Content refId="visualInspectionContent" preCache="false" />
+    <Content refId="wingTestIOContent" preCache="false" />
+    <Content refId="additionInformationContent" preCache="false" />
+    <Content refId="capconVoltageMeasurementContent" preCache="false" />
+    <Content refId="capconSignalTestContent" preCache="false" />
+    <Content refId="levelSensorContent" preCache="false" />
+    <Content refId="photoSensorContent" preCache="false" />
+    <Content refId="photoSensorTestContent" preCache="false" />
+    <Content refId="bfTestIOContent" preCache="false" />
+    <Content refId="wingTestIO2Content" preCache="false" />
+    <Content refId="cfAdjustmentCoilsContent" preCache="false" />
+    <Content refId="cfAdjustmentSpringsContent" preCache="false" />
+    <Content refId="lfAdjustmentCoilsContent" preCache="false" />
+    <Content refId="lfAdjustmentSpringsContent" preCache="false" />
+    <Content refId="hourTest88Content" preCache="false" />
+    <Content refId="afterTestAdjustmentsContent" preCache="false" />
+    <Content refId="cfCaliHabasitContent" preCache="false" />
+    <Content refId="hourTest12hContent" preCache="false" />
+    <Content refId="visualInspection2Content" preCache="false" />
+    <Content refId="generateReportContent" preCache="false" />
+    <Content refId="blankContent" preCache="false" />
+    <Content refId="enterDateDialogContent" />
+  </Contents>
+  <SnippetsSets>
+    <SnippetsSet refId="common" />
+    <SnippetsSet refId="main" />
+    <SnippetsSet refId="information" />
+    <SnippetsSet refId="packml" />
+    <SnippetsSet refId="dialog" />
+    <SnippetsSet refId="calibrationSnippet" />
+  </SnippetsSets>
+  <VariablesSets>
+    <VariablesSet refId="GlobalVariables" />
+    <VariablesSet refId="commonMain" />
+    <VariablesSet refId="main" />
+    <VariablesSet refId="info" />
+    <VariablesSet refId="ElementDataVariables" />
+    <VariablesSet refId="login" />
+    <VariablesSet refId="LocalElementData" />
+    <VariablesSet refId="dialog" />
+  </VariablesSets>
+  <ExpressionsSets>
+    <ExpressionsSet refId="GlobalExpression" />
+    <ExpressionsSet refId="main" />
+  </ExpressionsSets>
+  <StartTheme themeRefId="LegoLight" />
+  <Themes>
+    <Theme refId="LegoLight" />
+  </Themes>
+  <Configurations>
+    <Configuration key="activityCount" value="true" />
+    <Configuration key="bootLogo" value="Media/Images/header/CM20.png" />
+    <Configuration key="bootColor" value="#EDEFF0" />
+    <Configuration key="favicon" value="Media/Images/CM20_favicon.png" />
+    <VirtualKeyboards>
+      <InputProcessing onKeyDown="true" />
+      <NumericKeyboard refId="widgets.keyboards.legoNumpad" />
+    </VirtualKeyboards>
+  </Configurations>
+</vdef:Visualization>

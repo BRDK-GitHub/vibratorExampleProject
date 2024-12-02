@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/main/vibrator</prop>
+  </header>
+  <body>
+    <tu tuid="UseWaitSpeed">
+      <tuv xml:lang="zh">
+        <seg>使用等待速度</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Brug vente hastighed</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pouzij cekaci rychl.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Use wait speed</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>Usar la velocidad de espera</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Várakozási sebesség használata</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Sử dụng tốc độ chờ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CFCS">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="CFWS">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/FeederCircular}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LFCS">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LFWS">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/FeederLinear}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BCS">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/CountSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BWS">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Modules/Belt}\n{$IAT/Common/WaitSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="beltDistanceBricks">
+      <tuv xml:lang="zh">
+        <seg>元件间距</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Distance between bricks</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Téglák közötti távolság</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Khoảng cách giữa các khối gạch</seg>
+      </tuv>
+    </tu>
+    <tu tuid="leftLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/CountSpeed}\n\n\n\n{$IAT/Common/WaitSpeed}\n\n\n\n{$IAT/main/vibrator/UseWaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/CountSpeed}\n\n\n\n{$IAT/Common/WaitSpeed}\n\n\n\n{$IAT/main/vibrator/UseWaitSpeed}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/CountSpeed}\n\n\n\n{$IAT/Common/WaitSpeed}\n\n\n\n{$IAT/main/vibrator/UseWaitSpeed}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="errorDoingLinearization">
+      <tuv xml:lang="zh">
+        <seg>寻找共振频率。\n 不要触摸振动器</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Hledáme ressonanční frekvenci.\n NEDOTÝKEJTE SE VIBRÁTORU</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Looking for ressonance frequency.\n DON'T TOUCH THE VIBRATOR</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Rezonancia frekvenciát keres.\n NE ÉRINTSE MEG A VIBRÁTORT!</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đang tìm kiếm tần số cộng hưởng.\n KHÔNG CHẠM VÀO MÁY RUNG</seg>
+      </tuv>
+    </tu>
+    <tu tuid="currAmpl">
+      <tuv xml:lang="zh">
+        <seg>电流幅值</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Amplituda proudu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Current amplitude</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Áramerősség amplitúdó</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Biên độ hiện tại</seg>
+      </tuv>
+    </tu>
+    <tu tuid="goalVibr">
+      <tuv xml:lang="zh">
+        <seg>目标振动</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vibrace cíle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Goal vibration</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Elérendő rezgés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Độ rung mục tiêu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="actVibr">
+      <tuv xml:lang="zh">
+        <seg>实际振动</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Skutečné vibrace</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Actual vibration</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tényleges rezgés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Độ rung thực tế</seg>
+      </tuv>
+    </tu>
+    <tu tuid="fitPct">
+      <tuv xml:lang="en">
+        <seg>Fit percentage:</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tỷ lệ phù hợp:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

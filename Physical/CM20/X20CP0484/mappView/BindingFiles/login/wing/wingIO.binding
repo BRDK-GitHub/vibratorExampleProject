@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="wingIO_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.hw.di_neighbourActive" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListNeighbourActive" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.hw.di_neighbourPortionReady" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListNeighbourPortionReady" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::upperFlap:this.hw.di_changeover" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListUpperFlapChangeover" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::middleFlap:this.hw.di_changeover" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListMiddleFlapChangeover" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.hw.di_changeover" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListBottomFlapChangeover" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.di_neighbourIsDosing" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListNeighbourIsDosing" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.hw.di_neighbourChangeover" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListNeighbourChangeover" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::upperFlap:this.hw.do_open" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListUpperFlapOpen" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::middleFlap:this.hw.do_open" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListMiddleFlapOpen" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.hw.do_open" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListBottomFlapOpen" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::bottomFlap:this.hw.do_neighbourOpen" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListNeighbourOpen" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::cassette:this.hw.do_dosing" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ImageListDosing" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[8].enable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ToggleButtonUpperFlapOpenForce" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[9].enable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ToggleButtonMiddleFlapOpenForce" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[10].enable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ToggleButtonBottomFlapOpenForce" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[11].enable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ToggleButtonNeighbourOpenForce" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::machine:this.forceOutputsFB[12].enable" attribute="value" />
+			<Target xsi:type="brease" contentRefId="wingIO" widgetRefId="ToggleButtonDosingForce" attribute="value" />
+		</Binding>
+	</Bindings>
+</BindingsSet>

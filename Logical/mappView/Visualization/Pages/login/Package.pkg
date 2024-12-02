@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="EmptyMappViewPackage" PackageType="EmptyMappViewPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">menu</Object>
+    <Object Type="Package">network</Object>
+    <Object Type="Package">machine</Object>
+    <Object Type="Package">sdm</Object>
+    <Object Type="Package">beltFeeder</Object>
+    <Object Type="Package">linearizationCommon</Object>
+    <Object Type="Package">circularFeeder</Object>
+    <Object Type="Package">linearFeeder</Object>
+    <Object Type="Package">belt</Object>
+    <Object Type="Package">capcon</Object>
+    <Object Type="Package">capconTeach</Object>
+    <Object Type="Package">wing</Object>
+    <Object Type="Package">cassette</Object>
+    <Object Type="Package">linearizationProcess</Object>
+    <Object Type="Package">FAT</Object>
+  </Objects>
+</Package>

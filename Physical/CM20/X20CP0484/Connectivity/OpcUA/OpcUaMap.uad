@@ -1,0 +1,1142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="H4.93">
+  <NamespaceUris>
+    <Uri>http://lego.com/OpcUa/CM20/</Uri>
+  </NamespaceUris>
+  <Aliases>
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleName="Everyone" Access="0x015F" />
+        <ACE RoleName="ServiceRole" Access="0x015F" />
+      </ACL>
+      <ACL Id="2">
+        <ACE RoleName="Everyone" Access="0x017F" />
+        <ACE RoleName="ServiceRole" Access="0x017F" />
+      </ACL>
+    </ACLAliases>
+    <EURangeViolationAliases>
+      <EURangeViolation Id="1" Mode="2" />
+      <EURangeViolation Id="2" Mode="1" />
+    </EURangeViolationAliases>
+    <EURangesAliases>
+      <EURanges Id="1">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">100</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="6">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="PV">::vibrator:localVariables[1].hmi.config.maxVoltage</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="7">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="PV">::vibrator:localVariables[0].hmi.config.maxVoltage</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="12">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">500</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="21">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">10</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="28">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">600</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="31">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">5000</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="32">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">60</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="33">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">130</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="36">
+        <EURange>
+          <Low ValueProvider="Const">50</Low>
+          <High ValueProvider="Const">5000</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="39">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">30000</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="40">
+        <EURange>
+          <Low ValueProvider="Const">10</Low>
+          <High ValueProvider="Const">32000</High>
+        </EURange>
+      </EURanges>
+      <EURanges Id="41">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">150000</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="5" UnitId="4340024" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="microsecond" Symbol="µs" />
+      <EngineeringUnit Id="6" UnitId="4403766" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="millisecond" Symbol="ms" />
+      <EngineeringUnit Id="7" UnitId="4740186" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="hertz" Symbol="Hz" />
+      <EngineeringUnit Id="8" UnitId="4410708" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="centimetre" Symbol="cm" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView AclId="2">
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="gRecipe">
+          <Variable Name="cmd">
+            <Variable Name="load" />
+            <Variable Name="save" />
+            <Variable Name="brickID" />
+          </Variable>
+        </Variable>
+        <Variable Name="gCapconInterface">
+          <Variable Name="status">
+            <Variable Name="teach">
+              <Variable Name="integral" RecursiveEnable="1" />
+              <Variable Name="topAvgSignal" RecursiveEnable="1" />
+              <Variable Name="samples" RecursiveEnable="1" />
+              <Variable Name="brickDetected" />
+            </Variable>
+            <Variable Name="teachingDone" />
+            <Variable Name="teachIntegral" />
+          </Variable>
+          <Variable Name="parameter">
+            <Variable Name="count" />
+            <Variable Name="teachBrickCount" />
+          </Variable>
+        </Variable>
+        <Variable Name="gMainInterface">
+          <Variable Name="cmd">
+            <Variable Name="count" />
+            <Variable Name="validationTotalCount" />
+            <Variable Name="validationGoodBrick" />
+            <Variable Name="validationBadBrick" />
+            <Variable Name="loadingTemplateRecipe" />
+          </Variable>
+          <Variable Name="status">
+            <Variable Name="totalCount" />
+            <Variable Name="count" />
+            <Variable Name="dpMin" />
+            <Variable Name="statusIT" RecursiveEnable="1" />
+          </Variable>
+          <Variable Name="line">
+            <Variable Name="emptyMode" />
+            <Variable Name="bypassCassette" />
+          </Variable>
+        </Variable>
+        <Variable Name="gConfig">
+          <Variable Name="cmd">
+            <Variable Name="save" />
+          </Variable>
+        </Variable>
+        <Variable Name="gVibratorInterface" RecursiveEnable="1">
+          <Variable Name="gVibratorInterface[0]">
+            <Variable Name="status">
+              <Variable Name="maxPeakValue" EngineeringUnitId="8" />
+            </Variable>
+          </Variable>
+          <Variable Name="gVibratorInterface[1]">
+            <Variable Name="status">
+              <Variable Name="maxPeakValue" EngineeringUnitId="8" />
+            </Variable>
+          </Variable>
+        </Variable>
+        <Variable Name="gBeltInterface">
+          <Variable Name="status">
+            <Variable Name="teachingDone" />
+            <Variable Name="adjustPercent" />
+          </Variable>
+        </Variable>
+        <Variable Name="gWingInterface">
+          <Variable Name="cmd">
+            <Variable Name="startManuelMode" />
+          </Variable>
+        </Variable>
+        <Variable Name="gAlarm">
+          <Variable Name="cmd">
+            <Variable Name="acknowledgeAll" />
+            <Variable Name="acknowledge" />
+          </Variable>
+        </Variable>
+        <Variable Name="gUpperFlapInterface">
+          <Variable Name="cmd">
+            <Variable Name="runFlapContinuously" />
+          </Variable>
+          <Variable Name="status">
+            <Variable Name="countAftercount" />
+          </Variable>
+        </Variable>
+        <Variable Name="gMiddleFlapInterface">
+          <Variable Name="cmd">
+            <Variable Name="runFlapContinuously" />
+          </Variable>
+        </Variable>
+        <Variable Name="gBottomFlapInterface">
+          <Variable Name="cmd">
+            <Variable Name="runFlapContinuously" />
+          </Variable>
+        </Variable>
+        <Variable Name="hgInfo">
+          <Variable Name="revision" />
+        </Variable>
+        <Variable Name="gMachineInterface">
+          <Variable Name="cmd">
+            <Variable Name="saveConfigToT50" />
+          </Variable>
+        </Variable>
+        <Variable Name="gMachineType" />
+      </GlobalVariables>
+      <Task Name="vibrator">
+        <Variable Name="localVariables" RecursiveEnable="1">
+          <VariableCommon Name="Common Properties">
+            <Variable Name="recipeName" Disabled="True" />
+            <Variable Name="configName" Disabled="True" />
+            <Variable Name="recipeNameCurrent" Disabled="True" />
+            <Variable Name="calibration" Disabled="True" />
+            <Variable Name="MpRecipeRegPar_Config" Disabled="True" />
+            <Variable Name="MpRecipeRegPar_Recipe" Disabled="True" />
+            <Variable Name="MpRecipeRegPar_RecipeCurrent" Disabled="True" />
+            <Variable Name="time" Disabled="True" />
+            <Variable Name="MTBasicsLimiter_0" Disabled="True" />
+            <Variable Name="MC_BR_WriteParID_0" Disabled="True" />
+            <Variable Name="highSpeed" Disabled="True" />
+            <Variable Name="vibPercentAmplitude" Disabled="True" />
+            <Variable Name="oldVibPercentAmplitude" Disabled="True" />
+            <Variable Name="vibAcceleration" Disabled="True" />
+            <Variable Name="sweep" Disabled="True" />
+            <Variable Name="vibFrequency" Disabled="True" />
+            <Variable Name="calibrateState" Disabled="True" />
+            <Variable Name="rampUp" Disabled="True" />
+            <Variable Name="linearizationSweep" Disabled="True" />
+            <Variable Name="linearizationTable" Disabled="True" />
+            <Variable Name="lookUpFrequency" Disabled="True" />
+            <Variable Name="pointsInLinearization" Disabled="True" />
+            <Variable Name="testAmplitude" Disabled="True" />
+            <Variable Name="testDefault" Disabled="True" />
+            <Variable Name="verifyLinearization" Disabled="True" />
+            <Variable Name="verifyIdx" Disabled="True" />
+            <Variable Name="testPercent" Disabled="True" />
+            <Variable Name="oldSpeed" Disabled="True" />
+            <Variable Name="oldCheckChangesConfig" Disabled="True" />
+            <Variable Name="oldCheckChangesRecipe" Disabled="True" />
+            <Variable Name="oldLoaded" Disabled="True" />
+            <Variable Name="oldLoadedRecipe" Disabled="True" />
+            <Variable Name="minimumTimeInCount" Disabled="True" />
+            <Variable Name="DTGetTime_0" Disabled="True" />
+            <Variable Name="stateSimuPulse" Disabled="True" />
+            <Variable Name="simuTimeInCountSpeed" Disabled="True" />
+            <Variable Name="simuTimeInWaitSpeed" Disabled="True" />
+            <Variable Name="simuTimeInStopped" Disabled="True" />
+            <Variable Name="testProdFlow" Disabled="True" />
+            <Variable Name="TON_delay" Disabled="True" />
+            <Variable Name="currentAcceleration" Disabled="True" />
+            <Variable Name="hw">
+              <Variable Name="toggleBit" Disabled="True" />
+              <Variable Name="ISO" Disabled="True" />
+              <Variable Name="analogInput" Disabled="True" />
+              <Variable Name="do_isBigCF" Disabled="True" />
+            </Variable>
+            <Variable Name="hmi">
+              <Variable Name="config">
+                <Variable Name="tuneOnStartup" Disabled="True" />
+                <Variable Name="maxCurrent" Disabled="True" />
+                <Variable Name="maxVoltage" Disabled="True" />
+                <Variable Name="linearizationNodeVectorX" Disabled="True" />
+                <Variable Name="linearizationFcnValues" Disabled="True" />
+                <Variable Name="linearizationAccValues" Disabled="True" />
+                <Variable Name="linearizationFrequency1" Disabled="True" />
+                <Variable Name="linearizationFrequency2" Disabled="True" />
+                <Variable Name="linearizationVoltage1" Disabled="True" />
+                <Variable Name="linearizationVoltage2" Disabled="True" />
+                <Variable Name="pointY1" Disabled="True" />
+                <Variable Name="pointX1" Disabled="True" />
+                <Variable Name="pointY2" Disabled="True" />
+                <Variable Name="pointX2" Disabled="True" />
+                <Variable Name="Gain" Disabled="True" />
+                <Variable Name="IntegrationTime" Disabled="True" />
+                <Variable Name="minOut" Disabled="True" />
+                <Variable Name="maxOut" Disabled="True" />
+                <Variable Name="stableWindowPercent" Disabled="True" />
+                <Variable Name="linearizeUsing3Points" Disabled="True" />
+                <Variable Name="frequencyVaryMode" Disabled="True" />
+                <Variable Name="linearizationPercent" Disabled="True" />
+                <Variable Name="linearizationCurrent" Disabled="True" />
+                <Variable Name="linearizationFrequencies" Disabled="True" />
+                <Variable Name="linearizationAmplitude" Disabled="True" />
+                <Variable Name="fitPercentage" Disabled="True" />
+                <Variable Name="verifyLinearization" Disabled="True" />
+                <Variable Name="linearizationAccValue10pct" Disabled="True" />
+                <Variable Name="linearizationAccValue55pct" Disabled="True" />
+                <Variable Name="linearizationAccValue100pct" Disabled="True" />
+                <Variable Name="amplitudeFineTuning" Disabled="True" />
+                <Variable Name="minimumTimeInCount" Disabled="True" />
+                <Variable Name="calibrationDateTime" Disabled="True" />
+                <Variable Name="boostVelocityLow" Disabled="True" />
+                <Variable Name="boostVelocityHigh" Disabled="True" />
+                <Variable Name="brakePhaseShiftVelocity" Disabled="True" />
+                <Variable Name="boostPhaseShiftVelocity" Disabled="True" />
+                <Variable Name="brakeVelocity" Disabled="True" />
+                <Variable Name="boostFrequency" Disabled="True" />
+                <Variable Name="brakeFrequency" Disabled="True" />
+                <Variable Name="boostAmplitude" Disabled="True" />
+                <Variable Name="brakeAmplitude" Disabled="True" />
+                <Variable Name="autoLinearizationAccAtCurrent" Disabled="True" />
+                <Variable Name="autoLinearizationCurrent" Disabled="True" />
+              </Variable>
+            </Variable>
+          </VariableCommon>
+          <Variable Name="localVariables[0]">
+            <Variable Name="hmi">
+              <Variable Name="calibration">
+                <Variable Name="percentValue" EURangeViolationId="1" EURangesId="7" />
+              </Variable>
+              <Variable Name="config">
+                <Variable Name="vibFrequency" EURangeViolationId="2" EURangesId="32" EngineeringUnitId="7" />
+                <Variable Name="maxCurrent" />
+                <Variable Name="maxVoltage" />
+                <Variable Name="type" ValueAttributeOf="ns=5;i=6038" />
+                <Variable Name="minimumTimeInCount" EngineeringUnitId="5" />
+              </Variable>
+              <Variable Name="recipe">
+                <Variable Name="countingSpeed" EURangeViolationId="2" EURangesId="1" ValueAttributeOf="ns=5;i=6017" />
+                <Variable Name="waitSpeed" EURangeViolationId="2" EURangesId="1" ValueAttributeOf="ns=5;i=6023" />
+                <Variable Name="rampUp" EURangeViolationId="2" />
+              </Variable>
+              <Variable Name="linearizationGoalValue" />
+            </Variable>
+          </Variable>
+          <Variable Name="localVariables[1]">
+            <Variable Name="hmi">
+              <Variable Name="calibration">
+                <Variable Name="percentValue" EURangeViolationId="1" EURangesId="6" />
+              </Variable>
+              <Variable Name="config">
+                <Variable Name="vibFrequency" EURangesId="32" EngineeringUnitId="7" />
+                <Variable Name="minimumTimeInCount" EngineeringUnitId="5" />
+              </Variable>
+              <Variable Name="recipe">
+                <Variable Name="countingSpeed" EURangeViolationId="2" EURangesId="33" ValueAttributeOf="ns=5;i=6027" />
+                <Variable Name="rampUp" EURangeViolationId="2" EURangesId="31" ValueAttributeOf="ns=5;i=6028" />
+                <Variable Name="waitSpeed" EURangeViolationId="2" EURangesId="1" ValueAttributeOf="ns=5;i=6030" />
+              </Variable>
+              <Variable Name="linearizationGoalValue" />
+            </Variable>
+          </Variable>
+        </Variable>
+        <Variable Name="em_status" RecursiveEnable="1" />
+      </Task>
+      <Task Name="belt">
+        <Variable Name="em">
+          <Variable Name="description" />
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="teach">
+            <Variable Name="beltSpeed" />
+            <Variable Name="attemptCount" />
+          </Variable>
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="calibrating">
+              <Variable Name="pwmValue" EURangeViolationId="1" EURangesId="1" />
+            </Variable>
+            <Variable Name="recipe">
+              <Variable Name="countingSpeed" EURangeViolationId="2" EURangesId="28" ValueAttributeOf="ns=5;i=6001" />
+              <Variable Name="rampUp" EURangeViolationId="2" EURangesId="12" ValueAttributeOf="ns=5;i=6009" />
+              <Variable Name="rampDown" EURangeViolationId="2" EURangesId="12" ValueAttributeOf="ns=5;i=6010" />
+              <Variable Name="waitSpeed" EURangeViolationId="2" EURangesId="28" ValueAttributeOf="ns=5;i=6012" />
+              <Variable Name="itemGap" ValueAttributeOf="ns=5;i=6031" />
+              <Variable Name="useWaitSpeed" ValueAttributeOf="ns=5;i=6040" />
+            </Variable>
+            <Variable Name="brickLength" EURangesId="12" />
+          </Variable>
+          <Variable Name="hw">
+            <Variable Name="di_photo" />
+          </Variable>
+          <Variable Name="BrickInfo_0">
+            <Variable Name="BrickGap" />
+            <Variable Name="BrickLength" />
+            <Variable Name="MinBrickGap" />
+            <Variable Name="BricksTooClosePrc" />
+            <Variable Name="BrickGap75" />
+          </Variable>
+          <Variable Name="CFController_0">
+            <Variable Name="BrickGapTargetMin" />
+            <Variable Name="BrickGapTargetMax" />
+          </Variable>
+          <Variable Name="LFController_0">
+            <Variable Name="BrickGapTargetMin" />
+            <Variable Name="BrickGapTargetMax" />
+          </Variable>
+        </Variable>
+        <Variable Name="axis">
+          <Variable Name="status">
+            <Variable Name="actVelocity" />
+            <Variable Name="torque">
+              <Variable Name="continous" />
+              <Variable Name="peak" />
+              <Variable Name="actual" />
+            </Variable>
+          </Variable>
+        </Variable>
+        <Variable Name="config">
+          <Variable Name="maxTorqueAllowed" />
+          <Variable Name="speedRipple" />
+          <Variable Name="hideExperimentalFeatures" />
+          <Variable Name="brickGapLfMin1Portion" />
+          <Variable Name="brickGapLfMin2Portion" />
+          <Variable Name="brickGapLfMin3Portion" />
+          <Variable Name="brickGapLfMin4Portion" />
+          <Variable Name="brickGapCfMax1Portion" />
+          <Variable Name="brickGapCfMax2Portion" />
+          <Variable Name="brickGapCfMax3Portion" />
+          <Variable Name="brickGapCfMax4Portion" />
+          <Variable Name="enablePermanentAutoMode" />
+          <Variable Name="enableAutoModeFeature" />
+        </Variable>
+        <Variable Name="CFCountSpeed" EURangeViolationId="2" EURangesId="1" />
+        <Variable Name="LFCountSpeed" EURangeViolationId="2" EURangesId="33" />
+      </Task>
+      <Task Name="capcon">
+        <Variable Name="this">
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="recipe">
+              <Variable Name="brickCount" EURangeViolationId="2" EURangesId="21" ValueAttributeOf="ns=5;i=6035" />
+            </Variable>
+            <Variable Name="config" />
+          </Variable>
+        </Variable>
+        <Variable Name="em">
+          <Variable Name="description" />
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+        </Variable>
+        <Variable Name="config">
+          <Variable Name="capconNoiseAllowedPeakToPeak" />
+          <Variable Name="capconDcOffsetAllowed" />
+          <Variable Name="logToFile" />
+          <Variable Name="portionsAllowTeach" />
+        </Variable>
+        <Variable Name="countersData" RecursiveEnable="1">
+          <Variable Name="itemAfterCounting" ValueAttributeOf="ns=5;i=6045" />
+          <Variable Name="itemCountToFew" ValueAttributeOf="ns=5;i=6046" />
+          <Variable Name="itemCountToMany" ValueAttributeOf="ns=5;i=6047" />
+          <Variable Name="itemSizeToLarge" ValueAttributeOf="ns=5;i=6048" />
+          <Variable Name="itemSizeToSmall" ValueAttributeOf="ns=5;i=6049" />
+          <Variable Name="okCount" ValueAttributeOf="ns=5;i=6050" />
+        </Variable>
+        <Variable Name="TMU" ValueAttributeOf="ns=5;i=6051" />
+      </Task>
+      <Task Name="main">
+        <Variable Name="em">
+          <Variable Name="description" />
+          <Variable Name="status">
+            <Variable Name="state" />
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="cmd">
+            <Variable Name="abort" />
+            <Variable Name="clear" />
+            <Variable Name="stop" />
+            <Variable Name="reset" />
+            <Variable Name="start" />
+            <Variable Name="hold" />
+            <Variable Name="suspend" />
+            <Variable Name="complete" />
+            <Variable Name="sc" />
+          </Variable>
+          <Variable Name="state" />
+          <Variable Name="mode" />
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="recipe">
+              <Variable Name="width" ValueAttributeOf="ns=5;i=6018" />
+              <Variable Name="angle" ValueAttributeOf="ns=5;i=6019" />
+              <Variable Name="height" ValueAttributeOf="ns=5;i=6020" />
+            </Variable>
+            <Variable Name="config">
+              <Variable Name="number" ValueAttributeOf="ns=5;i=6033" />
+              <Variable Name="version" ValueAttributeOf="ns=5;i=6039" />
+            </Variable>
+            <Variable Name="cmd">
+              <Variable Name="empty" ValueAttributeOf="ns=5;i=6025" />
+            </Variable>
+          </Variable>
+          <Variable Name="hw">
+            <Variable Name="di_stopButton" />
+            <Variable Name="di_startButton" />
+            <Variable Name="do_stopButtonIndicator" />
+            <Variable Name="do_startButtonIndicator" />
+            <Variable Name="do_alarmBeacon" />
+          </Variable>
+        </Variable>
+        <Variable Name="CM_BOOL_STATUS" />
+        <Variable Name="hmiEmptyMode" />
+        <Variable Name="config">
+          <Variable Name="enableExperimental" />
+          <Variable Name="number" />
+          <Variable Name="version" />
+          <Variable Name="machineType" />
+        </Variable>
+        <Method Name="SetMode" />
+        <Method Name="LampMode" />
+      </Task>
+      <Task Name="simulation" />
+      <Task Name="feeder">
+        <Variable Name="em">
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="recipe">
+              <Variable Name="levelSensor" ValueAttributeOf="ns=5;i=6011" />
+              <Variable Name="offTime" EURangeViolationId="1" EURangesId="40" ValueAttributeOf="ns=5;i=6013" />
+              <Variable Name="onTime" EURangeViolationId="1" EURangesId="36" ValueAttributeOf="ns=5;i=6014" />
+              <Variable Name="startDelay" EURangeViolationId="1" EURangesId="39" ValueAttributeOf="ns=5;i=6015" />
+              <Variable Name="stopDelay" EURangeViolationId="1" EURangesId="31" ValueAttributeOf="ns=5;i=6016" />
+            </Variable>
+          </Variable>
+          <Variable Name="hw">
+            <Variable Name="di_levelSensorBelt" />
+            <Variable Name="di_boxIsReadyAtFlap" />
+            <Variable Name="di_flapIsClosed" />
+            <Variable Name="di_flapIsOpen" />
+            <Variable Name="do_beltForwards" />
+            <Variable Name="do_beltBackwards" />
+            <Variable Name="di_levelSensorInBowl" />
+            <Variable Name="do_levelSensorInBowlLow" />
+            <Variable Name="do_levelSensorInBowlMedium" />
+            <Variable Name="do_levelSensorInBowlHigh" />
+            <Variable Name="do_flapOpen" />
+            <Variable Name="do_flapClose" />
+          </Variable>
+          <Variable Name="flap">
+            <Variable Name="cmd">
+              <Variable Name="open" />
+              <Variable Name="close" />
+            </Variable>
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="machine">
+        <Variable Name="this">
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="setLocalIp" />
+            <Variable Name="setServerIp" />
+            <Variable Name="reboot" />
+            <Variable Name="reset" />
+            <Variable Name="actualLocalIpAddress" />
+            <Variable Name="actualServerIpAddress" />
+            <Variable Name="confirmReboot" />
+            <Variable Name="openRebootDialog" />
+            <Variable Name="setGateway" />
+            <Variable Name="actualGatewayAddress" />
+            <Variable Name="lineID" ValueAttributeOf="ns=5;i=6043" />
+            <Variable Name="stringNo" ValueAttributeOf="ns=5;i=6042" />
+          </Variable>
+          <Variable Name="forceOutputsFB" RecursiveEnable="1" />
+          <Variable Name="errorActive" />
+          <Variable Name="DTGetTime_0">
+            <Variable Name="DT1" />
+          </Variable>
+        </Variable>
+        <Variable Name="legoSTRItemString_Password">
+          <Variable Name="value" />
+          <Variable Name="trigger" />
+          <Variable Name="item" />
+        </Variable>
+      </Task>
+      <Task Name="cassette">
+        <Variable Name="this">
+          <Variable Name="hw">
+            <Variable Name="di_cassetteReady" />
+            <Variable Name="di_cassetteQueue" />
+            <Variable Name="di_neighbourBricksInCassette" />
+            <Variable Name="di_neighbourActive" />
+            <Variable Name="do_cassetteRelease" />
+            <Variable Name="do_bricksReadyInCassette" />
+            <Variable Name="do_dosing" />
+            <Variable Name="di_neighbourIsDosing" />
+          </Variable>
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="bottomNeighbourAccept" />
+          </Variable>
+          <Variable Name="statistics">
+            <Variable Name="realeaseCassette" />
+            <Variable Name="waitForCassette" />
+            <Variable Name="cassetteQueue" />
+            <Variable Name="waitForPortion" />
+            <Variable Name="waitForNeighbour" />
+          </Variable>
+          <Variable Name="FlowMeasure_0">
+            <Variable Name="FlowWaitTime" />
+            <Variable Name="FlowQueueTime" />
+          </Variable>
+        </Variable>
+        <Variable Name="em">
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+        </Variable>
+      </Task>
+      <Task Name="wing">
+        <Variable Name="em">
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="cmd">
+              <Variable Name="rejectAll" ValueAttributeOf="ns=5;i=6036" />
+            </Variable>
+            <Variable Name="config">
+              <Variable Name="readyDelay" EngineeringUnitId="5" />
+              <Variable Name="flapMoveTime" EngineeringUnitId="5" />
+              <Variable Name="flapBottomMoveTime" EngineeringUnitId="5" />
+              <Variable Name="cassetteDetectTime" EngineeringUnitId="5" />
+              <Variable Name="cassetteReleaseTime" EngineeringUnitId="5" />
+              <Variable Name="emptySmallItemsTime" EngineeringUnitId="5" />
+              <Variable Name="transmissionDelay" EngineeringUnitId="5" />
+              <Variable Name="addFallTimeBottom" EURangesId="41" EngineeringUnitId="5" />
+            </Variable>
+            <Variable Name="recipe">
+              <Variable Name="longBrick" ValueAttributeOf="ns=5;i=6024" />
+              <Variable Name="flapOpenTimeBottom">
+                <Variable Name="normal" EngineeringUnitId="5" />
+                <Variable Name="Long" EngineeringUnitId="5" />
+              </Variable>
+              <Variable Name="fallTimeUM" EngineeringUnitId="5" />
+              <Variable Name="fallTimeBottom" EngineeringUnitId="5" />
+              <Variable Name="flapOpenTimeUpper">
+                <Variable Name="normal" EngineeringUnitId="5" />
+                <Variable Name="Long" EngineeringUnitId="5" />
+              </Variable>
+              <Variable Name="flapOpenTimeMiddle">
+                <Variable Name="normal" EngineeringUnitId="5" />
+                <Variable Name="Long" EngineeringUnitId="5" />
+              </Variable>
+              <Variable Name="fallTimeBottomLong" EngineeringUnitId="5" />
+              <Variable Name="fallTimeBottomNormal" EngineeringUnitId="5" />
+            </Variable>
+          </Variable>
+          <Variable Name="hw">
+            <Variable Name="do_active" />
+          </Variable>
+          <Variable Name="test">
+            <Variable Name="startTestSequence" />
+            <Variable Name="runUpperFlapContinuously" />
+            <Variable Name="runMiddleFlapContinuously" />
+            <Variable Name="runBottomFlapContinuously" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="upperFlap">
+        <Variable Name="em">
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+          <Variable Name="cmd">
+            <Variable Name="sc" />
+          </Variable>
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="hw">
+            <Variable Name="di_changeover" />
+            <Variable Name="do_open" />
+          </Variable>
+          <Variable Name="flap">
+            <Variable Name="flapTime" />
+            <Variable Name="closingTime" />
+            <Variable Name="openTime" />
+          </Variable>
+          <Variable Name="flapTest">
+            <Variable Name="flapSequenceTest" />
+            <Variable Name="openTime" />
+            <Variable Name="closingTime" />
+            <Variable Name="openTimeOK" />
+            <Variable Name="closingTimeOK" />
+          </Variable>
+          <Variable Name="hmi" RecursiveEnable="1" />
+        </Variable>
+      </Task>
+      <Task Name="bottomFlap">
+        <Variable Name="em">
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+          <Variable Name="substate" />
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="hw">
+            <Variable Name="di_neighbourChangeover" />
+            <Variable Name="di_changeover" />
+            <Variable Name="di_neighbourPortionReady" />
+            <Variable Name="di_neighbourActive" />
+            <Variable Name="do_neighbourOpen" />
+            <Variable Name="do_open" />
+            <Variable Name="do_neighbourPortionReady" />
+          </Variable>
+          <Variable Name="hmi" RecursiveEnable="1">
+            <Variable Name="neighbourActive" />
+          </Variable>
+          <Variable Name="flap">
+            <Variable Name="flapTime" />
+            <Variable Name="closingTime" />
+            <Variable Name="openTime" />
+          </Variable>
+          <Variable Name="neighbourFlap">
+            <Variable Name="flapTime" />
+            <Variable Name="closingTime" />
+            <Variable Name="openTime" />
+          </Variable>
+          <Variable Name="flapTest">
+            <Variable Name="flapSequenceTest" />
+            <Variable Name="openTime" />
+            <Variable Name="closingTime" />
+            <Variable Name="neighbourOpenTime" />
+            <Variable Name="neighbourClosingTime" />
+            <Variable Name="openTimeOK" />
+            <Variable Name="closingTimeOK" />
+            <Variable Name="neighbourOpenTimeOK" />
+            <Variable Name="neighbourClosingTimeOK" />
+          </Variable>
+          <Variable Name="timeWaitForCasstte" EngineeringUnitId="6" />
+          <Variable Name="OeeCalc_0">
+            <Variable Name="Performance" />
+            <Variable Name="Quality" />
+            <Variable Name="OEE" />
+            <Variable Name="Availability" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="middleFlap">
+        <Variable Name="em">
+          <Variable Name="status">
+            <Variable Name="substate" />
+          </Variable>
+          <Variable Name="state" />
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="hw">
+            <Variable Name="di_changeover" />
+            <Variable Name="do_open" />
+          </Variable>
+          <Variable Name="flap">
+            <Variable Name="flapTime" />
+            <Variable Name="closingTime" />
+            <Variable Name="openTime" />
+          </Variable>
+          <Variable Name="flapTest">
+            <Variable Name="flapSequenceTest" />
+            <Variable Name="openTime" />
+            <Variable Name="closingTime" />
+            <Variable Name="openTimeOK" />
+            <Variable Name="closingTimeOK" />
+          </Variable>
+          <Variable Name="hmi" RecursiveEnable="1" />
+        </Variable>
+      </Task>
+      <Task Name="sampling">
+        <Variable Name="this">
+          <Variable Name="hw" RecursiveEnable="1">
+            <Variable Name="ai_signal" RecursiveEnable="2" />
+          </Variable>
+          <Variable Name="CapconNoiseMeassure_0">
+            <Variable Name="Out" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="alarm">
+        <Variable Name="MpAlarmXCore_0">
+          <Variable Name="PendingAlarms" />
+        </Variable>
+        <Variable Name="AlarmXListUIConnectType">
+          <Variable Name="AlarmList">
+            <Variable Name="Message" RecursiveEnable="2" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="recipeCtrl">
+        <Method Name="CopyRecipe" />
+      </Task>
+      <Task Name="config">
+        <Variable Name="this">
+          <Variable Name="factoryReset" />
+        </Variable>
+      </Task>
+      <Task Name="updateCM">
+        <Variable Name="brdkUpdateManager_0">
+          <Variable Name="running">
+            <Variable Name="version" />
+          </Variable>
+          <Variable Name="update">
+            <Variable Name="artransferFileSize" />
+            <Variable Name="version" />
+          </Variable>
+        </Variable>
+        <Variable Name="this">
+          <Variable Name="cmd">
+            <Variable Name="updateCurrentPackage" />
+            <Variable Name="checkForUpdate" />
+            <Variable Name="loadRecipeTemplateFromGateway" />
+            <Variable Name="saveRecipeTemplateFromGateway" />
+            <Variable Name="checkForUpdateInstantly" />
+          </Variable>
+          <Variable Name="hmi">
+            <Variable Name="updateTemplates" />
+            <Variable Name="templateDataProvider" />
+            <Variable Name="strRecipeTemplateSaveName" />
+            <Variable Name="selectedTemplateType" />
+            <Variable Name="automatic">
+              <Variable Name="save" />
+              <Variable Name="load" />
+              <Variable Name="overwrite" />
+              <Variable Name="alreadyExists" />
+              <Variable Name="confirmLoad" />
+              <Variable Name="confirmSave" />
+            </Variable>
+            <Variable Name="updateAllCMs" />
+          </Variable>
+        </Variable>
+        <Variable Name="templateDropdownSelectedIdx" />
+      </Task>
+      <Task Name="transferCo">
+        <Variable Name="this">
+          <Variable Name="hmi">
+            <Variable Name="status" />
+            <Variable Name="cantConnectToFT50" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="sineWaveGe">
+        <Variable Name="acc">
+          <Variable Name="actVib" />
+        </Variable>
+        <Variable Name="hmiAccelerometerPercent" />
+      </Task>
+      <Task Name="elementImg">
+        <Variable Name="this">
+          <Variable Name="imageURL" />
+        </Variable>
+      </Task>
+      <Task Name="VibratorCo">
+        <Variable Name="localVariables" RecursiveEnable="1">
+          <VariableCommon Name="Common Properties">
+            <Variable Name="useAccPhase" Disabled="True" />
+            <Variable Name="MpRecipeRegPar_Config" Disabled="True" />
+            <Variable Name="VibFeedback_old" Disabled="True" />
+            <Variable Name="configName" Disabled="True" />
+            <Variable Name="configOld" Disabled="True" />
+            <Variable Name="oldCheckChangesConfig" Disabled="True" />
+            <Variable Name="timeConfig" Disabled="True" />
+            <Variable Name="oldLoaded" Disabled="True" />
+            <Variable Name="stateSave" Disabled="True" />
+            <Variable Name="Accelerometer_0">
+              <Variable Name="Enable" Disabled="True" />
+              <Variable Name="Raw" Disabled="True" />
+              <Variable Name="ai_rawValue" Disabled="True" />
+              <Variable Name="ai_peakValue" Disabled="True" />
+              <Variable Name="ao_samples" Disabled="True" />
+            </Variable>
+            <Variable Name="config">
+              <Variable Name="lookUpPercentFromAmplitude" Disabled="True" />
+              <Variable Name="lookUpCurrentFromPercent" Disabled="True" />
+              <Variable Name="lookupFrequencyFromPercent" Disabled="True" />
+              <Variable Name="lookupPhaseTargetFromPercent" Disabled="True" />
+              <Variable Name="maxPhaseSweep" Disabled="True" />
+              <Variable Name="centerFrequencyBPF" Disabled="True" />
+            </Variable>
+            <Variable Name="VibFeedback_0">
+              <Variable Name="Enable" Disabled="True" />
+              <Variable Name="Axis" Disabled="True" />
+              <Variable Name="Frequency" Disabled="True" />
+              <Variable Name="Amplitude_out" Disabled="True" />
+              <Variable Name="HoldPhase" Disabled="True" />
+              <Variable Name="Braking" Disabled="True" />
+              <Variable Name="RawVib" Disabled="True" />
+              <Variable Name="PhaseOffset" Disabled="True" />
+              <Variable Name="Calibrating" Disabled="True" />
+              <Variable Name="config" Disabled="True" />
+              <Variable Name="SinePhase" Disabled="True" />
+              <Variable Name="UpdateFilter" Disabled="True" />
+              <Variable Name="Phase" Disabled="True" />
+              <Variable Name="AmplitudeFast" Disabled="True" />
+              <Variable Name="current" Disabled="True" />
+              <Variable Name="voltage" Disabled="True" />
+              <Variable Name="AmplitudeValid" Disabled="True" />
+              <Variable Name="PhaseValid" Disabled="True" />
+              <Variable Name="UpdateFilterDone" Disabled="True" />
+              <Variable Name="state" Disabled="True" />
+              <Variable Name="MTFilterBandPass_3rdHarmonic" Disabled="True" />
+              <Variable Name="LookupTbl_Percent" Disabled="True" />
+              <Variable Name="MC_BR_CyclicRead_0" Disabled="True" />
+              <Variable Name="MC_BR_CyclicRead_1" Disabled="True" />
+              <Variable Name="MC_BR_CyclicRead_2" Disabled="True" />
+              <Variable Name="MC_BR_CyclicRead_3" Disabled="True" />
+              <Variable Name="i" Disabled="True" />
+              <Variable Name="time" Disabled="True" />
+              <Variable Name="peakVib" Disabled="True" />
+              <Variable Name="peakCurr" Disabled="True" />
+              <Variable Name="cnt" Disabled="True" />
+              <Variable Name="cntAcc" Disabled="True" />
+              <Variable Name="lastBPF" Disabled="True" />
+              <Variable Name="tmpTime" Disabled="True" />
+              <Variable Name="dt" Disabled="True" />
+              <Variable Name="tmpTimeAirgap" Disabled="True" />
+              <Variable Name="lastRawVib" Disabled="True" />
+              <Variable Name="CalcPhasePosAcc" Disabled="True" />
+              <Variable Name="CalcPhaseNegAcc" Disabled="True" />
+              <Variable Name="CalcPhasePos" Disabled="True" />
+              <Variable Name="CalcPhaseNeg" Disabled="True" />
+              <Variable Name="voltageZeroCrossing" Disabled="True" />
+              <Variable Name="Feedback" Disabled="True" />
+              <Variable Name="tmpTimeAcc" Disabled="True" />
+              <Variable Name="lastTmpTimeAcc" Disabled="True" />
+              <Variable Name="lastCurrAcc" Disabled="True" />
+              <Variable Name="hammingIdx" Disabled="True" />
+              <Variable Name="hammingLength" Disabled="True" />
+              <Variable Name="tmpPhase" Disabled="True" />
+              <Variable Name="feedbackInterpolation" Disabled="True" />
+              <Variable Name="lastSinePhase" Disabled="True" />
+              <Variable Name="MTFilterLowPass_Phase" Disabled="True" />
+              <Variable Name="MTFilterLowPass_Amplitude" Disabled="True" />
+              <Variable Name="oldUpdateFilter" Disabled="True" />
+              <Variable Name="testPhaseUsingAcc" Disabled="True" />
+            </Variable>
+            <Variable Name="VibControl_0">
+              <Variable Name="Enable" Disabled="True" />
+              <Variable Name="Calibrate" Disabled="True" />
+              <Variable Name="Percent" Disabled="True" />
+              <Variable Name="Axis" Disabled="True" />
+              <Variable Name="ActPhaseAcc" Disabled="True" />
+              <Variable Name="ActAmplitudeValid" Disabled="True" />
+              <Variable Name="ManualControl" Disabled="True" />
+              <Variable Name="MachineType" Disabled="True" />
+              <Variable Name="MaxCurr" Disabled="True" />
+              <Variable Name="AccPercent" Disabled="True" />
+              <Variable Name="config" Disabled="True" />
+              <Variable Name="ActPhaseValid" Disabled="True" />
+              <Variable Name="SaveConfigDone" Disabled="True" />
+              <Variable Name="UpdateFilterDone" Disabled="True" />
+              <Variable Name="Active" Disabled="True" />
+              <Variable Name="Braking" Disabled="True" />
+              <Variable Name="HoldPhase" Disabled="True" />
+              <Variable Name="CalibrateDone" Disabled="True" />
+              <Variable Name="SinePhase" Disabled="True" />
+              <Variable Name="SaveConfig" Disabled="True" />
+              <Variable Name="UpdateFilter" Disabled="True" />
+              <Variable Name="VibOptimizerAmplitude_0" Disabled="True" />
+              <Variable Name="VibOptimizerFrequency_0" Disabled="True" />
+              <Variable Name="LookupTbl_PhaseTarget" Disabled="True" />
+              <Variable Name="LookupTbl_BoostCurrent" Disabled="True" />
+              <Variable Name="paramsBoostCurrentLUT" Disabled="True" />
+              <Variable Name="cali" Disabled="True" />
+              <Variable Name="state" Disabled="True" />
+              <Variable Name="frequency" Disabled="True" />
+              <Variable Name="SetAmplitudeLatched" Disabled="True" />
+              <Variable Name="time" Disabled="True" />
+              <Variable Name="sin_ref" Disabled="True" />
+              <Variable Name="old_sin" Disabled="True" />
+              <Variable Name="brakeAmplitude" Disabled="True" />
+              <Variable Name="phi" Disabled="True" />
+              <Variable Name="sin_out" Disabled="True" />
+              <Variable Name="phaseShift" Disabled="True" />
+              <Variable Name="sin_abs" Disabled="True" />
+              <Variable Name="phaseShiftLocal" Disabled="True" />
+              <Variable Name="MC_BR_CyclicWrite_0" Disabled="True" />
+              <Variable Name="FreqLoopRate" Disabled="True" />
+              <Variable Name="lastSetAmplitude" Disabled="True" />
+              <Variable Name="brakeTime" Disabled="True" />
+              <Variable Name="TestNormal" Disabled="True" />
+              <Variable Name="PIController_Ampl" Disabled="True" />
+              <Variable Name="PIController_Phase" Disabled="True" />
+              <Variable Name="currentZeroCrossing" Disabled="True" />
+              <Variable Name="zeroCrossingCount" Disabled="True" />
+              <Variable Name="TestProduction" Disabled="True" />
+              <Variable Name="TransientAmplitudeKp" Disabled="True" />
+              <Variable Name="TransientAmplitudeKi" Disabled="True" />
+              <Variable Name="ErrorLimitTansient" Disabled="True" />
+              <Variable Name="ErrorLimitScaling" Disabled="True" />
+              <Variable Name="gainState" Disabled="True" />
+              <Variable Name="TON_Transient" Disabled="True" />
+              <Variable Name="transientSetAmplitude" Disabled="True" />
+              <Variable Name="count" Disabled="True" />
+              <Variable Name="FeedForwardScaling" Disabled="True" />
+              <Variable Name="WaitPeriodsAfterBrake" Disabled="True" />
+              <Variable Name="LimitValueToUseNormalKpKi" Disabled="True" />
+            </Variable>
+          </VariableCommon>
+        </Variable>
+        <Variable Name="localHmi" RecursiveEnable="2" />
+        <Variable Name="hmi" RecursiveEnable="2" />
+      </Task>
+      <Task Name="EM_vibrat">
+        <Variable Name="localHmi" RecursiveEnable="1" />
+        <Variable Name="em_status" RecursiveEnable="1" />
+        <Variable Name="localVariables" RecursiveEnable="2">
+          <VariableCommon Name="Common Properties">
+            <Variable Name="MpRecipeRegPar_Config" Disabled="True" />
+            <Variable Name="recipeName" Disabled="True" />
+            <Variable Name="configName" Disabled="True" />
+            <Variable Name="recipeNameCurrent" Disabled="True" />
+            <Variable Name="alarm" Disabled="True" />
+            <Variable Name="TON_alarmReaction" Disabled="True" />
+            <Variable Name="configOld" Disabled="True" />
+            <Variable Name="configTmp" Disabled="True" />
+            <Variable Name="oldCheckChangesConfig" Disabled="True" />
+            <Variable Name="oldLoaded" Disabled="True" />
+            <Variable Name="axisAlarmText" Disabled="True" />
+            <Variable Name="time" Disabled="True" />
+            <Variable Name="MC_BR_WriteParID_0" Disabled="True" />
+            <Variable Name="IsBigCF" Disabled="True" />
+            <Variable Name="testPulses" Disabled="True" />
+            <Variable Name="RandomPulses" Disabled="True" />
+            <Variable Name="PulseWaitAmplitude" Disabled="True" />
+            <Variable Name="PulseAmplitude" Disabled="True" />
+            <Variable Name="TON_PulseTest" Disabled="True" />
+            <Variable Name="hmi">
+              <Variable Name="config" Disabled="True" />
+              <Variable Name="force">
+                <Variable Name="current" Disabled="True" />
+              </Variable>
+            </Variable>
+          </VariableCommon>
+        </Variable>
+      </Task>
+      <Task Name="FAT">
+        <Variable Name="this">
+          <Variable Name="hmi" RecursiveEnable="2" />
+          <Variable Name="config">
+            <Variable Name="timeLeft88h" />
+            <Variable Name="timeLeft12h" />
+            <Variable Name="approveBoltsAreTight" />
+            <Variable Name="approveCfHasHabasit" />
+          </Variable>
+          <Variable Name="hmiUsbPresent" />
+          <Variable Name="hmiUsbNotPresent" />
+        </Variable>
+        <Variable Name="state" />
+        <Variable Name="resultFAT">
+          <Variable Name="FATdone" />
+          <Variable Name="initialGroundMeas" RecursiveEnable="2" />
+          <Variable Name="resistanceMeas2" RecursiveEnable="2">
+            <Variable Name="measurementArr" RecursiveEnable="2" />
+            <Variable Name="measurementOK" RecursiveEnable="2" />
+          </Variable>
+          <Variable Name="machineSetup">
+            <Variable Name="done" />
+            <Variable Name="cfSize" />
+            <Variable Name="machineType" />
+          </Variable>
+          <Variable Name="visualInspection" RecursiveEnable="2">
+            <Variable Name="markingArr" RecursiveEnable="2" />
+          </Variable>
+          <Variable Name="additionalInfo" RecursiveEnable="2" />
+          <Variable Name="capconMeasurement" RecursiveEnable="2" />
+          <Variable Name="capconTest" RecursiveEnable="2" />
+          <Variable Name="levelSensorTest" RecursiveEnable="2" />
+          <Variable Name="photoSensorAdjust" RecursiveEnable="2" />
+          <Variable Name="photoSensorTest" RecursiveEnable="2" />
+          <Variable Name="bfTestIO" RecursiveEnable="2" />
+          <Variable Name="wingTestIO" RecursiveEnable="2" />
+          <Variable Name="CFCoilAdjust">
+            <Variable Name="done" />
+          </Variable>
+          <Variable Name="CFSpringAdjust">
+            <Variable Name="done" />
+            <Variable Name="plate08mm" />
+            <Variable Name="plate09mm" />
+            <Variable Name="plate15mm" />
+            <Variable Name="plate20mm" />
+            <Variable Name="plate25mm" />
+            <Variable Name="frequency" />
+            <Variable Name="ressFrequency" />
+            <Variable Name="maxCurrent" />
+            <Variable Name="currentOK" />
+            <Variable Name="frequencyOK" />
+          </Variable>
+          <Variable Name="LFCoilAdjust">
+            <Variable Name="done" />
+          </Variable>
+          <Variable Name="LFSpringAdjust">
+            <Variable Name="done" />
+            <Variable Name="plate08mm" />
+            <Variable Name="plate09mm" />
+            <Variable Name="plate15mm" />
+            <Variable Name="plate20mm" />
+            <Variable Name="plate25mm" />
+            <Variable Name="ressFrequency" />
+            <Variable Name="maxCurrent" />
+            <Variable Name="currentOK" />
+            <Variable Name="frequencyOK" />
+          </Variable>
+          <Variable Name="after72hAdjustments" RecursiveEnable="2" />
+          <Variable Name="longTest88h">
+            <Variable Name="done" />
+          </Variable>
+          <Variable Name="CFCaliWithHabasit">
+            <Variable Name="done" />
+            <Variable Name="ressFrequency" />
+            <Variable Name="maxCurrent" />
+            <Variable Name="currentOK" />
+            <Variable Name="frequencyOK" />
+          </Variable>
+          <Variable Name="longTest12h">
+            <Variable Name="done" />
+          </Variable>
+        </Variable>
+        <Variable Name="stateRetain" />
+      </Task>
+      <Task Name="updateEWU">
+        <Variable Name="RemoteUpdate_0">
+          <Variable Name="VersionEWU" />
+          <Variable Name="VersionLocal" />
+          <Variable Name="PrepareUpdate" />
+          <Variable Name="CheckVersion" />
+          <Variable Name="UpdateReadyOnEWU" />
+          <Variable Name="UpdateEWU" />
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

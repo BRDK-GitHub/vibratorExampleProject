@@ -1,0 +1,4 @@
+VAR CONSTANT
+	BRDK_PV_MAX_NAME_LENGTH : UINT := 80; (*Max length of string containing the variable names.*)
+	BRDK_PV_MAX_PV_NAMES : UINT := 9; (*9 means 10 elements*)
+END_VAR

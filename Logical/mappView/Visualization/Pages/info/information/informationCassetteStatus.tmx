@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/info/information/cassette/status</prop>
+  </header>
+  <body>
+    <tu tuid="State.0">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Stopped}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.1">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Stopping}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Stopping}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Stopping}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Stopping}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.2">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Aborted}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.3">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Waiting}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Waiting}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Waiting}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Waiting}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.4">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Standby}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.5">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Dosing}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Dosing}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Dosing}</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Dosing}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.6">
+      <tuv xml:lang="en">
+        <seg>{$IAT/Common/Module/States/Releasing}</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>{$IAT/Common/Module/States/Releasing}</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>{$IAT/Common/Module/States/Releasing}</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Időtúllépés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/Common/Module/States/Releasing}</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

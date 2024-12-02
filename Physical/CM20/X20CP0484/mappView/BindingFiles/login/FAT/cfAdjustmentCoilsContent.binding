@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="cfAdjustmentCoilsContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.status.isSmallMachine" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentCoilsContent" widgetRefId="cfAdjustmentDescriptionLabel" attribute="visible" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.status.isBigMachine" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentCoilsContent" widgetRefId="cfAdjustmentDescriptionLabel1" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFCoilAdjust.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="cfAdjustmentCoilsContent" widgetRefId="approveCoilGapToggleButton" attribute="value" />
+</Binding>
+</Bindings>
+</BindingsSet>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="linearProgressContent_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<EventBinding id="linearProgressContent.LinearizationStopButton.MouseDown">
+			<Source contentRefId="linearProgressContent" widgetRefId="LinearizationStopButton" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<Operand name="cfActive" datatype="BOOL">
+				<ReadTarget xsi:type="opcUa.NodeAction.Read" refId="::vibrator:localVariables[0].hmi.calibration.activate" >
+					<Method xsi:type="opcUa.NodeAction.GetValue" />
+				</ReadTarget>
+			</Operand>
+			<EventHandler condition="cfActive = true">	<!-- CF is running linearization -->
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[0].hmi.calibration.activate" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+					</Target>
+				</Action>
+			</EventHandler>
+			<EventHandler condition="cfActive = false">	<!-- LF is running linearization -->
+				<Action>
+					<Target xsi:type="opcUa.NodeAction" refId="::vibrator:localVariables[1].hmi.calibration.activate" >
+						<Method xsi:type="opcUa.NodeAction.SetValueBool" value="false" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+	</Bindings>
+</EventBindingSet>

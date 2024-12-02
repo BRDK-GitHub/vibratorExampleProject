@@ -1,0 +1,25 @@
+VAR CONSTANT
+	MAX_TEACH_CANDIDATES : USINT := 15;
+END_VAR
+VAR
+	countersData : counters_data_typ;
+	interface : REFERENCE TO gCapconInterface_typ;
+	tmpCal : REAL;
+	i : DINT;
+	this : {REDUND_UNREPLICABLE} local_typ;
+	em : {REDUND_UNREPLICABLE} brdkEM;
+	recipe : REFERENCE TO recipe_capcon_typ;
+	config : REFERENCE TO config_capcon_typ;
+END_VAR
+VAR CONSTANT
+	CAPCON_START_RECORD_SAMPLE_COUNT : DINT := 150; (*number of samples that is needed for a record before the start index *)
+END_VAR
+VAR
+	TMU : UDINT;
+END_VAR
+VAR CONSTANT
+	MAX_PCT_FROM_MEAN : USINT := 99;
+END_VAR
+VAR
+	bufferIdxCounter : USINT;
+END_VAR

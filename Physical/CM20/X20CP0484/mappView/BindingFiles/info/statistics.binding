@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="statistics_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.reject.percent" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="statistics" widgetRefId="NumericOutputRejectPercent" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.integral.tooSmallPercent" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="statistics" widgetRefId="NumericOutputIntTooSmall" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.integral.tooBigPercent" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="statistics" widgetRefId="NumericOutputIntTooBig" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.portions.count" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="statistics" widgetRefId="NumericOutputCount" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.lastError" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="statistics" widgetRefId="TextOutputLastError" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.previusError" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="statistics" widgetRefId="TextOutputPreviusError" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.reject.count" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="statistics" widgetRefId="NumericOutputNOKCount" attribute="value" />
+		</Binding>
+	<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.afterCounting.percent" attribute="value" />
+<Target xsi:type="brease" contentRefId="statistics" widgetRefId="NumericOutputAfterCount" attribute="value" />
+</Binding>
+	</Bindings>
+</BindingsSet>

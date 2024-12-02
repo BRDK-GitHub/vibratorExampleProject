@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">DDN8MICK.ext</Object>
+    <Object Type="File">ExternalHardwareDevices.xml</Object>
+    <Object Type="File">8WA0517X.ext</Object>
+    <Object Type="File">0QUTXLWU.ext</Object>
+    <Object Type="File">T78M6JJ4.ext</Object>
+    <Object Type="File">1ATX584Z.ext</Object>
+    <Object Type="File">7XE8FF2H.ext</Object>
+    <Object Type="File">WRN5JGV8.ext</Object>
+    <Object Type="File">DBLQO85H.ext</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="generateReportContent_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.initialGroundMeas.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListInitialGroundMeasurement" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.machineSetup.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListMachineSetupOK" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.correctHartingUsed" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListWingConnectorOK" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFSpringAdjust.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListCFSpring" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.LFCoilAdjust.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListLFCoil" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFCoilAdjust.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListCFCoil" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.wingTestIO.done" attribute="value" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListWingIOTestOK" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.bfTestIO.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListBFtestOK" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.photoSensorTest.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListPhotoSensorTest" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.photoSensorAdjust.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListPhotoSensorAdjustments" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.levelSensorTest.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListLevelSensorTest" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.capconTest.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListCapconSignalTestOK" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.capconMeasurement.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListCapconVoltageMeas" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.additionalInfo.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListAdditionalInfoOK" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.LFSpringAdjust.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListLFSpring" attribute="selectedIndex" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.after72hAdjustments.done" attribute="value" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListAfter88hAdjustments" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.visualInspection.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListMachineMarkings" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.longTest12h.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageList12hTest" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.CFCaliWithHabasit.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListCaliCFWithHabasit" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.longTest88h.done" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageList88hTest" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:resultFAT.FATdone" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="ImageListFinalFATDone" attribute="selectedIndex" />
+</Binding>
+
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmiUsbNotPresent" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="Label3" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmiUsbPresent" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="transferToUSBButton" attribute="enable" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmiUsbPresent" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="Label2" attribute="visible" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::FAT:this.hmi.TransferedToUsb" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="changeoverTestUpper" attribute="selectedIndex" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::transferCo:this.hmi.cantConnectToFT50" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="generateReportContent" widgetRefId="LabelUserNotShared" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>

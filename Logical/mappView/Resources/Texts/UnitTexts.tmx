@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">Localization/Units/User</prop>
+  </header>
+  <body>
+    <tu tuid="4543793.Name">
+      <tuv xml:lang="de">
+        <seg>Meine Einheit</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Mon unité</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pieces per min</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Kusu za min</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>件每分钟</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>pieza/min</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Darab / perc</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Mảnh ghép mỗi phút</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543793.Sym">
+      <tuv xml:lang="en">
+        <seg>pcs/min</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Einheit</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Unité</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>ks/min</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>件/分钟</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>pieza/min</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>db/perc</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>chiếc/phút</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543793.Desc">
+      <tuv xml:lang="de">
+        <seg>Meine Beschreibung</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Ma description</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Pieces per min</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Kusu za min</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>件每分钟</seg>
+      </tuv>
+      <tuv xml:lang="es-MX">
+        <seg>pieza/min</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Darab / perc</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Mảnh ghép mỗi phút</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543794.Name">
+      <tuv xml:lang="en">
+        <seg>Percentage</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Procento</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>百分比</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Százalékos arány</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Phần trăm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543794.Sym">
+      <tuv xml:lang="en">
+        <seg>%</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>%</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>%</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>%</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>%</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543794.Desc">
+      <tuv xml:lang="en">
+        <seg>Percentage</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Procento</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>百分比</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Százalékos arány</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Phần trăm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543795.Name">
+      <tuv xml:lang="en">
+        <seg>Milihertz</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Milihertz</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>毫赫兹</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Millihertz</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Milihertz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543795.Sym">
+      <tuv xml:lang="en">
+        <seg>mHz</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>mHz</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>mHz</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>mHz</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>mHz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543795.Desc">
+      <tuv xml:lang="en">
+        <seg>Milihertz</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Milihertz</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>毫赫兹</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Millihertz</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Milihertz</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543796.Name">
+      <tuv xml:lang="en">
+        <seg>Time measurement unit</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>时间测量单位</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Jednotka mereni</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Időmérési egység</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đơn vị đo thời gian</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543796.Sym">
+      <tuv xml:lang="en">
+        <seg>TMU</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>TMU</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>TMU</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>IME</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>TMU</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4543796.Desc">
+      <tuv xml:lang="en">
+        <seg>Time measurement unit</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Time measurement unit</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>时间测量单位</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đơn vị đo thời gian</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

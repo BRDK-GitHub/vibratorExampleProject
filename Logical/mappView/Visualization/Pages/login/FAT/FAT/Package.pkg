@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="PagePackage" PackageType="PagePackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Page description">FAT.page</Object>
+    <Object Type="File">blank.content</Object>
+    <Object Type="File">initialGroundMeasurement.content</Object>
+    <Object Type="File">visualInspection.content</Object>
+    <Object Type="File">wingTestIO.content</Object>
+    <Object Type="File">additionInformation.content</Object>
+    <Object Type="File">capconVoltageMeasurement.content</Object>
+    <Object Type="File">capconSignalTest.content</Object>
+    <Object Type="File">levelSensor.content</Object>
+    <Object Type="File">photoSensor.content</Object>
+    <Object Type="File">photoSensorTest.content</Object>
+    <Object Type="File">bfTestIO.content</Object>
+    <Object Type="File">wingTestIO2.content</Object>
+    <Object Type="File">cfAdjustmentCoils.content</Object>
+    <Object Type="File">cfAdjustmentSprings.content</Object>
+    <Object Type="File">lfAdjustmentCoils.content</Object>
+    <Object Type="File">lfAdjustmentSprings.content</Object>
+    <Object Type="File">hourTest88.content</Object>
+    <Object Type="File">afterTestAdjustments.content</Object>
+    <Object Type="File">cfCaliHabasit.content</Object>
+    <Object Type="File">hourTest12h.content</Object>
+    <Object Type="File">visualInspection2.content</Object>
+    <Object Type="File">generateReportcontent.content</Object>
+  </Objects>
+</Package>

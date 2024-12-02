@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="ramps_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<!-- FEEDER PAGE BUTTON -->
+		<EventBinding id="ramps.feeder.MouseDown">
+			<Source contentRefId="ramps" widgetRefId="feeder" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="feeder" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- VIBRATOR PAGE BUTTON -->
+		<EventBinding id="ramps.vibrator.MouseDown">
+			<Source contentRefId="ramps" widgetRefId="vibrator" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="vibrator" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- CAPCON PAGE BUTTON -->
+		<EventBinding id="ramps.capcon.MouseDown">
+			<Source contentRefId="ramps" widgetRefId="capcon" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Action>
+					<Target xsi:type="clientSystem.Action">
+						<Method xsi:type="clientSystem.Action.Navigate" pageId="capcon" />
+					</Target>
+				</Action>
+			</EventHandler>
+		</EventBinding>
+		<!-- ITEM QUANTITY -->
+		<EventBinding id="ramps.itemQuantityButton.MouseDown">
+			<Source contentRefId="ramps" widgetRefId="itemQuantityButton" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.inputItemQuantityStyle" >
+						        <Method xsi:type="session.VariableAction.SetValueString" value="NumericInputHighlight" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.buttonItemQuantityVisible" >
+						        <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="2">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="selectedVariableIndex" >
+						        <Method xsi:type="session.VariableAction.SetValueNumber" value="1" />
+						    </Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+		</EventBinding>
+		
+		<!-- COUNTING SPEED -->
+		<EventBinding id="ramps.CountingSpeedOutput.Click">
+			<Source contentRefId="ramps" widgetRefId="CountingSpeedOutput" xsi:type="widgets.brease.NumericOutput.Event" event="Click" />
+			<Operand datatype="ANY_INT" name="idx">
+				<ReadTarget xsi:type="session.VariableAction.Read" refId="main.countingSpeedIdx">
+					<Method xsi:type="session.VariableAction.GetValue" />
+				</ReadTarget>
+			</Operand>
+			<EventHandler condition="idx = 0">
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedIdx" >
+								<Method xsi:type="session.VariableAction.SetValueNumber" value="1" />
+							</Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedUnit" >
+								<Method xsi:type="session.VariableAction.SetValueString" value="{'metric':'http://www.br-automation.com/units|EU4','imperial':'http://www.br-automation.com/units|EU1','imperial-us':'http://www.br-automation.com/units|EU1'}" />
+							</Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+			<EventHandler condition="idx = 1">
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedIdx" >
+								<Method xsi:type="session.VariableAction.SetValueNumber" value="2" />
+							</Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedUnit" >
+								<Method xsi:type="session.VariableAction.SetValueString" value="{'metric':'http://www.br-automation.com/units|EU1','imperial':'http://www.br-automation.com/units|EU2','imperial-us':'http://www.br-automation.com/units|EU2'}" />
+							</Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+			<EventHandler condition="idx = 2">
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedIdx" >
+								<Method xsi:type="session.VariableAction.SetValueNumber" value="3" />
+							</Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedUnit" >
+								<Method xsi:type="session.VariableAction.SetValueString" value="{'metric':'http://www.br-automation.com/units|EU2','imperial':'http://www.br-automation.com/units|EU4','imperial-us':'http://www.br-automation.com/units|EU4'}" />
+							</Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+			<EventHandler condition="idx = 3">
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedIdx" >
+								<Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+							</Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.countingSpeedUnit" >
+								<Method xsi:type="session.VariableAction.SetValueString" value="{'metric':'http://www.br-automation.com/units|EU1','imperial':'http://www.br-automation.com/units|EU2','imperial-us':'http://www.br-automation.com/units|EU2'}" />
+							</Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+		</EventBinding>
+	
+		<!-- LF RAMP UP -->
+		<EventBinding id="ramps.buttonLfRampUp.MouseDown">
+			<Source contentRefId="ramps" widgetRefId="buttonLfRampUp" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.inputLfRampUpStyle" >
+						        <Method xsi:type="session.VariableAction.SetValueString" value="NumericInputHighlight" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.buttonLfRampUpVisible" >
+						        <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="2">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="selectedVariableIndex" >
+						        <Method xsi:type="session.VariableAction.SetValueNumber" value="30" />
+						    </Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+		</EventBinding>
+		<!-- BELT RAMP UP -->
+		<EventBinding id="ramps.buttonBeltRampUp.MouseDown">
+			<Source contentRefId="ramps" widgetRefId="buttonBeltRampUp" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.inputBeltRampUpStyle" >
+						        <Method xsi:type="session.VariableAction.SetValueString" value="NumericInputHighlight" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.buttonBeltRampUpVisible" >
+						        <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="2">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="selectedVariableIndex" >
+						        <Method xsi:type="session.VariableAction.SetValueNumber" value="31" />
+						    </Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+		</EventBinding>
+		<!-- BELT RAMP DOWN -->
+		<EventBinding id="ramps.buttonBeltRampDown.MouseDown">
+			<Source contentRefId="ramps" widgetRefId="buttonBeltRampDown" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+			<EventHandler>
+				<Sequence>
+					<Step order="0">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.inputBeltRampDownStyle" >
+						        <Method xsi:type="session.VariableAction.SetValueString" value="NumericInputHighlight" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="1">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="main.buttonBeltRampDownVisible" >
+						        <Method xsi:type="session.VariableAction.SetValueBool" value="false" />
+						    </Target>
+						</Action>
+					</Step>
+					<Step order="2">
+						<Action>
+							<Target xsi:type="session.VariableAction" refId="selectedVariableIndex" >
+						        <Method xsi:type="session.VariableAction.SetValueNumber" value="32" />
+						    </Target>
+						</Action>
+					</Step>
+				</Sequence>
+			</EventHandler>
+		</EventBinding>
+	</Bindings>
+</EventBindingSet>

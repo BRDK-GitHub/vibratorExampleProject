@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="LegoLightHeader" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<Style id="statusGreen" xsi:type="widgets.brease.TextOutput" 
+		backColor="#FFF"
+		fontSize="60px"
+		fontName="icomoon"
+		textColor="#4cd137"
+		textAlign="center"
+	/>
+	
+	<Style id="statusBlue" xsi:type="widgets.brease.TextOutput" 
+		backColor="#FFF"
+		fontSize="60px"
+		fontName="icomoon"
+		textColor="#00a8ff"
+		textAlign="center"
+	/>
+	
+	<Style id="statusRed" xsi:type="widgets.brease.TextOutput" 
+		backColor="#FFF"
+		fontSize="60px"
+		fontName="icomoon"
+		textColor="#e84118"
+		textAlign="center"
+	/>
+		
+</Styles>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">mainButtonsRight.eventbinding</Object>
+    <Object Type="File">main.binding</Object>
+    <Object Type="File">feeder.binding</Object>
+    <Object Type="File">feeder.eventbinding</Object>
+    <Object Type="File">vibrator.binding</Object>
+    <Object Type="File">vibrator.eventbinding</Object>
+    <Object Type="File">ramps.binding</Object>
+    <Object Type="File">ramps.eventbinding</Object>
+    <Object Type="File">capcon.binding</Object>
+    <Object Type="File">capcon.eventbinding</Object>
+  </Objects>
+</Package>

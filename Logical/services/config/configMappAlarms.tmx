@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="SaveFailed">
+      <tuv xml:lang="da">
+        <seg>da</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Ulozeni konfigurace selhalo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration save failed</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>gm</seg>
+      </tuv>
+      <tuv xml:lang="is">
+        <seg>ic</seg>
+      </tuv>
+      <tuv xml:lang="nl">
+        <seg>du</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>配置保存失败</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A konfiguráció mentése sikertelen</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lưu cấu hình không thành công</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SaveFailedPartial">
+      <tuv xml:lang="da">
+        <seg>da</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Ulozeni konfigurace castecne selhalo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration save partially failed</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>gm</seg>
+      </tuv>
+      <tuv xml:lang="is">
+        <seg>ic</seg>
+      </tuv>
+      <tuv xml:lang="nl">
+        <seg>du</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>配置保存部分失败</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A konfiguráció mentése részben sikertelen</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lưu cấu hình không thành công một phần</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoadFailed">
+      <tuv xml:lang="da">
+        <seg>da</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nacteni konfigurace selhalo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration load failed</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>gm</seg>
+      </tuv>
+      <tuv xml:lang="is">
+        <seg>ic</seg>
+      </tuv>
+      <tuv xml:lang="nl">
+        <seg>du</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>配置载入失败</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A konfiguráció betöltése sikertelen</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tải cấu hình không thành công</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoadFailedPartial">
+      <tuv xml:lang="da">
+        <seg>da</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nacteni konfigurace castecne selhalo</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration load partially failed</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>gm</seg>
+      </tuv>
+      <tuv xml:lang="is">
+        <seg>ic</seg>
+      </tuv>
+      <tuv xml:lang="nl">
+        <seg>du</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>配置载入部分失败</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>A konfiguráció betöltése részben sikertelen</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tải cấu hình không thành công một phần</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="afterTestAdjustmentsContent" height="940" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Line" id="Line1" zIndex="0" x1="59" x2="739" y1="100" y2="100" />
+    <Widget xsi:type="widgets.brease.Label" id="threeDaysTestDescriptionLabel" top="0" left="40" width="720" height="100" zIndex="1" multiLine="true" text="Approve pacemaker marking on CF coil and mount blue cover around circular feeder." wordWrap="true" textAlign="center" />
+    <Widget xsi:type="widgets.brease.Image" id="Image3" top="140" left="380" width="60" height="60" zIndex="6" image="Media/Images/pacemakerSticker.jpg" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="Pacemaker" top="140" left="640" width="80" height="60" zIndex="2" mouseDownText="✓" mouseDownBorderColor="rgba(0, 0, 0, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label14" top="140" left="60" width="320" height="60" zIndex="3" multiLine="true" text="Approve pacemaker marking:" wordWrap="true" textAlign="left" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="TypePlateCF" top="220" left="640" width="80" height="60" zIndex="4" mouseDownText="✓" mouseDownBorderColor="rgba(0, 0, 0, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label15" top="220" left="60" width="420" height="60" zIndex="5" multiLine="true" text="Approve mounting of cover around CF:" wordWrap="true" textAlign="left" />
+    <Widget xsi:type="widgets.brease.Line" id="Line2" zIndex="7" x1="59" x2="739" y1="500" y2="500" />
+    <Widget xsi:type="widgets.brease.Label" id="threeDaysTestDescriptionLabel1" top="400" left="40" width="720" height="100" zIndex="8" multiLine="true" text="Put habasit into the Circular Feeder!\n Control that level sensor works properly after mounting of habasit" wordWrap="true" textAlign="center" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="TypePlateCF1" top="300" left="640" width="80" height="60" zIndex="9" mouseDownText="✓" mouseDownBorderColor="rgba(0, 0, 0, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label16" top="300" left="60" width="440" height="60" zIndex="10" multiLine="true" text="Approve RNA marking on mounted cover:" wordWrap="true" textAlign="left" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="TypePlateCF2" top="560" left="640" width="80" height="60" zIndex="11" mouseDownText="✓" mouseDownBorderColor="rgba(0, 0, 0, 1)" mouseDownBackColor="rgba(255, 255, 255, 1)" />
+    <Widget xsi:type="widgets.brease.Label" id="Label17" top="560" left="60" width="560" height="60" zIndex="12" multiLine="true" text="Approve that habasit is in CF and level sensor working properly:" wordWrap="true" textAlign="left" />
+  </Widgets>
+</Content>

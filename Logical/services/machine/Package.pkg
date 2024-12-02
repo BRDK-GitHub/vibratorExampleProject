@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC">machine</Object>
+    <Object Type="File" Private="true">build.typ</Object>
+    <Object Type="File" Private="true">build.var</Object>
+    <Object Type="Program" Language="IEC">updateCM</Object>
+    <Object Type="Program" Language="IEC">transferConfigToT50</Object>
+    <Object Type="File">machineGlobal.var</Object>
+    <Object Type="File">machineGlobal.typ</Object>
+    <Object Type="Program" Language="IEC">updateEWU</Object>
+    <Object Type="Program" Language="IEC">lampCtrl</Object>
+    <Object Type="Program" Language="IEC">udpClient</Object>
+  </Objects>
+  <Dependencies>
+    <Dependency ObjectName="brdkMU" />
+    <Dependency ObjectName="MpRecipe" />
+  </Dependencies>
+</Package>

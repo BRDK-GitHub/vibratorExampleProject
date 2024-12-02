@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/login/machine/configuration</prop>
+  </header>
+  <body>
+    <tu tuid="AutoLogout">
+      <tuv xml:lang="zh">
+        <seg>自动登出</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Auto odlhaseni</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Auto logout</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Automatikus kijelentkezés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tự động đăng xuất</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LogoutTime">
+      <tuv xml:lang="zh">
+        <seg>登出时间</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Odhlasovaci cas</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout time</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kijelentkezési idő</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thời gian đăng xuất</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MachineType">
+      <tuv xml:lang="zh">
+        <seg>设备类型</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Typ zarizeni</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Machine type</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Berendezés típusa</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Loại máy</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Left">
+      <tuv xml:lang="zh">
+        <seg>左侧点数机</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Levy</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Left</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Bal</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Trái</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Right">
+      <tuv xml:lang="zh">
+        <seg>右侧点数机</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pravy</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Right</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Jobb</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Phải</seg>
+      </tuv>
+    </tu>
+    <tu tuid="saveMachineConfigToT50">
+      <tuv xml:lang="zh">
+        <seg>设置保存至屏幕</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Uloz konfiguraci do displeje</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Save config to T50</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Konfiguráció mentése T50-be</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Lưu cấu hình vào T50</seg>
+      </tuv>
+    </tu>
+    <tu tuid="leftLabel">
+      <tuv xml:lang="zh">
+        <seg>{$IAT/login/machine/configuration/AutoLogout}\n\n\n\n{$IAT/login/machine/configuration/MachineType}\n\n\n\n{$IAT/login/machine/configuration/saveMachineConfigToT50}</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>{$IAT/login/machine/configuration/AutoLogout}\n\n\n\n{$IAT/login/machine/configuration/MachineType}\n\n\n\n{$IAT/login/machine/configuration/saveMachineConfigToT50}\n\n\n{$IAT/login/machine/configuration/updateMachine}\n\n\n\n Update line</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>{$IAT/login/machine/configuration/AutoLogout}\n\n\n\n{$IAT/login/machine/configuration/MachineType}\n\n\n\n{$IAT/login/machine/configuration/saveMachineConfigToT50}\n\n\n{$IAT/login/machine/configuration/updateMachine}\n\n\n\n Update line</seg>
+      </tuv>
+    </tu>
+    <tu tuid="updateMachine">
+      <tuv xml:lang="zh">
+        <seg>更新机器</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Aktualizovat stroj</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Update machine</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Berendezés frissítése</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Cập nhật máy</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

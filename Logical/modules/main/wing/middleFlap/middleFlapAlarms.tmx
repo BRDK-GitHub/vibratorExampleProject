@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">MiddleFlapAlarms</prop>
+  </header>
+  <body>
+    <tu tuid="middleFlapOpenTooLong">
+      <tuv xml:lang="en">
+        <seg>Middle flap opening time too long</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stredni klapka otevira moc dlouho</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>中部叶片打开时间过长</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl hosszú a középső szárny nyitási ideje</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thời gian mở nắp giữa quá lâu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="middleFlapCloseTooLong">
+      <tuv xml:lang="en">
+        <seg>Middle flap closing time too long</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Stredni klapka zavira moc dlouho</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>中部叶片关闭时间过长</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Túl hosszú a középső szárny zárási ideje</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thời gian đóng nắp giữa quá lâu</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

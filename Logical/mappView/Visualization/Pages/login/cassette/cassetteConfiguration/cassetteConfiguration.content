@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="cassetteConfiguration" height="782" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="configuration" top="5" left="5" width="395" height="60" zIndex="0" text="$IAT/Common/Configuration" style="TabButtonPressed" />
+    <Widget xsi:type="widgets.brease.Button" id="io" top="5" left="400" width="395" height="60" zIndex="1" text="$IAT/Common/IO" style="TabButton" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWCassetteReleaseTime" top="85" left="400" width="195" height="60" zIndex="2" multiLine="true" text="$IAT/login/wing/configuration/CassetteReleaseTime" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWCassetteDetectTime" top="85" left="5" width="195" height="60" zIndex="3" multiLine="true" text="$IAT/login/wing/configuration/CassetteDetectTime" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWSimCassette" top="245" left="5" width="195" height="60" zIndex="4" text="$IAT/login/wing/configuration/SimCassette" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButtonWSimCassette" top="245" left="200" width="200" height="60" zIndex="5" mouseDownText="✓" style="Page" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWSimCassette1" top="165" left="400" width="195" height="60" zIndex="6" multiLine="true" text="$IAT/login/cassette/dosingLineCmd" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.ToggleButton" id="ToggleButtonWSimCassette1" top="165" left="595" width="200" height="60" zIndex="7" mouseDownText="✓" style="Page" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelWCassetteDetectTime1" top="165" left="5" width="195" height="60" zIndex="8" multiLine="true" text="$IAT/login/cassette/cassetteStartDelay" wordWrap="true" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputWCassetteStartDelay" top="160" left="200" width="200" height="60" zIndex="9" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" unit="{'metric':'C26','imperial':'C26','imperial-us':'C26'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputWCassetteDetectTime12" top="80" left="200" width="200" height="60" zIndex="10" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" unit="{'metric':'C26','imperial':'C26','imperial-us':'C26'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputWCassetteReleaseTime12" top="80" left="595" width="200" height="60" zIndex="11" format="{'metric':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial':{'decimalPlaces':0,'minimumIntegerDigits':1},'imperial-us':{'decimalPlaces':0,'minimumIntegerDigits':1}}" unit="{'metric':'C26','imperial':'C26','imperial-us':'C26'}" unitAlign="right" />
+  </Widgets>
+</Content>

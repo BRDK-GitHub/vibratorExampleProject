@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package" Description="This module is used to handle the machine configuration.">machine</Object>
+    <Object Type="Package" Description="project language definition">language</Object>
+    <Object Type="Package" Description="This module is used to handle all machine alarms.">alarm</Object>
+    <Object Type="Package" Description="This module is used to handle all file devices.">file</Object>
+    <Object Type="Package" Description="This module is used to handle all machine recipes.">recipe</Object>
+    <Object Type="Package" Description="This module is used to handle the machine configuration.">config</Object>
+    <Object Type="Package" Description="Recipe control handler">recipeCtrl</Object>
+    <Object Type="Package">elementImg</Object>
+    <Object Type="Package">EthernetIP</Object>
+    <Object Type="Package">data</Object>
+    <Object Type="Package" Description="This module is used to handle all file devices.">FAT</Object>
+  </Objects>
+</Package>

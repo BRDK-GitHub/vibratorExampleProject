@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="LegoLightNumpad" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">		
+	<Style id="default" xsi:type="widgets.keyboards.legoNumpad"  
+		fontSize="30px"
+		minValueFontSize="30px"
+		maxValueFontSize="30px"
+		borderStyle="none"
+		cornerRadius="20px"
+		deleteBackgroundImage="Media/Keyboard/backspace.png"
+		enterBackgroundImage="Media/Keyboard/enter.png"
+		buttonBorderColor="#646464"
+		buttonBorderWidth="3px"
+		buttonBackColor="#F5F5F5" 
+		buttonMouseDownBackColor="#dbdbdb"
+		buttonMouseDownBorderColor="#FD7B01"
+		buttonCornerRadius="10px"
+		buttonFontSize="30px"
+		valueFontSize="45px"
+		valueCornerRadius="10px"
+		valueBackColor="#dcdcdc"
+		valueBorderColor="#555555"
+		valueTextAlign="center"
+		valueBorderWidth="3px"
+	/>
+</Styles>

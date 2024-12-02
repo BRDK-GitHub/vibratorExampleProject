@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Styles id="LegoLightLabel" xmlns="http://www.br-automation.com/iat2015/styles/engineering/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<Style id="default" xsi:type="widgets.brease.Label" 
+		fontSize="20px"
+		bold="true"
+		backColor="#ffffff"
+		textAlign="right top"
+	/>
+	
+	<Style id="LabelCenter" xsi:type="widgets.brease.Label" 
+		fontSize="20px"
+		bold="true"
+		backColor="#ffffff"
+		textAlign="center"
+	/>
+	
+	<Style id="LabelLeft" xsi:type="widgets.brease.Label" 
+		fontSize="20px"
+		bold="true"
+		backColor="#FFFFFF"
+		textAlign="left"
+	/>
+	
+	<Style id="LabelGrey" xsi:type="widgets.brease.Label" 
+		fontSize="20px"
+		bold="true"
+		backColor="#e0e0e0"
+	/>
+	
+	<Style id="dialog" xsi:type="widgets.brease.Label" 
+		fontSize="32px"
+		textAlign="center"
+		bold="true"
+	/>
+	
+	<Style id="TabButtonPressed" xsi:type="widgets.brease.Label" 
+		cornerRadius="10px 10px 0px 0px" 
+		backColor="#e0e0e0" 
+		borderColor="#e0e0e0"
+		borderWidth="0px 0px 6px 0px"
+		fontSize="20px" 
+		bold="true"
+		textAlign="center"
+	/>
+
+</Styles>

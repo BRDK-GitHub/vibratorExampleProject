@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="CM20.Hardware.hw" LastWriteTime="11/20/2024 08:18:37" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20BB62" Type="X20BB62" X="75" Y="100" />
+    <Module Name="X20BM11b" Type="X20BM11" X="138" Y="100" />
+    <Module Name="KA10" Type="X20DS438A" X="138" Y="100" />
+    <Module Name="X20TB12c" Type="X20TB12" X="138" Y="127" />
+    <Module Name="X20BM11j" Type="X20BM11" X="151" Y="100" />
+    <Module Name="KA11" Type="X20DO6322" X="151" Y="100" />
+    <Module Name="X20TB12n" Type="X20TB12" X="151" Y="127" />
+    <Module Name="X20BM11h" Type="X20BM11" X="164" Y="100" />
+    <Module Name="KA12" Type="X20AI2222" X="164" Y="100" />
+    <Module Name="X20TB12i" Type="X20TB12" X="164" Y="127" />
+    <Module Name="X20BM11l" Type="X20BM11" X="177" Y="100" />
+    <Module Name="KA13" Type="X20DI4760" X="177" Y="100" />
+    <Module Name="X20TB12p" Type="X20TB12" X="177" Y="127" />
+    <Module Name="X20BM11k" Type="X20BM11" X="190" Y="100" />
+    <Module Name="KA14" Type="X20PD0011" X="190" Y="100" />
+    <Module Name="X20TB12o" Type="X20TB12" X="190" Y="127" />
+    <Module Name="X20BM11m" Type="X20BM11" X="203" Y="100" />
+    <Module Name="KA15" Type="X20DI8371" X="203" Y="100" />
+    <Module Name="X20TB12q" Type="X20TB12" X="203" Y="127" />
+    <Module Name="X20BM11n" Type="X20BM11" X="216" Y="100" />
+    <Module Name="KA16" Type="X20DO8322" X="216" Y="100" />
+    <Module Name="X20TB12r" Type="X20TB12" X="216" Y="127" />
+    <Module Name="X20BM11o" Type="X20BM11" X="229" Y="100" />
+    <Module Name="KA17" Type="X20DO6322" X="229" Y="100" />
+    <Module Name="X20TB12s" Type="X20TB12" X="229" Y="127" />
+    <Module Name="X20BM11p" Type="X20BM11" X="242" Y="100" />
+    <Module Name="KA18" Type="X20DI6371" X="242" Y="100" />
+    <Module Name="X20TB12t" Type="X20TB12" X="242" Y="127" />
+    <Module Name="X20BM11q" Type="X20BM11" X="255" Y="100" />
+    <Module Name="KA19" Type="X20DO4649" X="255" Y="100" />
+    <Module Name="X20TB12u" Type="X20TB12" X="255" Y="127" />
+    <Module Name="X20BM11" Type="X20BM11" X="268" Y="100" />
+    <Module Name="KA20" Type="X20PD0012" X="268" Y="100" />
+    <Module Name="X20TB12a" Type="X20TB12" X="268" Y="127" />
+    <Module Name="X20BM11a" Type="X20BM11" X="281" Y="100" />
+    <Module Name="KA21" Type="X20PD0011" X="281" Y="100" />
+    <Module Name="X20TB12b" Type="X20TB12" X="281" Y="127" />
+    <Module Name="X20BM12" Type="X20BM12" X="294" Y="100" />
+    <Module Name="KA22" Type="X20DO2623" X="294" Y="100" />
+    <Module Name="X20TB32" Type="X20TB32" X="294" Y="127" />
+    <Module Name="X20IF1082-2" Type="X20IF1082-2" X="75" Y="100" />
+    <Module Name="X20PS9600" Type="X20PS9600" X="125" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="125" Y="127" />
+    <Module Name="X20CP0484" Type="X20CP0484" X="100" Y="100" />
+    <Module Name="ServoDrive" Type="8EI8X8MWT10.xxxx-1" X="307" Y="249" />
+    <Module Name="calibrationToolv.1.2.0" Type="FBE.calibrationToolv.1.2.0" X="596" Y="259" />
+    <Module Name="6PFT50.101E-10B" Type="6PFT50.101E-10B" X="324" Y="626" />
+    <Module Name="BNI_IOL_800_000_Z036_IODD1_1" Type="FBD.IOLink.GenericDeviceDTM.DTMCore.BNI IOL-800-000-Z036 IODD1.1" X="147" Y="316" />
+    <Module Name="X20BB80" Type="X20BB80" X="1211" Y="292" />
+    <Module Name="X20BM31" Type="X20BM31" X="1249" Y="292" />
+    <Module Name="X20CM4810" Type="X20CM4810" X="1249" Y="292" />
+    <Module Name="X20TB12e" Type="X20TB12" X="1262" Y="319" />
+    <Module Name="X20PS9400" Type="X20PS9400" X="1236" Y="292" />
+    <Module Name="X20TB12d" Type="X20TB12" X="1236" Y="319" />
+    <Module Name="LinearizationTool" Type="X20BC0083" X="1211" Y="292" />
+    <Module Name="eWU20-Left" Type="FBE.eWU20-v.2.1.0" X="761" Y="316" />
+    <Module Name="eWU20-Right" Type="FBE.eWU20-v.2.1.0" X="929" Y="316" />
+  </Modules>
+  <Links>
+    <Link From="6PFT50.101E-10B" To="X20CP0484" FromPort="ETH1" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="417" Y="759.4" />
+      <Point X="417" Y="759.4" />
+      <Point X="417" Y="763.4" />
+      <Point X="417" Y="775" />
+      <Point X="114" Y="775" />
+      <Point X="114" Y="200" />
+      <Point X="114" Y="190" />
+      <Point X="114" Y="190" />
+    </Link>
+    <Link From="BNI_IOL_800_000_Z036_IODD1_1" To="KA10" FromPort="IO-Link1" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="166" Y="355" />
+      <Point X="166" Y="355" />
+      <Point X="166" Y="367" />
+      <Point X="166" Y="375" />
+      <Point X="135" Y="375" />
+      <Point X="135" Y="305" />
+      <Point X="148" Y="305" />
+      <Point X="148" Y="200" />
+      <Point X="148" Y="159" />
+      <Point X="145" Y="159" />
+    </Link>
+    <Link From="LinearizationTool" To="eWU20-Right" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1225" Y="367" />
+      <Point X="1225" Y="367" />
+      <Point X="1210" Y="367" />
+      <Point X="1205" Y="367" />
+      <Point X="1205" Y="375" />
+      <Point X="963" Y="375" />
+      <Point X="963" Y="362" />
+      <Point X="963" Y="350" />
+      <Point X="963" Y="350" />
+    </Link>
+    <Link From="ServoDrive" To="X20CP0484" FromPort="PLK1" ToPort="IF3" IsRoutedByUser="False">
+      <Point X="114" Y="173" />
+      <Point X="105.75" Y="173" />
+      <Point X="105.75" Y="200" />
+      <Point X="105.75" Y="259.5" />
+      <Point X="306.7" Y="259.5" />
+      <Point X="314.7" Y="259.5" />
+      <Point X="314.7" Y="259.5" />
+    </Link>
+    <Link From="ServoDrive" To="calibrationToolv.1.2.0" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="615" Y="293" />
+      <Point X="615" Y="293" />
+      <Point X="595" Y="293" />
+      <Point X="585" Y="293" />
+      <Point X="585" Y="235" />
+      <Point X="323.1" Y="235" />
+      <Point X="323.1" Y="248.5" />
+      <Point X="323.1" Y="259.5" />
+      <Point X="323.1" Y="259.5" />
+    </Link>
+    <Link From="calibrationToolv.1.2.0" To="eWU20-Left" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="630" Y="293" />
+      <Point X="630" Y="293" />
+      <Point X="630" Y="305" />
+      <Point X="630" Y="350" />
+      <Point X="760" Y="350" />
+      <Point X="780" Y="350" />
+      <Point X="780" Y="350" />
+    </Link>
+    <Link From="eWU20-Left" To="eWU20-Right" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="795" Y="350" />
+      <Point X="795" Y="350" />
+      <Point X="795" Y="362" />
+      <Point X="795" Y="375" />
+      <Point X="865" Y="375" />
+      <Point X="865" Y="350" />
+      <Point X="928" Y="350" />
+      <Point X="948" Y="350" />
+      <Point X="948" Y="350" />
+    </Link>
+  </Links>
+  <InfoElements>
+    <InfoElementText Id="Textbox_1" X="596" Y="184" Width="119" Height="43">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Calibration Tool</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_2" X="747" Y="249" Width="119" Height="43">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">eWU20 Left</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_3" X="917" Y="249" Width="119" Height="43">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">eWU20 Right</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+    <InfoElementText Id="Textbox_4" X="1188" Y="217" Width="124" Height="64">
+      <Text Color="Black" FontName="Arial" FontSize="12" FontStyle="Regular" AlignmentHorizontal="Left">Calibration Tool using buscontroller</Text>
+      <Background Color="White" Transparent="False" />
+      <Border Color="Black" Transparent="False" DashStyle="Solid" Width="1" />
+    </InfoElementText>
+  </InfoElements>
+</BR.AS.HardwareTopology>

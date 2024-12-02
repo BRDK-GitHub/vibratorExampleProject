@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="FATFooterContent_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="FATFooterContent.main.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="FATFooterContent" widgetRefId="main" event="MouseDown" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Navigate" pageId="vibrator" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="0" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="FATFooterContent.info.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="FATFooterContent" widgetRefId="info" event="MouseDown" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Navigate" pageId="alarm" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="10" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="FATFooterContent.settings.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="FATFooterContent" widgetRefId="settings" event="MouseDown" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Navigate" pageId="templateData" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="20" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="FATFooterContent.language.MouseDown">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="FATFooterContent" widgetRefId="language" event="MouseDown" />
+      <EventHandler>
+        <Sequence>
+          <Step order="0">
+            <Action>
+              <Target xsi:type="clientSystem.Action">
+                <Method xsi:type="clientSystem.Action.Navigate" pageId="language" />
+              </Target>
+            </Action>
+          </Step>
+          <Step order="1">
+            <Action>
+              <Target xsi:type="session.VariableAction" refId="commonMain.pageName">
+                <Method xsi:type="session.VariableAction.SetValueNumber" value="30" />
+              </Target>
+            </Action>
+          </Step>
+        </Sequence>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_5">
+      <Source xsi:type="opcUa.Event" refId="::FAT:state" event="ValueChanged" />
+      <EventHandler condition="newValue=10">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="initialGroundMeasurementContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=20">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="visualInspectionContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=30">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="wingTestIOContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=40">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="additionInformationContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=50">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="capconVoltageMeasurementContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=60">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="capconSignalTestContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=70">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="levelSensorContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=80">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="photoSensorContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=90">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="photoSensorTestContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=100">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="bfTestIOContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=110">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="wingTestIO2Content" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=120">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="cfAdjustmentCoilsContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=130">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="cfAdjustmentSpringsContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=140">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="lfAdjustmentCoilsContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=150">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="lfAdjustmentSpringsContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=160">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="hourTest88Content" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=170">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="afterTestAdjustmentsContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=180">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="cfCaliHabasitContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=190">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="hourTest12hContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=200">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="visualInspection2Content" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue=210">
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.LoadContentInArea" contentId="generateReportContent" pageId="FATPage" areaId="FATMain" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

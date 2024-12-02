@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="mpConfig" Type="mprecipexml">
+    <Selector ID="Alarms" Value="MpAlarmX">
+      <Group ID="mapp.AlarmX.Core.Configuration">
+        <Group ID="[0]">
+          <Property ID="Message" Value="{$IAT/SaveFailed}" />
+          <Property ID="Severity" Value="1000" />
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Message" Value="{$IAT/SaveFailedPartial}" />
+          <Property ID="Severity" Value="1000" />
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Message" Value="{$IAT/LoadFailed}" />
+          <Property ID="Severity" Value="1000" />
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Message" Value="{$IAT/LoadFailedPartial}" />
+          <Property ID="Severity" Value="1000" />
+        </Group>
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="linearFeederConfiguration_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+  	<!-- Linearization PAGE BUTTON -->
+	<EventBinding id="linearFeederConfiguration.linearization.MouseDown">
+		<Source contentRefId="linearFeederConfiguration" widgetRefId="linearization" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+		<EventHandler>
+			<Action>
+				<Target xsi:type="clientSystem.Action">
+					<Method xsi:type="clientSystem.Action.Navigate" pageId="linearFeederLinearization" />
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+  	<!-- IO PAGE BUTTON -->
+	<EventBinding id="linearFeederConfiguration.io.MouseDown">
+		<Source contentRefId="linearFeederConfiguration" widgetRefId="io" xsi:type="widgets.brease.Button.Event" event="MouseDown" />
+		<EventHandler>
+			<Action>
+				<Target xsi:type="clientSystem.Action">
+					<Method xsi:type="clientSystem.Action.Navigate" pageId="linearFeederIO" />
+				</Target>
+			</Action>
+		</EventHandler>
+	</EventBinding>
+
+  </Bindings>
+</EventBindingSet>

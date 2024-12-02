@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/PackML</prop>
+  </header>
+  <body>
+    <tu tuid="State.0">
+      <tuv xml:lang="en">
+        <seg>Deactivated</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Deaktivovano</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已取消</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Kikapcsolva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã tắt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.1">
+      <tuv xml:lang="en">
+        <seg>Clearing</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nulovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>清空中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Törlés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Xóa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.2">
+      <tuv xml:lang="en">
+        <seg>Stopped</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zastaveno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已停止</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállítva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.3">
+      <tuv xml:lang="en">
+        <seg>Starting</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Startuje</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>启动中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Indítás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Bắt đầu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.4">
+      <tuv xml:lang="en">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>空闲</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Üresjárat</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Không tải</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.5">
+      <tuv xml:lang="en">
+        <seg>Suspended</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pozastaveno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>待料</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Felfüggesztve</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã tạm dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.6">
+      <tuv xml:lang="en">
+        <seg>Execute</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>执行</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Vyrabi</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Végrehajtás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Thực hiện</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.7">
+      <tuv xml:lang="en">
+        <seg>Stopping</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zastavovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>停止中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Leállítás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đang dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.8">
+      <tuv xml:lang="en">
+        <seg>Aborting</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Prerusovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>退出中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Megszakítás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đang hủy</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.9">
+      <tuv xml:lang="en">
+        <seg>Aborted</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Preruseno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已退出</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Megszakítva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đã hủy</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.10">
+      <tuv xml:lang="en">
+        <seg>Holding</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zadrzovano</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>暂停中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tartásban</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đang chờ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.11">
+      <tuv xml:lang="en">
+        <seg>Held</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Zadrzeno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>已暂停</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Tartva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Chờ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.12">
+      <tuv xml:lang="en">
+        <seg>Unholding</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Uvolnovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>未暂停</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Nincs tartva</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Không chờ</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.13">
+      <tuv xml:lang="en">
+        <seg>Suspending</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Pozastavuje</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>待料中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Felfüggesztés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đang tạm dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.14">
+      <tuv xml:lang="en">
+        <seg>Unsuspending</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Nepozastavovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>解除待料中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Felfüggesztés megszüntetése</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hủy tạm dừng</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.15">
+      <tuv xml:lang="en">
+        <seg>Resetting</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Resetovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>重置中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Visszaállítás</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Cài đặt lại</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.16">
+      <tuv xml:lang="en">
+        <seg>Completing</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Dokoncovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>完成中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Befejezés</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Đang hoàn tất</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.17">
+      <tuv xml:lang="en">
+        <seg>Complete</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Dokonceno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>完成</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Befejezve</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Hoàn tất</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.18">
+      <tuv xml:lang="en">
+        <seg>Deactivating</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Deaktivovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>取消激活中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Deaktiválás alatt</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Vô hiệu hóa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State.19">
+      <tuv xml:lang="en">
+        <seg>Activating</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Aktivovani</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>激活中</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Aktiválás alatt</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Kích hoạt</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

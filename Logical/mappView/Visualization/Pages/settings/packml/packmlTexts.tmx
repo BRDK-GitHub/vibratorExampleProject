@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/settings/packml</prop>
+  </header>
+  <body>
+    <tu tuid="Name">
+      <tuv xml:lang="da">
+        <seg>Navn</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Jmeno</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>名称</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Vissza</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Tên</seg>
+      </tuv>
+    </tu>
+    <tu tuid="State">
+      <tuv xml:lang="en">
+        <seg>State</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>状态</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Név</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Trạng thái</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Substate">
+      <tuv xml:lang="en">
+        <seg>Substate</seg>
+      </tuv>
+      <tuv xml:lang="cs">
+        <seg>Substatus</seg>
+      </tuv>
+      <tuv xml:lang="zh">
+        <seg>子状态</seg>
+      </tuv>
+      <tuv xml:lang="hu">
+        <seg>Állapot</seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg>Trạng thái phụ</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

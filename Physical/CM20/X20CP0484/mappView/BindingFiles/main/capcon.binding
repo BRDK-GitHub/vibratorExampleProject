@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="capcon_binding" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<!-- MAIN COMMON -->
+		<!-- ITEM QUANTITY -->
+		<Binding mode="twoWay">
+			<Source xsi:type="session" refId="main.itemQuantity" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="itemQuantityNumericInput" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.buttonItemQuantityVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="itemQuantityButton" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.inputItemQuantityStyle" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="itemQuantityNumericInput" attribute="style" />
+		</Binding>
+		<!-- ITEM NUMBER -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.itemNumber" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="itemNumberTextOutput" attribute="value" />
+		</Binding>
+		<!-- ITEM NAME -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.itemName" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="itemNameTextOutput" attribute="value" />
+		</Binding>
+		<!-- COUNTING SPEED -->		
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.countingSpeed" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="CountingSpeedOutput" attribute="value" />
+		</Binding>
+		<!-- COUNTING SPEED UNIT -->
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.countingSpeedUnit" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="CountingSpeedOutput" attribute="unit" />
+		</Binding>
+		<!-- COUNTING SPEED TEXT -->
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="main.countingSpeedTextSnippet" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="CountingSpeedText" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::belt:this.hmi.recipe.itemGap" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="ToggleButtonItemGap" attribute="value" />
+		</Binding>
+		<!-- capcon status text -->
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::capcon:em.state" attribute="value" samplingRate="slow" />
+			<Target xsi:type="snippet" refId="main.capconStatusSnippet" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="main.capconStatusSnippet" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="textOutputStatus" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::wing:this.hmi.recipe.longBrick" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="FlapTimeToggle" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::main:hmiEmptyMode" attribute="value" samplingRate="slow" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="ToggleEmptyMode" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.gapVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="itemGapEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.emptyModeVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="emptyModeEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.waitSpeedVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="waitSpeedEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.bypassCassetteVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="bypassCassetteVisibleEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="session" refId="main.longFlapsVisible" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="longFlapsEnabledLabel" attribute="visible" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.recipe.capconMode" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="DropDownStrategy" attribute="selectedIndex" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::capcon:this.hmi.recipe.controlPrcIdx" attribute="value" />
+			<Target xsi:type="brease" contentRefId="capcon" widgetRefId="DropDownControlPercent" attribute="selectedIndex" />
+		</Binding>
+	<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.portions.count" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="NumericOutputCount" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::capcon:this.hmi.count.reject.count" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="NumericOutputNOKCount" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::upperFlap:this.hmi.errorRate" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="errorRateOutput1" attribute="value" />
+</Binding>
+	
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::belt:this.hmi.itemGapTeaching" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="itemGapTeaching" attribute="visible" />
+</Binding>
+
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::wing:this.hmi.config.mediumFlaps" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="ToggleButtonMediumFlaps" attribute="value" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::wing:this.hmi.config.mediumFlaps" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="mediumFlapsEnabledLabel" attribute="visible" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::wing:this.hmi.config.addFallTimeBottom" attribute="node" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="NumericInputFallTimeBottomMedium" attribute="node" />
+</Binding>
+<Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::wing:this.hmi.config.mediumFlaps" attribute="value" samplingRate="slow" />
+<Target xsi:type="brease" contentRefId="capcon" widgetRefId="NumericInputFallTimeBottomMedium" attribute="visible" />
+</Binding>
+</Bindings>
+</BindingsSet>
+

@@ -1,0 +1,7 @@
+VAR
+	ton_chekForChanges : TON;
+	cm : brdkCM;
+	MpRecipeXml_0 : MpRecipeXml;
+	recipePLCFileInfo : fiFILE_INFO;
+	FileInfo_0 : FileInfo;
+END_VAR

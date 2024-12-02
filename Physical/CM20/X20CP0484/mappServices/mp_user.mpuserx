@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="UserMgmtX" Type="mpuserx">
+    <Group ID="Groups">
+      <Group ID="DefGroup#1">
+        <Property ID="id" Value="Service" />
+        <Group ID="rights">
+          <Property ID="[0]" Value="FullAccess" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

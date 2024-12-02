@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="gAxisBelt" ModuleId="ServoDrive" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxisBelti" AcoposParameter="gAxisBelta" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisVibL" ModuleId="ServoDrive" Type="ncAXIS" Channel="2" AcoposSimulation="Off" InitParameter="gAxisVibLi" AcoposParameter="lfNew" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8EI8X8MWT10.xxxx-1_ncV_AXIS1" ModuleId="ServoDrive" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8EI8X8MWT10.xxxx-1_ncV_AXIS2" ModuleId="ServoDrive" Type="ncV_AXIS" Channel="2" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisVibC" ModuleId="ServoDrive" Type="ncAXIS" Channel="3" AcoposSimulation="Off" InitParameter="gAxisVibCi" AcoposParameter="cfCurCtr" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="ServoDrive_ncV_AXIS3" ModuleId="ServoDrive" Type="ncV_AXIS" Channel="3" AcoposSimulation="off" Disabled="true" ModuleDisabled="FALSE" />
+</NcMapping>

@@ -1,0 +1,12 @@
+VAR
+	cm20Connected : {REDUND_UNREPLICABLE} BOOL := TRUE;
+	interface : REFERENCE TO gBottomFlapInterface_typ;
+	this : {REDUND_UNREPLICABLE} local_typ;
+	em : {REDUND_UNREPLICABLE} brdkEM;
+END_VAR
+VAR CONSTANT
+	TRANSMISSION_DELAY : UDINT := 10000;
+END_VAR
+VAR
+	testStateFAT : USINT;
+END_VAR

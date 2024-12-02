@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/dialog/close/image</prop>
+  </header>
+  <body>
+    <tu tuid="Image.10">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.20">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.30">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.40">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.50">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.60">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.70">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.80">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu tuid="Image.110">
+      <tuv xml:lang="en">
+        <seg></seg>
+      </tuv>
+      <tuv xml:lang="vi">
+        <seg></seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

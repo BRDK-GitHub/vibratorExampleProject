@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="FATFooterContent" height="200" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Button" id="main" top="60" left="0" width="200" height="140" zIndex="0" text="" style="footerRed" />
+    <Widget xsi:type="widgets.brease.Button" id="info" top="60" left="200" width="200" height="140" zIndex="1" text="" style="footerBlue" />
+    <Widget xsi:type="widgets.brease.Button" id="settings" top="60" left="400" width="200" height="140" zIndex="2" text="" style="footerGreen" />
+    <Widget xsi:type="widgets.brease.Button" id="language" top="60" left="600" width="200" height="140" zIndex="3" image="Media/Images/flags/en.png" imageHeight="90" style="footerYellow" />
+    <Widget xsi:type="widgets.brease.Line" id="Line" zIndex="4" x1="10" x2="790" y1="30" y2="30" style="buttonSeperator" />
+  </Widgets>
+</Content>
